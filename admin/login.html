@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Panel REHOBOT</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <h1>🏢 REHOBOT</h1>
+            <p>Panel de Administración</p>
+        </div>
+        
+        <form id="loginForm">
+            <div id="alertContainer"></div>
+            
+            <div class="form-group">
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="usuario" required autocomplete="username">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required autocomplete="current-password">
+            </div>
+            
+            <div class="remember-me">
+                <input type="checkbox" id="recordar" name="recordar">
+                <label for="recordar">Mantener sesión iniciada</label>
+            </div>
+            
+            <button type="submit" class="btn-login" id="btnLogin">
+                Iniciar Sesión
+            </button>
+            
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Verificando credenciales...</p>
+            </div>
+        </form>
+        
+        <div class="footer">
+            <p>© 2025 Corporación REHOBOT - Sistema Administrativo</p>
+        </div>
+    </div>
+    
+    <script src="login.js?v=cookies"></script>
+</body>
+</html>

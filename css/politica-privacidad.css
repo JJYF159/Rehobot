@@ -1,0 +1,364 @@
+/* Variables CSS para consistencia */
+:root {
+    --color-primario: #1E3A8A;
+    --color-secundario: #3B82F6;
+    --blanco: #FFFFFF;
+    --gris-claro: #F3F4F6;
+    --gris-medio: #D1D5DB;
+    --gris-oscuro: #6B7280;
+    --negro: #1F2937;
+    --sombra: rgba(0, 0, 0, 0.1);
+}
+
+/* Reset y base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+    line-height: 1.6;
+    color: var(--negro);
+    background-color: var(--gris-claro);
+}
+
+/* Imagen header */
+.imagen-header {
+    width: 95.75rem;
+    height: 21rem;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 1rem;
+}
+
+/* Contenido principal */
+.contenido-politica {
+    padding: 4rem 0;
+    background-color: var(--gris-claro);
+}
+
+.contenido-politica .contenedor {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Título principal */
+.contenido-politica h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-primario);
+    text-align: center;
+    margin-bottom: 3rem;
+    line-height: 1.2;
+}
+
+/* Secciones de la política */
+.seccion-politica {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.seccion-politica:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Títulos de sección */
+.seccion-politica h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-primario);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Párrafos */
+.seccion-politica p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--negro);
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.seccion-politica p:last-child {
+    margin-bottom: 0;
+}
+
+/* Listas */
+.seccion-politica ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 1rem 0;
+}
+
+.seccion-politica li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--negro);
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.seccion-politica li::before {
+    content: "•";
+    color: var(--color-primario);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Enlaces dentro del contenido */
+.seccion-politica a {
+    color: var(--color-primario);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.seccion-politica a:hover {
+    color: var(--color-secundario);
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .imagen-header {
+        width: 80rem;
+        height: 18rem;
+    }
+    
+    .contenido-politica .contenedor {
+        max-width: 85%;
+        padding: 0 1.5rem;
+    }
+    
+    .contenido-politica h1 {
+        font-size: 2.2rem;
+    }
+    
+    .seccion-politica h2 {
+        font-size: 1.4rem;
+    }
+    
+    .seccion-politica p,
+    .seccion-politica li {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .imagen-header {
+        width: 70rem;
+        height: 16rem;
+    }
+    
+    .contenido-politica {
+        padding: 3rem 0;
+    }
+    
+    .contenido-politica .contenedor {
+        max-width: 90%;
+        padding: 0 1.5rem;
+    }
+    
+    .contenido-politica h1 {
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .seccion-politica {
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+    }
+    
+    .seccion-politica h2 {
+        font-size: 1.3rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .seccion-politica p,
+    .seccion-politica li {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+    
+    .firma-empresa {
+        margin-top: 2.5rem;
+    }
+    
+    .info-empresa p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .imagen-header {
+        width: 95%;
+        max-width: 50rem;
+        height: 12rem;
+        margin: 0 auto;
+    }
+    
+    .contenido-politica {
+        padding: 2rem 0;
+    }
+    
+    .contenido-politica .contenedor {
+        max-width: 95%;
+        padding: 0 1rem;
+    }
+    
+    .contenido-politica h1 {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+        line-height: 1.3;
+    }
+    
+    .seccion-politica {
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+    }
+    
+    .seccion-politica h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.75rem;
+        line-height: 1.4;
+    }
+    
+    .seccion-politica p,
+    .seccion-politica li {
+        font-size: 0.9rem;
+        text-align: left;
+        line-height: 1.6;
+    }
+    
+    .seccion-politica li {
+        padding-left: 1.2rem;
+    }
+    
+    .firma-empresa {
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .info-empresa {
+        text-align: center;
+    }
+    
+    .info-empresa p {
+        font-size: 0.9rem;
+        margin-bottom: 0.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .imagen-header {
+        width: 98%;
+        height: 10rem;
+    }
+    
+    .contenido-politica {
+        padding: 1.5rem 0;
+    }
+    
+    .contenido-politica .contenedor {
+        padding: 0 0.8rem;
+    }
+    
+    .contenido-politica h1 {
+        font-size: 1.6rem;
+        line-height: 1.3;
+        margin-bottom: 1.5rem;
+    }
+    
+    .seccion-politica {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    
+    .seccion-politica h2 {
+        font-size: 1.1rem;
+        letter-spacing: 0.3px;
+        margin-bottom: 0.6rem;
+        line-height: 1.4;
+    }
+    
+    .seccion-politica p,
+    .seccion-politica li {
+        font-size: 0.85rem;
+        line-height: 1.6;
+    }
+    
+    .seccion-politica li {
+        padding-left: 1rem;
+        margin-bottom: 0.4rem;
+    }
+    
+    .seccion-politica li::before {
+        font-size: 1rem;
+    }
+    
+    .firma-empresa {
+        margin-top: 1.5rem;
+    }
+    
+    .info-empresa p {
+        font-size: 0.85rem;
+        margin-bottom: 0.3rem;
+    }
+}
+
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Accesibilidad */
+.seccion-politica h2:focus,
+.seccion-politica a:focus {
+    outline: 2px solid var(--color-primario);
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+/* Mejoras de legibilidad */
+.seccion-politica p {
+    hyphens: auto;
+    word-wrap: break-word;
+}
+
+/* Estilo para enfatizar información importante */
+.seccion-politica p strong {
+    color: var(--color-primario);
+    font-weight: 600;
+}
+
+/* Firma de la empresa */
+.firma-empresa {
+    margin-top: 3rem;
+    text-align: right;
+}
+
+.info-empresa {
+    display: inline-block;
+    text-align: right;
+}
+
+.info-empresa p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: var(--negro);
+}
+
+.info-empresa p strong {
+    color: var(--negro);
+    font-weight: 600;
+}

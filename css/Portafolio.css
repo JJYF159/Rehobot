@@ -1,0 +1,599 @@
+/* ===========================
+   PORTAFOLIO.HTML
+   =========================== */
+:root {
+    --color-primario: #0C2A6C;
+    --color-secundario: #1B8FD6;
+    --blanco: #FFFFFF;
+    --gris-claro: #F8F9FA;
+    --gris: #6C757D;
+    --azul-claro: #E8F4F8;
+    --azul-desactivado: #A1B0D0;
+    --azul-texto: #0C2A6C;
+    --blanco-opaco: #D9D9D9;
+    --color-footer: #5074C5;
+    --sombra: rgba(0, 0, 0, 0.1);
+}
+
+/*FUENTES*/
+@font-face {
+    font-family: 'Lexend';
+    src: url('../fonts/Lexend-VariableFont_wght.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pink Sunset';
+    src: url('../fonts/PinkSunset-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend', 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: var(--gris-claro);
+    overflow-x: hidden;
+}
+
+.contenedor {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Hero Portafolio */
+.hero-portafolio {
+    position: relative;
+    width: 100%;
+    height: 65rem;
+    overflow: hidden;
+    margin-top: -13rem;
+    margin-bottom: 4rem;
+}
+
+.imagen-hero-portafolio{
+    background-image: url(../img/seccionHero.jpg);
+    width: 61.4375rem;
+    height: 50.375rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+    position: relative;
+    top: 15rem;
+    left: 60rem;
+    margin-bottom: 5rem;
+    z-index: 1;
+}
+
+.texto-hero-portafolio {
+    position: absolute;
+    top: 60.5%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: var(--blanco);
+    padding: 3rem;
+    border-radius: 1rem;
+    width: 60.875rem;
+    height: 31.3125rem; 
+    z-index: 2;
+    text-align: center;
+}
+
+.texto-hero-portafolio h1 {
+    color: var(--color-primario);
+    font-family: 'Lexend', Arial, sans-serif;
+    font-size: 2.8125rem;
+    font-weight: 600;
+    line-height: 100%;
+    margin-bottom: 2rem;
+}
+
+.texto-hero-portafolio h1 span {
+    font-family: 'Pink Sunset', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.texto-hero-portafolio p {
+    color: var(--color-primario);
+    text-align: justify;
+    font-family: 'Lexend', Arial, sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    margin-bottom: 2rem;
+}
+
+.texto-hero-portafolio p strong {
+    font-weight: 600;
+}
+
+.circulo-azul-hero-portafolio {
+    position: absolute;
+    top: -5rem;
+    right: 55rem;
+    width: 9.88rem;
+    height: 9.88rem;
+    background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Sección Listado de obras */
+.seccion-listado-obras {
+    padding: 6rem 0;
+    background-color: var(--gris-claro);
+}
+
+.seccion-listado-obras h2 {
+    text-align: center;
+    color: var(--color-primario);
+    font-family: 'Lexend', Arial, sans-serif;
+    font-size: 2.8125rem;
+    font-weight: 600;
+    line-height: 2.8125rem;
+    margin-bottom: 6rem;
+}
+.seccion-listado-obras h2 span {
+    font-family: 'Pink Sunset', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.grid-obras {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.tarjeta-obra {
+    background-color: var(--blanco-opaco);
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px var(--sombra);
+    position: relative;
+    width: 46.875rem;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tarjeta-obra:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.imagen-obra {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 46.875rem;
+    height: 33rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+
+.contenido-obra {
+    position: relative;
+    z-index: 2;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 1.5rem;
+}
+
+.contenido-obra h3 {
+    color: var(--color-primario);
+    font-family: 'Lexend', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.8125rem;
+    max-width: 75%;
+    margin: 0;
+}
+
+.btn-conoce-mas {
+    background-color: var(--color-primario);
+    color: var(--blanco);
+    border: none;
+    padding: 0.875rem 2rem;
+    border-radius: 25px;
+    font-family: 'Lexend', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+}
+
+.btn-conoce-mas:hover {
+    background-color: var(--color-secundario);
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .contenedor {
+        padding: 0 1.5rem;
+    }
+    
+    .hero-portafolio {
+        height: 60rem;
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+    }
+    
+    .imagen-hero-portafolio {
+        width: 50rem;
+        height: 25rem;
+        left: 45rem;
+        top: 2rem;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .texto-hero-portafolio {
+        width: 50rem;
+        height: 25rem;
+        padding: 2.5rem;
+        top: 75%;
+    }
+    
+    .texto-hero-portafolio h1 {
+        font-size: 2.3rem;
+    }
+    
+    .texto-hero-portafolio p {
+        font-size: 1rem;
+    }
+    
+    .circulo-azul-hero-portafolio {
+        right: 45rem;
+        top: -3rem;
+    }
+    
+    .seccion-listado-obras h2 {
+        font-size: 2.3rem;
+        margin-bottom: 4rem;
+    }
+    
+    .grid-obras {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+    
+    .tarjeta-obra {
+        width: 100%;
+        max-width: 40rem;
+        height: 28rem;
+    }
+    
+    .imagen-obra {
+        width: 100%;
+        max-width: 40rem;
+        height: 28rem;
+    }
+    
+    .contenido-obra {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        gap: 1.5rem;
+    }
+    
+    .contenido-obra h3 {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        max-width: 80%;
+        margin: 0;
+    }
+    
+    .btn-conoce-mas {
+        padding: 0.875rem 2rem;
+        font-size: 1rem;
+        margin: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-portafolio {
+        height: 50rem;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .imagen-hero-portafolio {
+        width: 40rem;
+        height: 20rem;
+        left: 30rem;
+        top: 2rem;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .texto-hero-portafolio {
+        width: 45rem;
+        height: 22rem;
+        padding: 2rem;
+        top: 70%;
+        left: 35%;
+    }
+    
+    .texto-hero-portafolio h1 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .texto-hero-portafolio p {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .circulo-azul-hero-portafolio {
+        right: 35rem;
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .seccion-listado-obras {
+        padding: 4rem 0;
+    }
+    
+    .seccion-listado-obras h2 {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .tarjeta-obra {
+        width: 100%;
+        max-width: 35rem;
+        height: 25rem;
+    }
+    
+    .imagen-obra {
+        width: 100%;
+        max-width: 35rem;
+        height: 25rem;
+    }
+    
+    .contenido-obra {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        gap: 1.5rem;
+    }
+    
+    .contenido-obra h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        max-width: 90%;
+        margin: 0;
+    }
+    
+    .btn-conoce-mas {
+        padding: 0.8rem 1.8rem;
+        font-size: 0.95rem;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        padding: 0 1rem;
+    }
+    
+    .hero-portafolio {
+        height: 45rem;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+    
+    .imagen-hero-portafolio {
+        width: 100%;
+        max-width: 30rem;
+        height: 15rem;
+        left: 50%;
+        top: 2rem;
+        transform: translateX(-50%);
+        border-radius: 1rem;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .texto-hero-portafolio {
+        width: 90%;
+        height: auto;
+        padding: 1.5rem;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .texto-hero-portafolio h1 {
+        font-size: 1.8rem;
+        line-height: 1.3;
+        margin-bottom: 1.2rem;
+    }
+    
+    .texto-hero-portafolio p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        text-align: justify;
+        margin-bottom: 1rem;
+    }
+    
+    .circulo-azul-hero-portafolio {
+        display: none;
+    }
+    
+    .seccion-listado-obras {
+        padding: 3rem 0;
+    }
+    
+    .seccion-listado-obras h2 {
+        font-size: 1.8rem;
+        margin-bottom: 2.5rem;
+        line-height: 1.3;
+    }
+    
+    .grid-obras {
+        gap: 2rem;
+    }
+    
+    .tarjeta-obra {
+        width: 100%;
+        max-width: 100%;
+        height: 22rem;
+        flex-direction: column;
+    }
+    
+    .imagen-obra {
+        width: 100%;
+        height: 12rem;
+    }
+    
+    .contenido-obra {
+        padding: 1.5rem;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 6rem;
+        gap: 1rem;
+    }
+    
+    .contenido-obra h3 {
+        font-size: 1.3rem;
+        line-height: 1.4;
+        max-width: 100%;
+        margin: 0;
+        flex-grow: 0;
+        display: block;
+        text-align: center;
+    }
+    
+    .btn-conoce-mas {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor {
+        padding: 0 0.8rem;
+    }
+    
+    .hero-portafolio {
+        height: 40rem;
+        margin-top: 5rem;
+    }
+    
+    .imagen-hero-portafolio {
+        width: 100%;
+        max-width: 25rem;
+        height: 12rem;
+        top: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .texto-hero-portafolio {
+        width: 95%;
+        padding: 1.2rem;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .texto-hero-portafolio h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+    
+    .texto-hero-portafolio p {
+        font-size: 0.85rem;
+        line-height: 1.4;
+        margin-bottom: 0.8rem;
+    }
+    
+    .seccion-listado-obras {
+        padding: 2.5rem 0;
+    }
+    
+    .seccion-listado-obras h2 {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+        line-height: 1.2;
+    }
+    
+    .grid-obras {
+        gap: 1.5rem;
+    }
+    
+    .tarjeta-obra {
+        height: 20rem;
+    }
+    
+    .imagen-obra {
+        height: 10rem;
+    }
+    
+    .contenido-obra {
+        padding: 1.2rem;
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 0.8rem;
+    }
+    
+    .contenido-obra h3 {
+        font-size: 1.1rem;
+        line-height: 1.3;
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .btn-conoce-mas {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.85rem;
+        border-radius: 20px;
+        margin: 0;
+    }
+}

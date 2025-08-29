@@ -1,0 +1,1341 @@
+[23-Aug-2025 02:15:11 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:15:15 UTC] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[23-Aug-2025 02:15:16 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:15:20 UTC] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[23-Aug-2025 02:15:22 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:15:26 UTC] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[23-Aug-2025 02:15:27 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:15:27 UTC] PHP Warning:  session_start(): open(./sessions\sess_46203e2f6977b96c56dc57d5769fa40f, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:15:27 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:15:31 UTC] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[23-Aug-2025 02:15:31 UTC] Error en admin_stats.php: No hay conexión a la base de datos
+[23-Aug-2025 02:15:31 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:15:31 UTC] PHP Warning:  session_start(): open(./sessions\sess_46203e2f6977b96c56dc57d5769fa40f, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:15:31 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:15:35 UTC] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[23-Aug-2025 02:15:35 UTC] Error en admin_data.php: No hay conexión a la base de datos
+[23-Aug-2025 02:15:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:15:36 UTC] PHP Warning:  session_start(): open(./sessions\sess_46203e2f6977b96c56dc57d5769fa40f, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:15:36 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:15:40 UTC] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[23-Aug-2025 02:15:40 UTC] Error en admin_data.php: No hay conexión a la base de datos
+[23-Aug-2025 02:15:41 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:15:41 UTC] PHP Warning:  session_start(): open(./sessions\sess_46203e2f6977b96c56dc57d5769fa40f, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:15:41 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:15:45 UTC] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[23-Aug-2025 02:15:45 UTC] Error en admin_data.php: No hay conexión a la base de datos
+[23-Aug-2025 02:15:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:15:46 UTC] PHP Warning:  session_start(): open(./sessions\sess_46203e2f6977b96c56dc57d5769fa40f, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:15:46 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:15:50 UTC] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[23-Aug-2025 02:15:50 UTC] Error en admin_data.php: No hay conexión a la base de datos
+[23-Aug-2025 02:15:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:15:50 UTC] PHP Warning:  session_start(): open(./sessions\sess_46203e2f6977b96c56dc57d5769fa40f, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:15:50 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:15:54 UTC] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[23-Aug-2025 02:15:54 UTC] Error en admin_data.php: No hay conexión a la base de datos
+[23-Aug-2025 02:16:30 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:16:30 UTC] PHP Warning:  session_start(): open(./sessions\sess_46203e2f6977b96c56dc57d5769fa40f, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:16:30 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:16:34 UTC] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[23-Aug-2025 02:16:34 UTC] Error en admin_data.php: No hay conexión a la base de datos
+[23-Aug-2025 02:16:34 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:16:34 UTC] PHP Warning:  session_start(): open(./sessions\sess_46203e2f6977b96c56dc57d5769fa40f, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:16:34 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:16:38 UTC] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[23-Aug-2025 02:16:38 UTC] Error en admin_data.php: No hay conexión a la base de datos
+[23-Aug-2025 02:52:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:52:50 UTC] PHP Warning:  session_start(): open(./sessions\sess_2289b3b436b155f4b3759008d3d9caff, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:52:50 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:52:50 UTC] PHP Warning:  session_start(): open(./sessions\sess_2289b3b436b155f4b3759008d3d9caff, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:52:50 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:52:50 UTC] PHP Warning:  session_start(): open(./sessions\sess_2289b3b436b155f4b3759008d3d9caff, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:52:50 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:52:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:52:50 UTC] PHP Warning:  session_start(): open(./sessions\sess_2289b3b436b155f4b3759008d3d9caff, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:52:50 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:52:50 UTC] PHP Warning:  session_start(): open(./sessions\sess_2289b3b436b155f4b3759008d3d9caff, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:52:50 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:52:50 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\kirit\Desktop\Work\Reboot\php\auth.php on line 198
+[23-Aug-2025 02:52:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:52:57 UTC] PHP Warning:  session_start(): open(./sessions\sess_f4cd8e7962cd63f5e7c95d4fa9170fce, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:52:57 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:52:57 UTC] PHP Warning:  session_start(): open(./sessions\sess_6ae0f010ff3d7fd2655ebabbff804435, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:52:57 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:52:57 UTC] PHP Warning:  session_start(): open(./sessions\sess_d4d7d67db1a415392876a59a4992dd60, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:52:57 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:52:58 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 02:52:58","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 02:53:00 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:00 UTC] PHP Warning:  session_start(): open(./sessions\sess_d4d7d67db1a415392876a59a4992dd60, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:00 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:00 UTC] PHP Warning:  session_start(): open(./sessions\sess_d4d7d67db1a415392876a59a4992dd60, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:00 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:00 UTC] PHP Warning:  session_start(): open(./sessions\sess_d4d7d67db1a415392876a59a4992dd60, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:00 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:01 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:01 UTC] PHP Warning:  session_start(): open(./sessions\sess_d4d7d67db1a415392876a59a4992dd60, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:01 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:01 UTC] PHP Warning:  session_start(): open(./sessions\sess_d4d7d67db1a415392876a59a4992dd60, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:01 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:01 UTC] PHP Warning:  session_start(): open(./sessions\sess_d4d7d67db1a415392876a59a4992dd60, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:01 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:01 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:01 UTC] PHP Warning:  session_start(): open(./sessions\sess_d4d7d67db1a415392876a59a4992dd60, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:01 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:01 UTC] PHP Warning:  session_start(): open(./sessions\sess_d4d7d67db1a415392876a59a4992dd60, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:01 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:01 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\kirit\Desktop\Work\Reboot\php\auth.php on line 198
+[23-Aug-2025 02:53:02 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:02 UTC] PHP Warning:  session_start(): open(./sessions\sess_d4d7d67db1a415392876a59a4992dd60, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:02 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:02 UTC] PHP Warning:  session_start(): open(./sessions\sess_d4d7d67db1a415392876a59a4992dd60, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:02 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:02 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\kirit\Desktop\Work\Reboot\php\auth.php on line 198
+[23-Aug-2025 02:53:03 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:03 UTC] PHP Warning:  session_start(): open(./sessions\sess_7b99e78be614ea2b8203a393f7be0fef, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:03 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:03 UTC] PHP Warning:  session_start(): open(./sessions\sess_e028db64370ecd50f9d9fefc6763a435, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:03 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:03 UTC] PHP Warning:  session_start(): open(./sessions\sess_5249cc4a2f9ae521fa2f81fb6c1801e4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:03 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:03 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:03 UTC] PHP Warning:  session_start(): open(./sessions\sess_f6e51027c8c2e87069e9fa7954c736fe, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:03 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:03 UTC] PHP Warning:  session_start(): open(./sessions\sess_dd63d449c8afec1102599ca189843e4a, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:03 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:03 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\kirit\Desktop\Work\Reboot\php\auth.php on line 198
+[23-Aug-2025 02:53:17 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:17 UTC] PHP Warning:  session_start(): open(./sessions\sess_03af5d91509714b2eae9055062a4cfed, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:17 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:17 UTC] PHP Warning:  session_start(): open(./sessions\sess_c0ffc5bf709c670b45b20fabd34ccb92, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:17 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:17 UTC] PHP Warning:  session_start(): open(./sessions\sess_28a06ffe7e7dd75be5efe8cfc16e64f9, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:17 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:18 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:18 UTC] PHP Warning:  session_start(): open(./sessions\sess_052aee7ead05bcd0eb4478fad6eb99cb, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:18 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:18 UTC] PHP Warning:  session_start(): open(./sessions\sess_beece2a9063d091038198b0daee0b448, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:18 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:18 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\kirit\Desktop\Work\Reboot\php\auth.php on line 198
+[23-Aug-2025 02:53:23 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:23 UTC] PHP Warning:  session_start(): open(./sessions\sess_096508743e0a45a94f85f563fffba337, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:23 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:23 UTC] PHP Warning:  session_start(): open(./sessions\sess_7557a09fd52e4518a90df906376e06ba, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:23 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:23 UTC] PHP Warning:  session_start(): open(./sessions\sess_ae55f757a162833519f854d42787faec, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:23 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:23 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 02:53:23","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 02:53:25 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:25 UTC] PHP Warning:  session_start(): open(./sessions\sess_ae55f757a162833519f854d42787faec, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:25 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:25 UTC] PHP Warning:  session_start(): open(./sessions\sess_ae55f757a162833519f854d42787faec, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:25 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:25 UTC] PHP Warning:  session_start(): open(./sessions\sess_ae55f757a162833519f854d42787faec, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:25 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:26 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:26 UTC] PHP Warning:  session_start(): open(./sessions\sess_ae55f757a162833519f854d42787faec, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:26 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:26 UTC] PHP Warning:  session_start(): open(./sessions\sess_ae55f757a162833519f854d42787faec, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:26 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:26 UTC] PHP Warning:  session_start(): open(./sessions\sess_ae55f757a162833519f854d42787faec, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:26 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:27 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:27 UTC] PHP Warning:  session_start(): open(./sessions\sess_ae55f757a162833519f854d42787faec, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:27 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:27 UTC] PHP Warning:  session_start(): open(./sessions\sess_ae55f757a162833519f854d42787faec, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:27 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:27 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\kirit\Desktop\Work\Reboot\php\auth.php on line 198
+[23-Aug-2025 02:53:27 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:27 UTC] PHP Warning:  session_start(): open(./sessions\sess_ae55f757a162833519f854d42787faec, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:27 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:27 UTC] PHP Warning:  session_start(): open(./sessions\sess_ae55f757a162833519f854d42787faec, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:27 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:27 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\kirit\Desktop\Work\Reboot\php\auth.php on line 198
+[23-Aug-2025 02:53:28 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:28 UTC] PHP Warning:  session_start(): open(./sessions\sess_9c4e1ace964efa9a24c2af908a162476, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:28 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:28 UTC] PHP Warning:  session_start(): open(./sessions\sess_2424178844cccc713efa6a075c7df6be, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:28 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:28 UTC] PHP Warning:  session_start(): open(./sessions\sess_fc89a9b9dc2daffb14ac013f8e9ed9eb, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:28 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:29 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:29 UTC] PHP Warning:  session_start(): open(./sessions\sess_2e2adf3ecd6c5c9d1581cb57d3704b5b, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:29 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:29 UTC] PHP Warning:  session_start(): open(./sessions\sess_fe6b52d7b5bd90726ccb85234f4b380f, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:29 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:29 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\kirit\Desktop\Work\Reboot\php\auth.php on line 198
+[23-Aug-2025 02:53:35 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:35 UTC] PHP Warning:  session_start(): open(./sessions\sess_56860b11464e956c6b2bbcf5362bd9e2, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:35 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:35 UTC] PHP Warning:  session_start(): open(./sessions\sess_21dfb013775c3fab6186c0f963ce664d, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:35 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:35 UTC] PHP Warning:  session_start(): open(./sessions\sess_bec6d5cc3761015b6e88f85c6fb619d8, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:35 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:35 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 02:53:35","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 02:53:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:38 UTC] PHP Warning:  session_start(): open(./sessions\sess_bec6d5cc3761015b6e88f85c6fb619d8, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:38 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:38 UTC] PHP Warning:  session_start(): open(./sessions\sess_bec6d5cc3761015b6e88f85c6fb619d8, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:38 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:38 UTC] PHP Warning:  session_start(): open(./sessions\sess_bec6d5cc3761015b6e88f85c6fb619d8, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:38 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:38 UTC] PHP Warning:  session_start(): open(./sessions\sess_bec6d5cc3761015b6e88f85c6fb619d8, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:38 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:38 UTC] PHP Warning:  session_start(): open(./sessions\sess_bec6d5cc3761015b6e88f85c6fb619d8, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:38 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:38 UTC] PHP Warning:  session_start(): open(./sessions\sess_bec6d5cc3761015b6e88f85c6fb619d8, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:38 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:39 UTC] PHP Warning:  session_start(): open(./sessions\sess_bec6d5cc3761015b6e88f85c6fb619d8, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:39 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:39 UTC] PHP Warning:  session_start(): open(./sessions\sess_bec6d5cc3761015b6e88f85c6fb619d8, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:39 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:39 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\kirit\Desktop\Work\Reboot\php\auth.php on line 198
+[23-Aug-2025 02:53:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:40 UTC] PHP Warning:  session_start(): open(./sessions\sess_bec6d5cc3761015b6e88f85c6fb619d8, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:40 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:40 UTC] PHP Warning:  session_start(): open(./sessions\sess_bec6d5cc3761015b6e88f85c6fb619d8, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:40 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:40 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\kirit\Desktop\Work\Reboot\php\auth.php on line 198
+[23-Aug-2025 02:53:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:40 UTC] PHP Warning:  session_start(): open(./sessions\sess_849c7f398d4ca0074ac9d6a3b06e7a00, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:40 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:40 UTC] PHP Warning:  session_start(): open(./sessions\sess_8ed30e0e5297538b44784a0956246f4d, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:40 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:40 UTC] PHP Warning:  session_start(): open(./sessions\sess_609ce8f282721d28b38f412bef094ec5, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:40 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:41 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:53:41 UTC] PHP Warning:  session_start(): open(./sessions\sess_7072890a6805b9eb9c16924248158fa8, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:41 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:53:41 UTC] PHP Warning:  session_start(): open(./sessions\sess_7ab7bc3aa5845b51d0c21a6bcb88351d, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:41 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:53:41 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\kirit\Desktop\Work\Reboot\php\auth.php on line 198
+[23-Aug-2025 02:55:02 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:55:02 UTC] PHP Warning:  session_start(): open(./sessions\sess_96cb72c6d2f1e13baf4bc0129f36f4bf, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:02 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:02 UTC] PHP Warning:  session_start(): open(./sessions\sess_d1d8366747049c971d1a66439347739f, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:02 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:02 UTC] PHP Warning:  session_start(): open(./sessions\sess_41d5631d64f188c42e0d9b02b10690f4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:02 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:02 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 02:55:02","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 02:55:05 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:55:05 UTC] PHP Warning:  session_start(): open(./sessions\sess_41d5631d64f188c42e0d9b02b10690f4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:05 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:05 UTC] PHP Warning:  session_start(): open(./sessions\sess_41d5631d64f188c42e0d9b02b10690f4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:05 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:05 UTC] PHP Warning:  session_start(): open(./sessions\sess_41d5631d64f188c42e0d9b02b10690f4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:05 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:05 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:55:05 UTC] PHP Warning:  session_start(): open(./sessions\sess_41d5631d64f188c42e0d9b02b10690f4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:05 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:05 UTC] PHP Warning:  session_start(): open(./sessions\sess_41d5631d64f188c42e0d9b02b10690f4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:05 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:05 UTC] PHP Warning:  session_start(): open(./sessions\sess_41d5631d64f188c42e0d9b02b10690f4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:05 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:06 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:55:06 UTC] PHP Warning:  session_start(): open(./sessions\sess_41d5631d64f188c42e0d9b02b10690f4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:06 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:06 UTC] PHP Warning:  session_start(): open(./sessions\sess_41d5631d64f188c42e0d9b02b10690f4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:06 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:06 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\kirit\Desktop\Work\Reboot\php\auth.php on line 198
+[23-Aug-2025 02:55:07 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:55:07 UTC] PHP Warning:  session_start(): open(./sessions\sess_41d5631d64f188c42e0d9b02b10690f4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:07 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:07 UTC] PHP Warning:  session_start(): open(./sessions\sess_41d5631d64f188c42e0d9b02b10690f4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:07 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:07 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\kirit\Desktop\Work\Reboot\php\auth.php on line 198
+[23-Aug-2025 02:55:07 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:55:07 UTC] PHP Warning:  session_start(): open(./sessions\sess_6bf0fae3da4c4aab15c7c22b5a8b45e7, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:07 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:07 UTC] PHP Warning:  session_start(): open(./sessions\sess_5fb9e4b9628a1db8565e08d01dff85a1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:07 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:07 UTC] PHP Warning:  session_start(): open(./sessions\sess_0e209dd07c2d31302a043318b88d2a52, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:07 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:08 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:55:08 UTC] PHP Warning:  session_start(): open(./sessions\sess_a21c0f2c40f0823e82794ad4dd9c8a0a, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:08 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:08 UTC] PHP Warning:  session_start(): open(./sessions\sess_e7b01c816804306544d1f34860bbc073, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:08 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:08 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in C:\Users\kirit\Desktop\Work\Reboot\php\auth.php on line 198
+[23-Aug-2025 02:55:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:55:55 UTC] PHP Warning:  session_start(): open(./sessions\sess_d4727b559518ce7f94b6003c76c27487, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:55 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:55:55 UTC] PHP Warning:  session_start(): open(./sessions\sess_790f5892b5dce950cc9c06abf535f04d, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:55 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:55 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:55:55 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:56:00 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:56:00 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:56:00 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:56:00 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:56:00 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:56:00 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:56:00 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:56:00 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 02:56:00","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 02:56:02 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:56:02 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:56:02 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:56:02 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:56:02 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:56:02 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:56:02 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:56:03 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:56:03 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:56:03 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:56:03 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:56:03 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:56:03 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:56:03 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:59:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 02:59:57 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:59:57 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 02:59:57 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:59:57 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:59:57 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 02:59:57 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:01 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:00:01 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:00:01 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:00:01 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:01 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:01 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:01 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:01 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:00:01","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:00:04 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:00:04 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:00:04 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:00:04 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:04 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:04 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:04 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:05 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:00:05 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:00:05 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:00:05 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:05 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:05 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:05 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:12 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:00:12 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:00:12 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:00:12 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:12 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:12 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:12 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:12 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:00:12","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:00:14 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:00:14 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:00:14 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:00:14 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:14 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:14 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:14 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:15 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:00:15 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:00:15 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:00:15 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:15 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:15 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:00:15 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:16 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:01:17 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:01:17 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:01:17 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:17 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:17 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:17 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:21 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:01:21 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:01:21 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:01:21 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:21 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:21 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:21 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:21 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:01:21","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:01:24 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:01:24 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:01:24 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:01:24 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:24 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:24 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:24 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:24 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:01:24 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:01:24 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:01:24 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:24 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:24 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:01:24 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:02:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:02:51 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:02:51 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:02:51 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:02:51 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:02:51 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:02:51 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:02:51 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:02:51","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:02:53 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:02:53 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:02:53 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:02:53 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:02:53 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:02:53 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:02:53 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:02:54 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:02:54 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:02:54 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:02:54 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:02:54 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:02:54 UTC] PHP Warning:  session_start(): open(./sessions\sess_8fa666c45daf0de496a56f4c3b16a7e1, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:02:54 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\session_config.php on line 10
+[23-Aug-2025 03:13:08 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:13:08 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:08 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:13:08 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:13:08 UTC] DEBUG - verificar_sesion.php - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:08 UTC] DEBUG - verificar_sesion.php - Session status: 2
+[23-Aug-2025 03:13:08 UTC] DEBUG - verificar_sesion.php - Session data: Array
+(
+    [regenerated] => 1755918788
+)
+
+[23-Aug-2025 03:13:08 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:08 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+)
+
+[23-Aug-2025 03:13:08 UTC] DEBUG - AuthManager::verificarSesion - No hay sesión admin activa
+[23-Aug-2025 03:13:08 UTC] DEBUG - verificar_sesion.php - Sesión no válida
+[23-Aug-2025 03:13:12 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:13:12 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:12 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:13:12 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:13:12 UTC] DEBUG - login.php - Session ID antes del login: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:12 UTC] DEBUG - login.php - Request method: POST
+[23-Aug-2025 03:13:12 UTC] DEBUG - login.php - Usuario: admin
+[23-Aug-2025 03:13:12 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:13:12","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:13:12 UTC] DEBUG - login.php - Resultado del login: Array
+(
+    [success] => 1
+    [user] => Array
+        (
+            [id] => 1
+            [usuario] => admin
+            [nombre] => Administrador Principal
+            [rol] => admin
+        )
+
+)
+
+[23-Aug-2025 03:13:12 UTC] DEBUG - login.php - Session ID después del login: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:12 UTC] DEBUG - login.php - Session data después del login: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:13:15 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:13:15 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:15 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:13:15 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:13:15 UTC] DEBUG - verificar_sesion.php - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:15 UTC] DEBUG - verificar_sesion.php - Session status: 2
+[23-Aug-2025 03:13:15 UTC] DEBUG - verificar_sesion.php - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:13:15 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:15 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:13:15 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:13:15 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:13:15 UTC] DEBUG - verificar_sesion.php - Sesión válida para usuario: admin
+[23-Aug-2025 03:13:16 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:13:16 UTC] PHP Warning:  session_start(): open(./sessions\sess_daccd2dab9803f90b88e9a053a12bcfd, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:13:16 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:13:16 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:16 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:13:16 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:13:16 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:16 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:13:16 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:13:16 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:13:16 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:13:16 UTC] PHP Warning:  session_start(): open(./sessions\sess_daccd2dab9803f90b88e9a053a12bcfd, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:13:16 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:13:16 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:16 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:13:16 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:13:16 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:16 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:13:16 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:13:16 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:13:24 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:13:24 UTC] PHP Warning:  session_start(): open(./sessions\sess_daccd2dab9803f90b88e9a053a12bcfd, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:13:24 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:13:24 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:24 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:13:24 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:13:24 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:24 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:13:24 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:13:24 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:13:25 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:13:25 UTC] PHP Warning:  session_start(): open(./sessions\sess_daccd2dab9803f90b88e9a053a12bcfd, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:13:25 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:13:25 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:25 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:13:25 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:13:25 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:13:25 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:13:25 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:13:25 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:18:04 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:18:04 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:04 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:18:04 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:18:04 UTC] DEBUG - verificar_sesion.php - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:04 UTC] DEBUG - verificar_sesion.php - Session status: 2
+[23-Aug-2025 03:18:04 UTC] DEBUG - verificar_sesion.php - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:04 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:04 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:04 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:18:04 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:18:04 UTC] DEBUG - verificar_sesion.php - Sesión válida para usuario: admin
+[23-Aug-2025 03:18:05 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:18:05 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:05 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:18:05 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:18:05 UTC] DEBUG - verificar_sesion.php - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:05 UTC] DEBUG - verificar_sesion.php - Session status: 2
+[23-Aug-2025 03:18:05 UTC] DEBUG - verificar_sesion.php - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:05 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:05 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:05 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:18:05 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:18:05 UTC] DEBUG - verificar_sesion.php - Sesión válida para usuario: admin
+[23-Aug-2025 03:18:05 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:18:05 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:05 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:18:05 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:18:05 UTC] DEBUG - verificar_sesion.php - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:05 UTC] DEBUG - verificar_sesion.php - Session status: 2
+[23-Aug-2025 03:18:05 UTC] DEBUG - verificar_sesion.php - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:05 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:05 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:05 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:18:05 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:18:05 UTC] DEBUG - verificar_sesion.php - Sesión válida para usuario: admin
+[23-Aug-2025 03:18:06 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:18:06 UTC] PHP Warning:  session_start(): open(./sessions\sess_daccd2dab9803f90b88e9a053a12bcfd, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:18:06 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:18:06 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:06 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:18:06 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:18:06 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:06 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:06 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:18:06 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:18:07 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:18:07 UTC] PHP Warning:  session_start(): open(./sessions\sess_daccd2dab9803f90b88e9a053a12bcfd, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:18:07 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:18:07 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:07 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:18:07 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:18:07 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:07 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:07 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:18:07 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:18:10 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:18:10 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:10 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:18:10 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:18:10 UTC] DEBUG - verificar_sesion.php - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:10 UTC] DEBUG - verificar_sesion.php - Session status: 2
+[23-Aug-2025 03:18:10 UTC] DEBUG - verificar_sesion.php - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:10 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:10 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:10 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:18:10 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:18:10 UTC] DEBUG - verificar_sesion.php - Sesión válida para usuario: admin
+[23-Aug-2025 03:18:11 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:18:11 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:11 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:18:11 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:18:11 UTC] DEBUG - verificar_sesion.php - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:11 UTC] DEBUG - verificar_sesion.php - Session status: 2
+[23-Aug-2025 03:18:11 UTC] DEBUG - verificar_sesion.php - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:11 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:11 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:11 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:18:11 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:18:11 UTC] DEBUG - verificar_sesion.php - Sesión válida para usuario: admin
+[23-Aug-2025 03:18:12 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:18:12 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:12 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:18:12 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:18:12 UTC] DEBUG - verificar_sesion.php - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:12 UTC] DEBUG - verificar_sesion.php - Session status: 2
+[23-Aug-2025 03:18:12 UTC] DEBUG - verificar_sesion.php - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:12 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:12 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:12 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:18:12 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:18:12 UTC] DEBUG - verificar_sesion.php - Sesión válida para usuario: admin
+[23-Aug-2025 03:18:13 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:18:13 UTC] PHP Warning:  session_start(): open(./sessions\sess_daccd2dab9803f90b88e9a053a12bcfd, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:18:13 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:18:13 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:13 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:18:13 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:18:13 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:13 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:13 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:18:13 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:18:13 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:18:13 UTC] PHP Warning:  session_start(): open(./sessions\sess_daccd2dab9803f90b88e9a053a12bcfd, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:18:13 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:18:13 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:13 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:18:13 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:18:13 UTC] DEBUG - AuthManager::verificarSesion - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:18:13 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755918788
+    [admin_logged_in] => 1
+    [admin_user_id] => 1
+    [admin_user] => admin
+    [admin_nombre] => Administrador Principal
+    [admin_rol] => admin
+    [admin_login_time] => 1755918792
+)
+
+[23-Aug-2025 03:18:13 UTC] DEBUG - AuthManager::verificarSesion - Verificando usuario en BD
+[23-Aug-2025 03:18:13 UTC] DEBUG - AuthManager::verificarSesion - Usuario encontrado en BD: admin
+[23-Aug-2025 03:21:27 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:21:27 UTC] DEBUG - session_config - Session ID: f51368cddfd0dac44d4ef444d5059cdc
+[23-Aug-2025 03:21:27 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:21:27 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:21:27 UTC] DEBUG - verificar_sesion.php - Session ID: f51368cddfd0dac44d4ef444d5059cdc
+[23-Aug-2025 03:21:27 UTC] DEBUG - verificar_sesion.php - Session status: 2
+[23-Aug-2025 03:21:27 UTC] DEBUG - verificar_sesion.php - Session data: Array
+(
+    [regenerated] => 1755919287
+)
+
+[23-Aug-2025 03:21:27 UTC] DEBUG - AuthManager::verificarSesion - Session ID: f51368cddfd0dac44d4ef444d5059cdc
+[23-Aug-2025 03:21:27 UTC] DEBUG - AuthManager::verificarSesion - Session data: Array
+(
+    [regenerated] => 1755919287
+)
+
+[23-Aug-2025 03:21:27 UTC] DEBUG - AuthManager::verificarSesion - No hay sesión admin activa
+[23-Aug-2025 03:21:27 UTC] DEBUG - verificar_sesion.php - Sesión no válida
+[23-Aug-2025 03:22:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:22:40 UTC] DEBUG - session_config - Session ID: 83020b1d84ecf0d57e838b9dc8b8379b
+[23-Aug-2025 03:22:40 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:22:40 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:22:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:22:57 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:22:57 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:22:57 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:22:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:22:58 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:22:58 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:22:58 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:22:59 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:22:59 UTC] PHP Warning:  session_start(): open(./sessions\sess_daccd2dab9803f90b88e9a053a12bcfd, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:22:59 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:22:59 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:22:59 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:22:59 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:22:59 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:22:59 UTC] PHP Warning:  session_start(): open(./sessions\sess_daccd2dab9803f90b88e9a053a12bcfd, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:22:59 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:22:59 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:22:59 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:22:59 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:23:01 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:23:01 UTC] PHP Warning:  session_start(): open(./sessions\sess_daccd2dab9803f90b88e9a053a12bcfd, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:23:01 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:23:01 UTC] DEBUG - session_config - Session ID: daccd2dab9803f90b88e9a053a12bcfd
+[23-Aug-2025 03:23:01 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:23:01 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:23:01 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:23:01","event":"logout_success","details":"User logged out","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:23:02 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:23:02 UTC] PHP Warning:  session_start(): open(./sessions\sess_8011cd19c6e99b0c0e8d29bf1bc80fa0, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:23:02 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:23:02 UTC] DEBUG - session_config - Session ID: 3f2544cf4861ae32529092f54f0e80ee
+[23-Aug-2025 03:23:02 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:23:02 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:23:03 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:23:03 UTC] DEBUG - session_config - Session ID: 61eed4220cd3494e3820dac584ba74b7
+[23-Aug-2025 03:23:03 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:23:03 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:23:06 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:23:06 UTC] DEBUG - session_config - Session ID: 61eed4220cd3494e3820dac584ba74b7
+[23-Aug-2025 03:23:06 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:23:06 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:23:09 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:23:09 UTC] DEBUG - session_config - Session ID: 61eed4220cd3494e3820dac584ba74b7
+[23-Aug-2025 03:23:09 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:23:09 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:23:15 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:23:15 UTC] DEBUG - session_config - Session ID: 61eed4220cd3494e3820dac584ba74b7
+[23-Aug-2025 03:23:15 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:23:15 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:23:15 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:23:15","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:23:17 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:23:17 UTC] DEBUG - session_config - Session ID: 61eed4220cd3494e3820dac584ba74b7
+[23-Aug-2025 03:23:17 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:23:17 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:23:18 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:23:18 UTC] PHP Warning:  session_start(): open(./sessions\sess_61eed4220cd3494e3820dac584ba74b7, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:23:18 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:23:18 UTC] DEBUG - session_config - Session ID: 61eed4220cd3494e3820dac584ba74b7
+[23-Aug-2025 03:23:18 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:23:18 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:23:19 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:23:19 UTC] PHP Warning:  session_start(): open(./sessions\sess_61eed4220cd3494e3820dac584ba74b7, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:23:19 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:23:19 UTC] DEBUG - session_config - Session ID: 61eed4220cd3494e3820dac584ba74b7
+[23-Aug-2025 03:23:19 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:23:19 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:23:20 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:23:20 UTC] PHP Warning:  session_start(): open(./sessions\sess_61eed4220cd3494e3820dac584ba74b7, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:23:20 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:23:20 UTC] DEBUG - session_config - Session ID: 61eed4220cd3494e3820dac584ba74b7
+[23-Aug-2025 03:23:20 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:23:20 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:23:20 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:23:20","event":"logout_success","details":"User logged out","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:23:22 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:23:22 UTC] PHP Warning:  session_start(): open(./sessions\sess_9fba64122ef970d3119c18e0a34bac9b, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:23:22 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:23:22 UTC] DEBUG - session_config - Session ID: 5572c191e613a775dc91c5aeb34f9ea8
+[23-Aug-2025 03:23:22 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:23:22 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:23:22 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:23:22 UTC] PHP Warning:  session_start(): open(./sessions\sess_f3b2cb6abf23408f35fcf58bddf05419, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:23:22 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:23:22 UTC] DEBUG - session_config - Session ID: 753354452da1e7f2be982274c9da5980
+[23-Aug-2025 03:23:22 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:23:22 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:26:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:26:46 UTC] DEBUG - session_config - Session ID: 2500e6ef01006a1717d7142bc3643006
+[23-Aug-2025 03:26:46 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:26:46 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:07 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:07 UTC] DEBUG - session_config - Session ID: 1a58e324faa5ae91c300608c8208542a
+[23-Aug-2025 03:27:07 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:07 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:09 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:09 UTC] DEBUG - session_config - Session ID: 1a58e324faa5ae91c300608c8208542a
+[23-Aug-2025 03:27:09 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:09 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:09 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:27:09","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:27:31 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:31 UTC] DEBUG - session_config - Session ID: 1a58e324faa5ae91c300608c8208542a
+[23-Aug-2025 03:27:31 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:31 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:38 UTC] DEBUG - session_config - Session ID: 1a58e324faa5ae91c300608c8208542a
+[23-Aug-2025 03:27:38 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:38 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:38 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:27:38","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:27:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:39 UTC] DEBUG - session_config - Session ID: 1a58e324faa5ae91c300608c8208542a
+[23-Aug-2025 03:27:39 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:39 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:40 UTC] DEBUG - session_config - Session ID: 1a58e324faa5ae91c300608c8208542a
+[23-Aug-2025 03:27:40 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:40 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:45 UTC] DEBUG - session_config - Session ID: 1a58e324faa5ae91c300608c8208542a
+[23-Aug-2025 03:27:45 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:45 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:46 UTC] DEBUG - session_config - Session ID: 1a58e324faa5ae91c300608c8208542a
+[23-Aug-2025 03:27:46 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:46 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:48 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:48 UTC] DEBUG - session_config - Session ID: 1a58e324faa5ae91c300608c8208542a
+[23-Aug-2025 03:27:48 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:48 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:49 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:49 UTC] PHP Warning:  session_start(): open(./sessions\sess_1a58e324faa5ae91c300608c8208542a, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:27:49 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:27:49 UTC] DEBUG - session_config - Session ID: 1a58e324faa5ae91c300608c8208542a
+[23-Aug-2025 03:27:49 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:49 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:49 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:49 UTC] PHP Warning:  session_start(): open(./sessions\sess_1a58e324faa5ae91c300608c8208542a, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:27:49 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:27:49 UTC] DEBUG - session_config - Session ID: 1a58e324faa5ae91c300608c8208542a
+[23-Aug-2025 03:27:49 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:49 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:51 UTC] DEBUG - session_config - Session ID: 1a58e324faa5ae91c300608c8208542a
+[23-Aug-2025 03:27:51 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:51 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:51 UTC] LOGOUT - Session ID: 1a58e324faa5ae91c300608c8208542a - User: admin
+[23-Aug-2025 03:27:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:52 UTC] DEBUG - session_config - Session ID: e5c5ab959fefba5df74584b244c39a50
+[23-Aug-2025 03:27:52 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:52 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:52 UTC] LOGOUT - Session ID: e5c5ab959fefba5df74584b244c39a50 - User: unknown
+[23-Aug-2025 03:27:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:58 UTC] DEBUG - session_config - Session ID: 359238673ae64239b4db72bed926ebf7
+[23-Aug-2025 03:27:58 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:58 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:58 UTC] DEBUG - session_config - Session ID: 359238673ae64239b4db72bed926ebf7
+[23-Aug-2025 03:27:58 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:58 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:58 UTC] LOGOUT - Session ID: 359238673ae64239b4db72bed926ebf7 - User: unknown
+[23-Aug-2025 03:27:59 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:27:59 UTC] DEBUG - session_config - Session ID: 66ccb9640e65670216e2fe474b4e03ae
+[23-Aug-2025 03:27:59 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:27:59 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:27:59 UTC] LOGOUT - Session ID: 66ccb9640e65670216e2fe474b4e03ae - User: unknown
+[23-Aug-2025 03:28:00 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:00 UTC] DEBUG - session_config - Session ID: cbbd360b733dc48261436181161c5fd4
+[23-Aug-2025 03:28:00 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:00 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:05 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:06 UTC] DEBUG - session_config - Session ID: cbbd360b733dc48261436181161c5fd4
+[23-Aug-2025 03:28:06 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:06 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:06 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:28:06","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:28:09 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:09 UTC] DEBUG - session_config - Session ID: cbbd360b733dc48261436181161c5fd4
+[23-Aug-2025 03:28:09 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:09 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:10 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:10 UTC] PHP Warning:  session_start(): open(./sessions\sess_cbbd360b733dc48261436181161c5fd4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:28:10 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:28:10 UTC] DEBUG - session_config - Session ID: cbbd360b733dc48261436181161c5fd4
+[23-Aug-2025 03:28:10 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:10 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:10 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:10 UTC] PHP Warning:  session_start(): open(./sessions\sess_cbbd360b733dc48261436181161c5fd4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:28:10 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:28:10 UTC] DEBUG - session_config - Session ID: cbbd360b733dc48261436181161c5fd4
+[23-Aug-2025 03:28:10 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:10 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:19 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:19 UTC] DEBUG - session_config - Session ID: cbbd360b733dc48261436181161c5fd4
+[23-Aug-2025 03:28:19 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:19 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:20 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:20 UTC] PHP Warning:  session_start(): open(./sessions\sess_cbbd360b733dc48261436181161c5fd4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:28:20 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:28:20 UTC] DEBUG - session_config - Session ID: cbbd360b733dc48261436181161c5fd4
+[23-Aug-2025 03:28:20 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:20 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:20 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:20 UTC] PHP Warning:  session_start(): open(./sessions\sess_cbbd360b733dc48261436181161c5fd4, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:28:20 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:28:20 UTC] DEBUG - session_config - Session ID: cbbd360b733dc48261436181161c5fd4
+[23-Aug-2025 03:28:20 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:20 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:23 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:23 UTC] DEBUG - session_config - Session ID: cbbd360b733dc48261436181161c5fd4
+[23-Aug-2025 03:28:23 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:23 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:23 UTC] LOGOUT - Session ID: cbbd360b733dc48261436181161c5fd4 - User: admin
+[23-Aug-2025 03:28:24 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:24 UTC] DEBUG - session_config - Session ID: d1e199962705d0cd0d61722e31879d85
+[23-Aug-2025 03:28:24 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:24 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:24 UTC] LOGOUT - Session ID: d1e199962705d0cd0d61722e31879d85 - User: unknown
+[23-Aug-2025 03:28:25 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:25 UTC] DEBUG - session_config - Session ID: b2dbd2a8b415fb76853aa225db7a24ed
+[23-Aug-2025 03:28:25 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:25 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:25 UTC] LOGOUT - Session ID: b2dbd2a8b415fb76853aa225db7a24ed - User: unknown
+[23-Aug-2025 03:28:26 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:26 UTC] DEBUG - session_config - Session ID: 1c3cb586a0c029b5f0b3980590d3303f
+[23-Aug-2025 03:28:26 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:26 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:26 UTC] LOGOUT - Session ID: 1c3cb586a0c029b5f0b3980590d3303f - User: unknown
+[23-Aug-2025 03:28:31 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:31 UTC] DEBUG - session_config - Session ID: 3efaff0a53fd3a6b682cf1352612941d
+[23-Aug-2025 03:28:31 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:31 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:31 UTC] LOGOUT - Session ID: 3efaff0a53fd3a6b682cf1352612941d - User: unknown
+[23-Aug-2025 03:28:33 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:33 UTC] DEBUG - session_config - Session ID: 8caf73992c8a2d46efdca22248cf70cb
+[23-Aug-2025 03:28:33 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:33 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:34 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:34 UTC] DEBUG - session_config - Session ID: 8caf73992c8a2d46efdca22248cf70cb
+[23-Aug-2025 03:28:34 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:34 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:34 UTC] LOGOUT - Session ID: 8caf73992c8a2d46efdca22248cf70cb - User: unknown
+[23-Aug-2025 03:28:34 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:34 UTC] DEBUG - session_config - Session ID: d8358c601df61eb65e6a8f209d648016
+[23-Aug-2025 03:28:34 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:34 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:34 UTC] LOGOUT - Session ID: d8358c601df61eb65e6a8f209d648016 - User: unknown
+[23-Aug-2025 03:28:35 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:35 UTC] DEBUG - session_config - Session ID: 0974a0a7e01af70288e42907e2ab8151
+[23-Aug-2025 03:28:35 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:35 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:38 UTC] DEBUG - session_config - Session ID: 0974a0a7e01af70288e42907e2ab8151
+[23-Aug-2025 03:28:38 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:38 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:38 UTC] LOGOUT - Session ID: 0974a0a7e01af70288e42907e2ab8151 - User: unknown
+[23-Aug-2025 03:28:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:52 UTC] DEBUG - session_config - Session ID: d492ca7aac4c16164d9d4596e1b0ab54
+[23-Aug-2025 03:28:52 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:52 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:52 UTC] LOGOUT - Session ID: d492ca7aac4c16164d9d4596e1b0ab54 - User: unknown
+[23-Aug-2025 03:28:53 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:53 UTC] DEBUG - session_config - Session ID: 23af110d9e0a9fc50c8a53e4a8f9ec9b
+[23-Aug-2025 03:28:53 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:53 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:53 UTC] LOGOUT - Session ID: 23af110d9e0a9fc50c8a53e4a8f9ec9b - User: unknown
+[23-Aug-2025 03:28:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:55 UTC] DEBUG - session_config - Session ID: 2551073ec8ea9c1cba6601b628209a63
+[23-Aug-2025 03:28:55 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:55 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:28:59 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:28:59 UTC] DEBUG - session_config - Session ID: 2551073ec8ea9c1cba6601b628209a63
+[23-Aug-2025 03:28:59 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:28:59 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:00 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:29:00","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:29:02 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:02 UTC] DEBUG - session_config - Session ID: 2551073ec8ea9c1cba6601b628209a63
+[23-Aug-2025 03:29:02 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:02 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:03 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:03 UTC] PHP Warning:  session_start(): open(./sessions\sess_2551073ec8ea9c1cba6601b628209a63, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:29:03 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:29:03 UTC] DEBUG - session_config - Session ID: 2551073ec8ea9c1cba6601b628209a63
+[23-Aug-2025 03:29:03 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:03 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:03 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:03 UTC] PHP Warning:  session_start(): open(./sessions\sess_2551073ec8ea9c1cba6601b628209a63, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:29:03 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:29:03 UTC] DEBUG - session_config - Session ID: 2551073ec8ea9c1cba6601b628209a63
+[23-Aug-2025 03:29:03 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:03 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:04 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:04 UTC] DEBUG - session_config - Session ID: 2551073ec8ea9c1cba6601b628209a63
+[23-Aug-2025 03:29:04 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:04 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:04 UTC] LOGOUT - Session ID: 2551073ec8ea9c1cba6601b628209a63 - User: admin
+[23-Aug-2025 03:29:08 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:08 UTC] DEBUG - session_config - Session ID: 79aa3b03eccf4e8994eb2fd9ac5397d0
+[23-Aug-2025 03:29:08 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:08 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:08 UTC] LOGOUT - Session ID: 79aa3b03eccf4e8994eb2fd9ac5397d0 - User: unknown
+[23-Aug-2025 03:29:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:36 UTC] DEBUG - session_config - Session ID: e1a8f11cf3be4a70f49cf1078ea8b8d9
+[23-Aug-2025 03:29:36 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:36 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:37 UTC] DEBUG - session_config - Session ID: e1a8f11cf3be4a70f49cf1078ea8b8d9
+[23-Aug-2025 03:29:37 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:37 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:37 UTC] LOGOUT - Session ID: e1a8f11cf3be4a70f49cf1078ea8b8d9 - User: unknown
+[23-Aug-2025 03:29:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:38 UTC] DEBUG - session_config - Session ID: dbe4c5d610da00644cc50763e09cdcad
+[23-Aug-2025 03:29:38 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:38 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:38 UTC] LOGOUT - Session ID: dbe4c5d610da00644cc50763e09cdcad - User: unknown
+[23-Aug-2025 03:29:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:38 UTC] DEBUG - session_config - Session ID: 589144e7e69749fefd822d7c3f065691
+[23-Aug-2025 03:29:38 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:38 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:38 UTC] LOGOUT - Session ID: 589144e7e69749fefd822d7c3f065691 - User: unknown
+[23-Aug-2025 03:29:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:39 UTC] DEBUG - session_config - Session ID: a83970a0e1d93b632660146e0f4cba1d
+[23-Aug-2025 03:29:39 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:39 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:54 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:54 UTC] DEBUG - session_config - Session ID: a83970a0e1d93b632660146e0f4cba1d
+[23-Aug-2025 03:29:54 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:54 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:54 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:29:54","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:29:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:56 UTC] DEBUG - session_config - Session ID: a83970a0e1d93b632660146e0f4cba1d
+[23-Aug-2025 03:29:56 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:56 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:57 UTC] PHP Warning:  session_start(): open(./sessions\sess_a83970a0e1d93b632660146e0f4cba1d, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:29:57 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:29:57 UTC] DEBUG - session_config - Session ID: a83970a0e1d93b632660146e0f4cba1d
+[23-Aug-2025 03:29:57 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:57 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:58 UTC] PHP Warning:  session_start(): open(./sessions\sess_a83970a0e1d93b632660146e0f4cba1d, O_RDWR) failed: No such file or directory (2) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:29:58 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ./sessions) in C:\Users\kirit\Desktop\Work\Reboot\php\config.php on line 185
+[23-Aug-2025 03:29:58 UTC] DEBUG - session_config - Session ID: a83970a0e1d93b632660146e0f4cba1d
+[23-Aug-2025 03:29:58 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:58 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:59 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:29:59 UTC] DEBUG - session_config - Session ID: a83970a0e1d93b632660146e0f4cba1d
+[23-Aug-2025 03:29:59 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:29:59 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:29:59 UTC] LOGOUT - Session ID: a83970a0e1d93b632660146e0f4cba1d - User: admin
+[23-Aug-2025 03:30:02 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:30:02 UTC] DEBUG - session_config - Session ID: ae1c3983e409bf571d0a07c08ff40e3d
+[23-Aug-2025 03:30:02 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:30:02 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:30:02 UTC] LOGOUT - Session ID: ae1c3983e409bf571d0a07c08ff40e3d - User: unknown
+[23-Aug-2025 03:30:28 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:30:28 UTC] DEBUG - session_config - Session ID: 4216f0d675fca80cc481f8040196d488
+[23-Aug-2025 03:30:28 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:30:28 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:30:29 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:30:29 UTC] DEBUG - session_config - Session ID: 4216f0d675fca80cc481f8040196d488
+[23-Aug-2025 03:30:29 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:30:29 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:30:29 UTC] LOGOUT - Session ID: 4216f0d675fca80cc481f8040196d488 - User: unknown
+[23-Aug-2025 03:30:30 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:30:30 UTC] DEBUG - session_config - Session ID: a0238d6576d346f129ce7a085a148ddd
+[23-Aug-2025 03:30:30 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:30:30 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:30:30 UTC] LOGOUT - Session ID: a0238d6576d346f129ce7a085a148ddd - User: unknown
+[23-Aug-2025 03:30:30 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:30:30 UTC] DEBUG - session_config - Session ID: d500fc235d1c1150a893c35faf471831
+[23-Aug-2025 03:30:30 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:30:30 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:30:30 UTC] LOGOUT - Session ID: d500fc235d1c1150a893c35faf471831 - User: unknown
+[23-Aug-2025 03:30:31 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:30:31 UTC] DEBUG - session_config - Session ID: 12aa532ce38b5d1897030f55019cec27
+[23-Aug-2025 03:30:31 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:30:31 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:32:21 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:32:21 UTC] DEBUG - session_config - Session ID: 37a9930544df67325cf43062dfee5731
+[23-Aug-2025 03:32:21 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:32:21 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:32:31 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:32:31 UTC] DEBUG - session_config - Session ID: 12aa532ce38b5d1897030f55019cec27
+[23-Aug-2025 03:32:31 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:32:31 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:32:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:32:36 UTC] DEBUG - session_config - Session ID: 12aa532ce38b5d1897030f55019cec27
+[23-Aug-2025 03:32:36 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:32:36 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:32:36 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:32:36","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:32:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:32:39 UTC] DEBUG - session_config - Session ID: 12aa532ce38b5d1897030f55019cec27
+[23-Aug-2025 03:32:39 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:32:39 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:32:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:32:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:32:42 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:32:42 UTC] DEBUG - session_config - Session ID: 12aa532ce38b5d1897030f55019cec27
+[23-Aug-2025 03:32:42 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:32:42 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:32:42 UTC] LOGOUT - Session ID: 12aa532ce38b5d1897030f55019cec27 - User: admin
+[23-Aug-2025 03:32:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:32:45 UTC] DEBUG - session_config - Session ID: 5f76325adeac52eb8a4a5136941da3bd
+[23-Aug-2025 03:32:45 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:32:45 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:32:45 UTC] LOGOUT - Session ID: 5f76325adeac52eb8a4a5136941da3bd - User: unknown
+[23-Aug-2025 03:32:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:32:46 UTC] DEBUG - session_config - Session ID: 69e6210d64cef82be3412adc707db618
+[23-Aug-2025 03:32:46 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:32:46 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:32:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:32:50 UTC] DEBUG - session_config - Session ID: 69e6210d64cef82be3412adc707db618
+[23-Aug-2025 03:32:50 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:32:50 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:32:50 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:32:50","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:32:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:32:52 UTC] DEBUG - session_config - Session ID: 69e6210d64cef82be3412adc707db618
+[23-Aug-2025 03:32:52 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:32:52 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:32:53 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:32:54 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:34:10 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:34:10 UTC] DEBUG - session_config - Session ID: 7a0792e0ea0ae8e962e1acd60a1f1af1
+[23-Aug-2025 03:34:10 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:34:10 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:34:17 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:34:17 UTC] DEBUG - session_config - Session ID: 69e6210d64cef82be3412adc707db618
+[23-Aug-2025 03:34:17 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:34:17 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:34:17 UTC] LOGOUT - Session ID: 69e6210d64cef82be3412adc707db618 - User: admin
+[23-Aug-2025 03:34:17 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:34:17 UTC] DEBUG - session_config - Session ID: f6b237f55209d99afc49f168491d276f
+[23-Aug-2025 03:34:17 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:34:17 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:34:21 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:34:21 UTC] DEBUG - session_config - Session ID: f6b237f55209d99afc49f168491d276f
+[23-Aug-2025 03:34:21 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:34:21 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:34:21 UTC] SECURITY [INFO]: {"timestamp":"2025-08-23 03:34:21","event":"login_success","details":"User: admin","severity":"INFO","ip":"::1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko\/20100101 Firefox\/142.0"}
+[23-Aug-2025 03:34:24 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:34:24 UTC] DEBUG - session_config - Session ID: f6b237f55209d99afc49f168491d276f
+[23-Aug-2025 03:34:24 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:34:24 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:34:25 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:34:25 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:34:27 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:35:26 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:35:26 UTC] DEBUG - session_config - Session ID: f6b237f55209d99afc49f168491d276f
+[23-Aug-2025 03:35:26 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:35:26 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:35:27 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:35:27 UTC] DEBUG - session_config - Session ID: f6b237f55209d99afc49f168491d276f
+[23-Aug-2025 03:35:27 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:35:27 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:35:28 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:35:28 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:35:33 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:35:33 UTC] DEBUG - session_config - Session ID: f6b237f55209d99afc49f168491d276f
+[23-Aug-2025 03:35:33 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:35:33 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:35:33 UTC] LOGOUT - Session ID: f6b237f55209d99afc49f168491d276f - User: admin
+[23-Aug-2025 03:35:34 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:35:34 UTC] DEBUG - session_config - Session ID: 68d79de003c54bc0c98cd029b2746220
+[23-Aug-2025 03:35:34 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:35:34 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:35:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:35:38 UTC] DEBUG - session_config - Session ID: 68d79de003c54bc0c98cd029b2746220
+[23-Aug-2025 03:35:38 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:35:38 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:35:38 UTC] DEBUG - login.php - Login fallido para: admin
+[23-Aug-2025 03:35:42 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:35:42 UTC] DEBUG - session_config - Session ID: 68d79de003c54bc0c98cd029b2746220
+[23-Aug-2025 03:35:42 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:35:42 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:35:42 UTC] LOGOUT - Session ID: 68d79de003c54bc0c98cd029b2746220 - User: unknown
+[23-Aug-2025 03:35:43 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:35:43 UTC] DEBUG - session_config - Session ID: 12c23bc3bd64d5b002a156fb3dab5c34
+[23-Aug-2025 03:35:43 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:35:43 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:35:43 UTC] LOGOUT - Session ID: 12c23bc3bd64d5b002a156fb3dab5c34 - User: unknown
+[23-Aug-2025 03:35:49 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:35:49 UTC] DEBUG - session_config - Session ID: ccf059183143ff9899d70e00b00cdb32
+[23-Aug-2025 03:35:49 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:35:49 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:35:49 UTC] DEBUG - login.php - Login fallido para: admin
+[23-Aug-2025 03:38:29 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:38:29 UTC] DEBUG - session_config - Session ID: 4bab7934250b1c6096f465988840a91a
+[23-Aug-2025 03:38:29 UTC] DEBUG - session_config - Save path: C:\temp\php_sessions
+[23-Aug-2025 03:38:29 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:38:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:38:36 UTC] DEBUG - session_config - Session ID: 4bab7934250b1c6096f465988840a91a
+[23-Aug-2025 03:38:36 UTC] DEBUG - session_config - Save path: C:\temp\php_sessions
+[23-Aug-2025 03:38:36 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:38:36 UTC] DEBUG - login.php - Login fallido para: admin

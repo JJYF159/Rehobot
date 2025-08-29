@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración - REHOBOT</title>
+    <link rel="stylesheet" href="admin.css">
+    <script src="proteccion.js?v=cookies"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>🏢 Panel de Administración - REHOBOT</h1>
+        <div class="header-actions">
+            <button class="btn btn-secondary" onclick="showChangePasswordModal()">🔐 Cambiar Contraseña</button>
+            <button class="btn btn-danger" onclick="logout()">🚪 Cerrar Sesión e ir al Index Principal</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <!-- Estadísticas -->
+        <div class="stats" id="stats">
+            <!-- Se llenan con JavaScript -->
+        </div>
+        
+        <!-- Botón de recarga manual -->
+        <div style="text-align: center; margin: 10px 0;">
+            <button class="btn btn-primary" onclick="loadStats(); loadData();" title="Recargar estadísticas y datos">
+                🔄 Actualizar Datos
+            </button>
+        </div>
+        
+        <!-- Pestañas -->
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab('contactos', this)">📧 Contactos</button>
+            <button class="tab" onclick="switchTab('trabajos', this)">💼 Aplicaciones de Trabajo</button>
+        </div>
+        
+        <!-- Contenido de pestañas -->
+        <div class="tab-content">
+            <!-- Filtros -->
+            <div class="filters">
+                <div class="filter-group">
+                    <label>Estado:</label>
+                    <select id="filterEstado" onchange="applyFilters()">
+                        <option value="">Todos</option>
+                        <option value="nuevo">Nuevo</option>
+                        <option value="leido">Leído</option>
+                        <option value="respondido">Respondido</option>
+                        <option value="revision">En revisión</option>
+                        <option value="entrevista">Entrevista</option>
+                        <option value="contratado">Contratado</option>
+                        <option value="rechazado">Rechazado</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label>Fecha desde:</label>
+                    <input type="date" id="filterFechaDesde" onchange="applyFilters()">
+                </div>
+                
+                <div class="filter-group">
+                    <label>Fecha hasta:</label>
+                    <input type="date" id="filterFechaHasta" onchange="applyFilters()">
+                </div>
+                
+                <div class="filter-group">
+                    <label>Buscar:</label>
+                    <input type="text" id="filterBuscar" placeholder="Nombre, email..." onkeyup="applyFilters()">
+                </div>
+                
+                <button class="btn btn-secondary" onclick="clearFilters()">Limpiar filtros</button>
+                <button class="btn btn-primary" onclick="exportData()">📥 Exportar CSV</button>
+            </div>
+            
+            <!-- Tabla -->
+            <div class="table-container">
+                <table id="dataTable">
+                    <!-- Se llena con JavaScript -->
+                </table>
+            </div>
+            
+            <!-- Paginación -->
+            <div class="pagination" id="pagination">
+                <!-- Se llena con JavaScript -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal para cambiar contraseña -->
+    <div class="modal" id="changePasswordModal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>🔐 Cambiar Contraseña</h3>
+                <button class="modal-close" onclick="hideChangePasswordModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="changePasswordForm">
+                    <input type="hidden" id="csrf_token" name="csrf_token" value="">
+                    <div class="form-group">
+                        <label for="currentPassword">Contraseña Actual:</label>
+                        <input type="password" id="currentPassword" name="currentPassword" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="newPassword">Nueva Contraseña:</label>
+                        <input type="password" id="newPassword" name="newPassword" required minlength="8">
+                        <small>Debe tener al menos 8 caracteres, incluir mayúsculas, minúsculas, números y símbolos</small>
+                        <div id="passwordStrength" class="password-strength"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirmar Nueva Contraseña:</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-secondary" onclick="hideChangePasswordModal()">Cancelar</button>
+                        <button type="submit" class="btn btn-primary">Cambiar Contraseña</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="admin.js?v=cookies"></script>
+</body>
+</html>
