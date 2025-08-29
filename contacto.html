@@ -143,18 +143,21 @@
                     
                     <div class="campo-formulario">
                         <label for="ciudad">Ciudad / Departamento*</label>
-                        <select id="ciudad" name="ciudad" required>
-                            <option value="">Seleccionar</option>
-                            <option value="lima">Lima</option>
-                            <option value="arequipa">Arequipa</option>
-                            <option value="cusco">Cusco</option>
-                            <option value="trujillo">Trujillo</option>
-                            <option value="piura">Piura</option>
-                            <option value="chiclayo">Chiclayo</option>
-                            <option value="iquitos">Iquitos</option>
-                            <option value="huancayo">Huancayo</option>
-                            <option value="otro">Otro</option>
-                        </select>
+                        <select id="ciudad" name="ciudad" required style="display:none;"></select>
+                        <div class="custom-select" id="customSelectCiudad">
+                          <div class="custom-select-selected">Seleccionar</div>
+                          <div class="custom-select-options" style="display:none;">
+                            <div data-value="lima">Lima</div>
+                            <div data-value="arequipa">Arequipa</div>
+                            <div data-value="cusco">Cusco</div>
+                            <div data-value="trujillo">Trujillo</div>
+                            <div data-value="piura">Piura</div>
+                            <div data-value="chiclayo">Chiclayo</div>
+                            <div data-value="iquitos">Iquitos</div>
+                            <div data-value="huancayo">Huancayo</div>
+                            <div data-value="otro">Otro</div>
+                          </div>
+                        </div>
                     </div>
                     
                     <div class="campo-formulario">

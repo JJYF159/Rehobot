@@ -8,6 +8,7 @@
     --gris-oscuro: #6B7280;
     --negro: #1F2937;
     --sombra: rgba(0, 0, 0, 0.1);
+    --color-fondo: #c4c4c4;
 }
 
 /* Reset y base */
@@ -80,7 +81,7 @@ body {
     overflow: hidden;
 }
 .imagen-hero-trabaja {
-    background-image: url(../img/Bomba2.png);
+    background-color: var(--color-fondo);
     width: 120rem;
     height: 35.5rem;
     background-size: cover;
@@ -222,7 +223,7 @@ body {
 .circulo-azul-formulario {
     position: absolute;
     top: -2rem;
-    left: 22rem;
+    left: 14rem;
     width: 9.875rem;
     height: 9.875rem;
     background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
@@ -894,4 +895,66 @@ body {
 .campo-formulario input:valid:not(:placeholder-shown),
 .campo-formulario select:valid:not(:placeholder-shown) {
     border-color: #10B981;
+}
+
+/* Select personalizado visualmente integrado */
+.custom-select {
+    position: relative;
+    width: 100%;
+    font-family: 'Lexend', Arial, sans-serif;
+}
+
+.custom-select-selected {
+    background: #fff;
+    border: 2px solid var(--color-primario);
+    border-radius: 2rem;
+    padding: 1.25rem 3rem 1.25rem 1.5rem;
+    font-size: 1rem;
+    color: #222;
+    cursor: pointer;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.custom-select-selected::after {
+    content: '';
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.25rem;
+    height: 1.25rem;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%231E3A8A'%3e%3cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3e%3c/svg%3e");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.custom-select-options {
+    position: absolute;
+    top: 2.5rem;
+    left: 0px;
+    width: 100%;
+    background: var(--blanco);
+    border: 2px solid var(--color-primario);
+    border-top: none;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    z-index: 10;
+    max-height: 297px;
+    overflow-y: auto;
+}
+
+.custom-select-options div {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #222;
+    transition: background 0.2s;
+    margin-top: 1.5rem;
+}
+
+.custom-select-options div:hover,
+.custom-select-options div.selected {
+    background: var(--gris-claro);
 }
