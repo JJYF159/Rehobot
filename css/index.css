@@ -9,6 +9,7 @@
     --azul-texto: #0C2A6C;
     --blanco-opaco: #D9D9D9;
     --color-footer: #5074C5;
+    --color-fondo: #C4C4C4;
 }
 /*FUENTES*/
 @font-face {
@@ -760,7 +761,7 @@ body {
     position: relative;
 }
 .imagen-nosotros {
-    background-image: url(../img/Bomba2.png);
+    background-color: var(--color-fondo);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
