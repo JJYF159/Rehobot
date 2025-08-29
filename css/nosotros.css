@@ -112,7 +112,7 @@ body {
     width: 100%;
     overflow: hidden;
     height: auto;
-    min-height: 60rem;
+    min-height: 40rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,15 +120,15 @@ body {
 
 .imagen-hero-nosotros {
     background-color: var(--color-fondo);
-    width: 100%;
-    max-width: 120rem;
-    height: 35.5rem;
+    width: 116.8rem;
+    height: 23.5rem;
+    margin-left: -23rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 0 0 2rem 2rem;
     position: relative;
-    top: -13rem;
+    top: -7rem;
     margin-bottom: -8rem;
 }
 
@@ -138,7 +138,6 @@ body {
     max-width: 69.375rem;
     height: auto;
     padding: 2rem;
-    background-color: var(--blanco);
     border-radius: 1rem;
     z-index: 2;
     margin: 0 auto;
@@ -153,17 +152,6 @@ body {
 .texto-hero-nosotros p {
     line-height: 1.54rem;
     color: var(--color-primario);
-}
-
-.circulo-azul-hero {
-    position: absolute;
-    top: -5rem;
-    right: -5rem;
-    width: 9.88rem;
-    height: 9.88rem;
-    background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
-    border-radius: 50%;
-    z-index: 1;
 }
 
 .texto-hero-nosotros p strong,
@@ -753,7 +741,9 @@ body {
     }
     
     .imagen-hero-nosotros {
-        margin-bottom: -3rem;
+        margin-bottom: -10rem;
+        margin-left: 0rem;
+        top: -5rem;
     }
     
     .texto-hero-nosotros {

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -7,10 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="preload" href="css/index.css" as="style">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="preload" href="css/planta-sedapal.css" as="style">
-    <link rel="stylesheet" href="css/proyectos.css">
+    <link rel="preload" href="css/index.css?v=<?php echo time(); ?>" as="style">
+    <link rel="stylesheet" href="css/index.css?v=<?php echo time(); ?>">
+    <link rel="preload" href="css/planta-sedapal.css?v=<?php echo time(); ?>" as="style">
+    <link rel="stylesheet" href="css/proyectos.css?v=<?php echo time(); ?>">
 </head>
 <body>
     <header class="encabezado">
@@ -43,7 +43,7 @@
             </a>
             </div>
         </nav>
-        
+
         <!-- Menú lateral para móviles -->
         <div class="menu-lateral" id="menuLateral">
             <div class="contenido-menu">
@@ -127,7 +127,7 @@
                 
             </section>
 
-            <!-- Sección de información del proyecto -->
+            <!-- Seccié³n de informacié³n del proyecto -->
             <section class="seccion-info-proyecto">
                 <div class="grid-info">
                     <div class="info-columna">
@@ -142,7 +142,7 @@
                 </div>
             </section>
 
-            <!-- Sección de participación -->
+            <!-- Seccié³n de participacié³n -->
             <section class="seccion-participacion">
                 <div class="contenido-participacion">
                     <div class="circulo-azul-decorativo"></div>
@@ -171,7 +171,7 @@
                 </div>
             </section>
 
-            <!-- Sección más proyectos -->
+            <!-- Sección Más proyectos -->
             <section class="seccion-mas-proyectos">
                 <h2 class="mas-proyectos-titulo">Más <span>proyectos.</span></h2>
                 <div class="grid-proyectos">
@@ -209,7 +209,7 @@
                     </div>
                 </div>
                 <div class="columna-footer">
-                    <h4>Corporación Rehobot</h4>
+                    <h4>Corporacié³n Rehobot</h4>
                     <ul>
                         <li><a href="Nosotros.html">Sobre nosotros</a></li>
                         <li><a href="productos.html">Nuestros productos</a></li>
@@ -239,6 +239,9 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js/script.js?v=<?php echo time(); ?>"></script>
 </body>
 </html>
+
+
+

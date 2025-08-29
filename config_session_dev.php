@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // Configuración simple para desarrollo local
 ini_set('session.cookie_domain', '');
 ini_set('session.cookie_path', '/');
@@ -16,3 +16,5 @@ echo "📂 Directorio de sesiones: " . session_save_path() . "\n";
 echo "🍪 Cookie lifetime: " . ini_get('session.cookie_lifetime') . " segundos\n";
 echo "⏰ GC maxlifetime: " . ini_get('session.gc_maxlifetime') . " segundos\n";
 ?>
+
+

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -7,10 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="preload" href="css/index.css" as="style">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="preload" href="css/planta-sedapal.css" as="style">
-    <link rel="stylesheet" href="css/proyectos.css">
+    <link rel="preload" href="css/index.css?v=<?php echo time(); ?>" as="style">
+    <link rel="stylesheet" href="css/index.css?v=<?php echo time(); ?>">
+    <link rel="preload" href="css/planta-sedapal.css?v=<?php echo time(); ?>" as="style">
+    <link rel="stylesheet" href="css/proyectos.css?v=<?php echo time(); ?>">
 </head>
 <body>
     <header class="encabezado">
@@ -43,7 +43,7 @@
             </a>
             </div>
         </nav>
-        
+
         <!-- Menú lateral para móviles -->
         <div class="menu-lateral" id="menuLateral">
             <div class="contenido-menu">
@@ -127,7 +127,7 @@
                 
             </section>
 
-            <!-- Sección de información del proyecto -->
+            <!-- Seccié³n de informacié³n del proyecto -->
             <section class="seccion-info-proyecto">
                 <div class="grid-info">
                     <div class="info-columna">
@@ -137,7 +137,7 @@
                     <div class="separador-vertical"></div>
                     <div class="info-columna">
                         <h3>Descripción del proyecto</h3>
-                        <p>Proyecto de más de 35 km de vía subterránea, 27 estaciones, 7 pozos de ventilación y un patio taller.</p>
+                        <p>Proyecto de Más de 35 km de vía subterránea, 27 estaciones, 7 pozos de ventilación y un patio taller.</p>
                     </div>
                 </div>
             </section>
@@ -154,7 +154,7 @@
                 </div>
             </section>
 
-            <!-- Sección de actividades -->
+            <!-- Seccié³n de actividades -->
             <section class="seccion-actividades">
                 <h2 class="actividades-titulo">Actividades <span>desarrolladas.</span></h2>
                 <div class="contenido-actividades">
@@ -172,7 +172,7 @@
                 </div>
             </section>
 
-            <!-- Sección más proyectos -->
+            <!-- Sección Más proyectos -->
             <section class="seccion-mas-proyectos">
                 <h2 class="mas-proyectos-titulo">Más <span>proyectos.</span></h2>
                 <div class="grid-proyectos">
@@ -240,6 +240,9 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js/script.js?v=<?php echo time(); ?>"></script>
 </body>
 </html>
+
+
+

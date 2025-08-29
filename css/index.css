@@ -760,6 +760,11 @@ body {
 .seccion-nosotros {
     padding: 6rem 0;
 }
+.seccion-nosotros .contenedor {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
 .contenido-nosotros {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -777,12 +782,11 @@ body {
     width: 66.25rem;
     height: 37.875rem;
     border-radius: 1rem;
-    margin-left: -34em;
+    margin-left: -17rem;
 }
 .tarjeta-nosotros {
     border-radius: 1rem;
     padding: 3rem;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     background-color: var(--blanco);
     position: relative;
     z-index: 2;
@@ -1410,7 +1414,6 @@ body {
         grid-template-columns: 1fr;
         gap: 3rem;
     }
-}
     
     .imagen-nosotros {
         width: 100%;
@@ -1452,6 +1455,7 @@ body {
         order: 1;
         padding: 2rem;
     }
+}
 
 @media (max-width: 768px) {
     /* Reset de contenedores para móviles */
@@ -1713,7 +1717,6 @@ body {
         height: 90%;
         object-fit: cover;
     }
-
     /* Territorio */
     .seccion-territorio {
         padding: 3rem 0;

@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de calidad - REHOBOT</title>
+    <title>Línea Amarilla – Vía Expresa Río Verde / Vía Parque Rímac - REHOBOT</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="preload" href="css/politica-privacidad.css?v=<?php echo time(); ?>" as="style">
-    <link rel="stylesheet" href="css/politica-privacidad.css?v=<?php echo time(); ?>">
     <link rel="preload" href="css/index.css?v=<?php echo time(); ?>" as="style">
-    <link rel="stylesheet" href="css/index.css?v=<?php echo time(); ?>")
+    <link rel="stylesheet" href="css/index.css?v=<?php echo time(); ?>">
+    <link rel="preload" href="css/planta-sedapal.css?v=<?php echo time(); ?>" as="style">
+    <link rel="stylesheet" href="css/proyectos.css?v=<?php echo time(); ?>">
 </head>
 <body>
     <header class="encabezado">
@@ -43,14 +43,14 @@
             </a>
             </div>
         </nav>
-        
+
         <!-- Menú lateral para móviles -->
         <div class="menu-lateral" id="menuLateral">
             <div class="contenido-menu">
                 <ul class="enlaces-menu">
                     <li><a href="Nosotros.html">Nosotros</a></li>
                     <li class="desplegable-movil">
-                        <a href="servicios.html" class="enlace-servicios-movil">Servicios <span class="flecha-movil">▼</span></a>
+                        <a href="servicios.html" class="enlace-servicios-movil">Servicios <span class="flecha-movil">â–¼</span></a>
                         <ul class="submenu-servicios">
                             <li><a href="servicios.html">Diseño y Perforación de Pozos Subterráneos</a></li>
                             <li><a href="servicios.html">Instalaciones Electromecánicas Automatizadas</a></li>
@@ -107,45 +107,80 @@
         </a>
     </div>
 
-    <!-- Imagen header -->
-    <div class="imagen-header">
-        <!-- Imagen placeholder gris como en contacto.html -->
-    </div>
-
-    <!-- Contenido de la política -->
-    <main class="contenido-politica">
+    <main>
         <div class="contenedor">
-            <h1>Política de la calidad</h1>
-            
-            <section class="seccion-politica">
-                <p><strong>Corporación Rehobot Contratistas Generales S.A.C.</strong> Empresa especializada en brindar soluciones integrales, en los servicios de Estudios hidrogeológicos, diseño constructivo en función a la litología del suelo, perforación del pozo considerando ingeniería conveniente aplicar por características litológicas del acuífero subterráneo, asegurando caudal y calidad del agua subterránea, equipamiento de bombeo considerando un diseño hidráulico, así como diseño y construcción de obras sanitarias, redes de agua y desagüe, Instalaciones eléctricas en baja y mediana tensión, electromecánica, abastecimiento de materiales acondicionados en nuestro taller de maestranza.</p>
+            <!-- Header del proyecto -->
+            <section class="header-proyecto">
+                <div class="imagen-proyecto" style="background-image: url('img/planta-sedapal-main.jpg');"></div>
+                <div class="titulo-con-flecha">
+                    <a href="Portafolio.html" class="btn-regreso">
+                        <img src="svg/flecha.svg" alt="Regresar">
+                    </a>
+                    <h1 class="titulo-proyecto">Línea Amarilla – Vía Expresa Río Verde / Vía Parque Rímac</h1>
+                </div>
+                <div class="cuadro_ubicacion">
+                    <div class="ubicacion-proyecto">
+                    <span class="icono-ubicacion"><img src="svg/IconoMap.svg" alt=""></span>
+                        Lima Metropolitana
+                    </div>
+                </div>
                 
-                <p>Convencidos que una buena gestión de la calidad, nos permite mejorar continuamente y expande nuestras oportunidades, la gerencia asume los siguientes compromisos:</p>
             </section>
 
-            <section class="seccion-politica">
-                <ul>
-                    <li>Integrar los objetivos de la gestión de la Calidad hacia todas operaciones de la empresa cumpliendo con legales, aplicables de conformidad con los requerimientos contractuales y los estándares de nuestra organización.</li>
-                    <li>Desarrollar nuestros servicios bajo las especificaciones técnicas que aseguren un buen desempeño en su uso y sostenibilidad en su funcionamiento, buscando la superación de las expectativas de nuestros clientes.</li>
-                    <li>Mantener la actualización técnica de nuestros colaboradores para asegurar su buen desempeño en las tareas encomendadas.</li>
-                    <li>Desarrollar acciones para la mejora continua del Sistema de Gestión de la Calidad determinado en cada proceso que desarrolle Corporación REHOBOT.</li>
-                    <li>Aplicar medidas preventivas y correctivas para alinear nuestras acciones hacia nuestra Política de la Calidad</li>
-                </ul>
+            <!-- Seccié³n de informacié³n del proyecto -->
+            <section class="seccion-info-proyecto">
+                <div class="grid-info">
+                    <div class="info-columna">
+                        <h3>Importancia</h3>
+                        <p>Obra de transporte urbano vital para la conectividad entre el norte, centro y este de Lima. Reduce significativamente los tiempos de viaje y mejora la fluidez vehicular.</p>
+                    </div>
+                    <div class="separador-vertical"></div>
+                    <div class="info-columna">
+                        <h3>Descripción del proyecto</h3>
+                        <p>Incluye un túnel de 2 km bajo el río Rímac, 9 viaductos, 10 km de vía rápida y obras de drenaje y defensa ribereña.</p>
+                    </div>
+                </div>
             </section>
 
-            <section class="seccion-politica">
-                <p>La gerencia de <strong>CORPORACIÓN REHOBOT CONTRATISTAS GENERALES. S.A.C</strong>, suscribe la presente política para garantizar la mejora de sus procesos, por ello dispondrá de los recursos necesarios para su difusión y cumplimiento.</p>
+            <!-- Sección de participación -->
+            <section class="seccion-participacion">
+                <div class="contenido-participacion">
+                    <div class="circulo-azul-decorativo"></div>
+                    <div class="info-participacion">
+                        <h2>Participación de Corporación Rehobot</h2>
+                        <p>Se realizaron estudios hidrogeológicos, trámites y ejecución de obras especializadas para el abastecimiento del recurso hídrico subterráneo, en cumplimiento de los lineamientos técnicos y normativos del proyecto.</p>
+                    </div>
+                    <div class="imagen-participacion"></div>
+                </div>
             </section>
 
-            <section class="seccion-politica firma-empresa">
-                <div class="info-empresa">
-                    <p><strong>Corporación REHOBOT S.A.C</strong></p>
-                    <p><strong>Lima 05 de marzo del 2021</strong></p>
+            <!-- Sección de actividades -->
+            <section class="seccion-actividades">
+                <h2 class="actividades-titulo">Actividades <span>desarrolladas.</span></h2>
+                <div class="contenido-actividades">
+                    <div class="tarjeta-actividad">
+                    </div>
+                    <div class="tarjeta-lista-actividades">
+                        <ul class="lista-actividades">
+                            <li><strong>Elaboración del estudio hidrogeológico</strong> y gestión integral para la <strong>obtención de la autorización de perforación ante la ANA.</strong></li>
+                            <li><strong>Perforación de un pozo para captación de aguas subterráneas</strong>, diseñado en base a los lineamientos de SEDAPAL, como pozo de reemplazo entregado a dicha entidad.</li>
+                            <li><strong>Perforación de un pozo en el Parque de la Muralla</strong>, proyectado para el abastecimiento del recurso hídrico del parque y complementario para la construcción de la vía bajo el río Rímac.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección Más proyectos -->
+            <section class="seccion-mas-proyectos">
+                <h2 class="mas-proyectos-titulo">Más <span>proyectos.</span></h2>
+                <div class="grid-proyectos">
+                    <!-- Los proyectos se cargarán dinámicamente con JavaScript -->
                 </div>
             </section>
         </div>
     </main>
 
+    <!-- Footer -->
     <footer class="pie-pagina">
         <div class="contenedor">
             <div class="contenido-footer">
@@ -175,7 +210,7 @@
                 <div class="columna-footer">
                     <h4>Corporación Rehobot</h4>
                     <ul>
-                        <li><a href="nosotros.html">Sobre nosotros</a></li>
+                        <li><a href="Nosotros.html">Sobre nosotros</a></li>
                         <li><a href="productos.html">Nuestros productos</a></li>
                         <li><a href="servicios.html">Nuestros Servicios</a></li>
                     </ul>
@@ -206,5 +241,6 @@
     <script src="js/script.js?v=<?php echo time(); ?>"></script>
 </body>
 </html>
+
 
 

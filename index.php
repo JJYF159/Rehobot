@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
     <link rel="preload" href="css/index.css?v=<?php echo time(); ?>" as="style">
     <link rel="stylesheet" href="css/index.css?v=<?php echo time(); ?>")
-    
 </head>
 <body>
     <header class="encabezado">

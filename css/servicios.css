@@ -545,7 +545,6 @@ body {
         margin-bottom: 2rem;
         margin-left: 0;
     }
-    }
     
     .imagen-hero-servicios {
         width: 35rem;
@@ -646,7 +645,7 @@ body {
     .servicio-item {
         margin-bottom: 1rem;
     }
-
+}
 @media (max-width: 768px) {
     .contenedor {
         padding: 0 1rem;
