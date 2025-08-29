@@ -1,0 +1,29 @@
+[23-Aug-2025 02:14:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqlnd' (tried: ext\mysqlnd (The specified module could not be found), ext\php_mysqlnd.dll (The specified module could not be found)) in Unknown on line 0
+[23-Aug-2025 02:52:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqlnd' (tried: ext\mysqlnd (The specified module could not be found), ext\php_mysqlnd.dll (The specified module could not be found)) in Unknown on line 0
+[23-Aug-2025 02:52:42 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[23-Aug-2025 02:55:49 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqlnd' (tried: ext\mysqlnd (The specified module could not be found), ext\php_mysqlnd.dll (The specified module could not be found)) in Unknown on line 0
+[23-Aug-2025 02:55:49 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[23-Aug-2025 02:59:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqlnd' (tried: ext\mysqlnd (The specified module could not be found), ext\php_mysqlnd.dll (The specified module could not be found)) in Unknown on line 0
+[23-Aug-2025 02:59:46 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[23-Aug-2025 03:01:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqlnd' (tried: ext\mysqlnd (The specified module could not be found), ext\php_mysqlnd.dll (The specified module could not be found)) in Unknown on line 0
+[23-Aug-2025 03:01:02 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[23-Aug-2025 03:12:58 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqlnd' (tried: ext\mysqlnd (The specified module could not be found), ext\php_mysqlnd.dll (The specified module could not be found)) in Unknown on line 0
+[23-Aug-2025 03:12:58 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[23-Aug-2025 03:17:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqlnd' (tried: ext\mysqlnd (The specified module could not be found), ext\php_mysqlnd.dll (The specified module could not be found)) in Unknown on line 0
+[23-Aug-2025 03:17:53 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[23-Aug-2025 03:22:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqlnd' (tried: ext\mysqlnd (The specified module could not be found), ext\php_mysqlnd.dll (The specified module could not be found)) in Unknown on line 0
+[23-Aug-2025 03:22:48 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[23-Aug-2025 03:32:18 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:34:53 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:34:53 UTC] DEBUG - session_config - Session ID: 79411a4d63ebcc8b55442fb0eb1e8220
+[23-Aug-2025 03:34:53 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:34:53 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:37:03 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:37:03 UTC] DEBUG - session_config - Session ID: 161bc704d25f55ff5d44e60c9ffbea23
+[23-Aug-2025 03:37:03 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:37:03 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:37:16 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).
+[23-Aug-2025 03:37:16 UTC] DEBUG - session_config - Session ID: f3545b0464581abab7db1ad208c41a12
+[23-Aug-2025 03:37:16 UTC] DEBUG - session_config - Save path: C:\Users\kirit\AppData\Local\Temp
+[23-Aug-2025 03:37:16 UTC] DEBUG - session_config - Cookie lifetime: 28800
+[23-Aug-2025 03:37:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port).

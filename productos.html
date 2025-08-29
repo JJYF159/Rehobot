@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - REHOBOT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/productos.css" as="style">
+    <link rel="stylesheet" href="css/productos.css">
+    <link rel="preload" href="css/index.css" as="style">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="barra-navegacion">
+            <!-- Botón hamburguesa para móviles -->
+            <button class="menu-hamburguesa" id="menuHamburguesa">
+                <span class="linea"></span>
+                <span class="linea"></span>
+                <span class="linea"></span>
+            </button>
+            
+            <ul class="enlaces-principales enlaces-izquierda">
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li class="desplegable">
+                    <a href="servicios.html" class="enlace-desplegable">Servicios <span class="flecha"><img src="svg/weui_arrow-filled.svg" alt="flecha"></span></a>
+                </li>
+            </ul>
+            <div class="logotipo">
+                <a href="index.html">
+                    <img src="svg/Logo - Rehobot completo.svg" alt="REHOBOT Logo" width="120" height="40">
+                </a>
+            </div>
+            <ul class="enlaces-principales enlaces-derecha">
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="Portafolio.html">Portafolio</a></li>
+            </ul>
+            <div class="boton-contacto" id="btnContacto">
+            <a href="contacto.html">
+                <button>Contacto</button>
+            </a>
+            </div>
+        </nav>
+        
+        <!-- Menú lateral para móviles -->
+        <div class="menu-lateral" id="menuLateral">
+            <div class="contenido-menu">
+                <ul class="enlaces-menu">
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li class="desplegable-movil">
+                        <a href="servicios.html" class="enlace-servicios-movil">Servicios <span class="flecha-movil">▼</span></a>
+                        <ul class="submenu-servicios">
+                            <li><a href="servicios.html">Diseño y Perforación de Pozos Subterráneos</a></li>
+                            <li><a href="servicios.html">Instalaciones Electromecánicas Automatizadas</a></li>
+                            <li><a href="servicios.html">Instalaciones Eléctricas y Sistemas de Control</a></li>
+                            <li><a href="servicios.html">Fabricación, Instalación y Mantenimiento de Tableros Eléctricos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="Portafolio.html">Portafolio</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Overlay -->
+        <div class="overlay-menu" id="overlayMenu"></div>
+    </header>
+    
+    <div class="contenido-desplegable">
+        <a href="servicios.html" class="elemento-desplegable">
+            <div class="icono">
+                <img src="svg/diseno-perforacion-pozos.svg" alt="Diseño y Perforación de Pozos">
+            </div>
+            <div class="contenido">
+                <h4>Diseño y Perforación de Pozos Subterráneos</h4>
+            </div>
+        </a>
+        <div class="separador"></div>
+        <a href="servicios.html" class="elemento-desplegable">
+            <div class="icono">
+                <img src="svg/instalaciones-electromecanicas.svg" alt="Instalaciones Electromecánicas">
+            </div>
+            <div class="contenido">
+                <h4>Instalaciones Electromecánicas Automatizadas</h4>
+            </div>
+        </a>
+        <div class="separador"></div>
+        <a href="servicios.html" class="elemento-desplegable">
+            <div class="icono">
+                <img src="svg/instalaciones-electricas.svg" alt="Instalaciones Eléctricas">
+            </div>
+            <div class="contenido">
+                <h4>Instalaciones Eléctricas y Sistemas de Control</h4>
+            </div>
+        </a>
+        <div class="separador"></div>
+        <a href="servicios.html" class="elemento-desplegable">
+            <div class="icono">
+                <img src="svg/tableros-electricos.svg" alt="Tableros Eléctricos">
+            </div>
+            <div class="contenido">
+                <h4>Fabricación, Instalación y Mantenimiento de Tableros Eléctricos</h4>
+            </div>
+        </a>
+    </div>
+
+
+    <main class="contenido-principal-productos">
+        <!-- Hero Productos -->
+        <section class="hero-productos">
+            <div class="contenedor">
+                <div class="imagen-hero-productos"></div>
+                <div class="texto-hero-productos contenedor-blanco">
+                    <div class="circulo-azul-hero circulo-azul-decorativo"></div>
+                    <h1 class="titulo-principal">Nuestros productos</h1>
+                    <p class="parrafo-contenido">En <strong>Corporación Rehobot</strong> ponemos a disposición de nuestros clientes una línea completa de productos industriales, eléctricos y de automatización, orientada a cubrir las necesidades de abastecimiento del recurso hídrico en distintos sectores económicos y de infraestructura del país. Somos representantes autorizados de las mejores marcas internacionales <strong>PENTAX, PEDROLLO, PANELLI, IDEAL, PENTAIR, CNP-NEMO, GRUNDFOS, EMALEX, LUXSE, ITAP</strong> y <strong>ITUR</strong> lo que garantiza la calidad de todo instrumento, maquinaria, energéticos y soporte técnico permanente.</p>
+                </div>    
+            </div>
+        </section>
+
+        <!-- Sección de Categorías y Productos -->
+        <section class="seccion-productos-catalogo">
+            <div class="contenedor">
+                <!-- Categorías/Pestañas -->
+                <div class="categorias-pestanas">
+                    <button class="pestana-categoria activa" data-categoria="electrobombas">
+                        Electrobombas y Equipos de Bombeo
+                    </button>
+                    <button class="pestana-categoria" data-categoria="hidraulicos">
+                        Componentes hidráulicos
+                    </button>
+                    <button class="pestana-categoria" data-categoria="electricos">
+                        Componentes eléctricos y de automatización
+                    </button>
+                </div>
+
+                <!-- Contenedor blanco grande para descripción y productos -->
+                <div class="contenedor-productos-completo">
+                    <!-- Descripción de categoría -->
+                    <div class="descripcion-categoria">
+                        <p id="descripcion-electrobombas" class="descripcion-activa">
+                            Contamos con un amplio catálogo de <strong>electrobombas de superficie y sumergibles</strong>, diseñadas para operar en distintas condiciones de trabajo considerando el caudal, presión y potencia.
+                        </p>
+                        <p id="descripcion-hidraulicos" class="descripcion-oculta">
+                            Ofrecemos una gama completa de <strong>componentes y accesorios para redes hidráulicas</strong>, especialmente diseñados para sistemas de bombeo, conducción y distribución de agua.
+                        </p>
+                        <p id="descripcion-electricos" class="descripcion-oculta">
+                            Complementamos nuestros sistemas con <strong>componentes eléctricos especializados</strong>, diseñados para garantizar el correcto funcionamiento, control y protección de los equipos de bombeo.
+                        </p>
+                    </div>
+
+                <!-- Grid de Productos -->
+                <div class="contenido-productos-catalogo">
+                    <!-- Productos de Electrobombas -->
+                    <div class="productos-grid activo" id="grid-electrobombas">
+                        <div class="producto-card">
+                            <div class="producto-imagen" style="background-image: url('https://res.cloudinary.com/dg7wvqxcv/image/upload/v1755762088/Bomba_para_agua_centrifuga_rxprnc.jpg'); background-size: cover; background-position: center;"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas Centrífugas</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen" style="background-image: url('https://res.cloudinary.com/dg7wvqxcv/image/upload/v1755762088/Bomba_para_agua_periferica_qdxlgu.jpg'); background-size: cover; background-position: center;"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas Periféricas</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas autocebantes tipo JET</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Equipos hidroneumáticos</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas de alto caudal</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas Monoblock Normalizas</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen" style="background-image: url('https://res.cloudinary.com/dg7wvqxcv/image/upload/v1755762087/Bomba_de_eje_libre_ccpcbd.jpg'); background-size: cover; background-position: center;"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas de eje libre</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen" style="background-image: url('https://res.cloudinary.com/dg7wvqxcv/image/upload/v1755762087/Electrobomba_multietapica_horizontal_vrlnas.jpg'); background-size: cover; background-position: center;"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas Multietapas Horizontal</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas Multietapas Vertical</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas Multietapas de Gran Capacidad Horizontales y Verticales</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas Sumergibles para Sumideros</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas Sumergibles para Aguas Servidas</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas sumergibles para Pozos tipo lapicanio inoxidables</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas Sumergibles para Pozos profundos de tanques en hierro fundido</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas Sumergibles para Pozos profundos de tanques en acero inoxidable</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen" style="background-image: url('https://res.cloudinary.com/dg7wvqxcv/image/upload/v1755762087/Bomba_para_piscinas_yuyt0i.jpg'); background-size: cover; background-position: center;"></div>
+                            <div class="producto-info">
+                                <h3>Electrobombas para piscinas</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Filtros arena cuarzo con válvula Multiport de 6 vías</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Accesorios del sistema de recirculación, limpieza, desinfección, luminación acuática, etc. para piscinas e hidromasajes</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Productos Hidráulicos -->
+                    <div class="productos-grid" id="grid-hidraulicos">
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Tuberías SCH 40 desde Ø 2" hasta Ø 12"</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Coplas de alta presión para pozo de SCH 40 y SCH 80 en Ø 2" hasta Ø 12"</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Válvula Check vertical para pozo en Ø 2" hasta Ø 12"</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Válvulas compuerta de bronce desde Ø ½" hasta Ø 4"</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Válvula compuerta bridado de hierro dúctil en Ø 4" hasta Ø 12"</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Válvulas Check de bronce desde Ø ½" hasta Ø 4"</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Válvula Check bridado de hierro dúctil en Ø 4" hasta Ø 12"</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Válvulas de aire de doble impacto</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Válvulas de alivio</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Niples de SCH 40 con rosca de todas las medidas</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Niples de SCH 40 bridado de todas las medidas</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Codos SCH 40 desde Ø ½" hasta Ø 12"</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Unión flexible Dresser desde Ø 2" hasta Ø 6"</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Uniones autoportantes bridado en Ø 4" hasta Ø 12"</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Medidores de caudal certificados por INACAL y SEDAPAL desde Ø 1" hasta Ø 12"</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Filtros de bronce en Ø ½" hasta Ø 3"</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Filtros bridados de hierro dúctil en Ø 2" hasta Ø 12"</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Productos Eléctricos -->
+                    <div class="productos-grid" id="grid-electricos">
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Cables flexibles H07 con aislamiento de goma especial para pozo profundos desde 1.5 mm2 hasta 70 mm2</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Kit de empalmes vulcanizante con resina para pozos profundos</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Tableros eléctricos para todo tipo de sistemas de bombeo y automatización de procesos productivos</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen"></div>
+                            <div class="producto-info">
+                                <h3>Electrodos de Nivel para pozos profundos</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen" style="background-image: url('https://res.cloudinary.com/dg7wvqxcv/image/upload/v1755761728/Automaticos_para_tanques_y7qkek.jpg'); background-size: cover; background-position: center;"></div>
+                            <div class="producto-info">
+                                <h3>Automáticos para tanques</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen" style="background-image: url('https://res.cloudinary.com/dg7wvqxcv/image/upload/v1755761729/Man%C3%B3metro_dostvu.jpg'); background-size: cover; background-position: center;"></div>
+                            <div class="producto-info">
+                                <h3>Manómetros</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+
+                        <div class="producto-card">
+                            <div class="producto-imagen" style="background-image: url('https://res.cloudinary.com/dg7wvqxcv/image/upload/v1755761553/Presostato_para_agua_y_aire_p9itsv.jpg'); background-size: cover; background-position: center;"></div>
+                            <div class="producto-info">
+                                <h3>Presostatos para agua y aire</h3>
+                                <button class="btn-cotizar"><a href="contacto.html">Cotiza Aquí</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div> <!-- Cierre del contenedor-productos-completo -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor">
+            <div class="contenido-footer">
+                <div class="columna-footer">
+                    <div class="logo-footer">
+                        <img src="svg/Logo-footer.svg" alt="">
+                    </div>
+                    <div class="siguenos-texto">Síguenos:</div>
+                    <div class="redes-sociales">
+                        <a href="#" class="red-social facebook">
+                            <img src="svg/facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="#" class="red-social instagram">
+                            <img src="svg/instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#" class="red-social tiktok">
+                            <img src="svg/tiktok.svg" alt="TikTok">
+                        </a>
+                        <a href="#" class="red-social linkedin">
+                            <img src="svg/linkedin.svg" alt="LinkedIn">
+                        </a>
+                        <a href="#" class="red-social youtube">
+                            <img src="svg/youtube.svg" alt="YouTube">
+                        </a>
+                    </div>
+                </div>
+                <div class="columna-footer">
+                    <h4>Corporación Rehobot</h4>
+                    <ul>
+                        <li><a href="Nosotros.html">Sobre nosotros</a></li>
+                        <li><a href="productos.html">Nuestros productos</a></li>
+                        <li><a href="servicios.html">Nuestros Servicios</a></li>
+                    </ul>
+                </div>
+                <div class="columna-footer">
+                    <h4>Otros Enlaces</h4>
+                    <ul>
+                        <li><a href="trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
+                        <li><a href="politica-privacidad.html">Política de privacidad y uso<br>de datos personales</a></li>
+                        <li><a href="politica-calidad.html">Política de calidad</a></li>
+                    </ul>
+                </div>
+                <div class="columna-footer">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="mailto:info@corporacionrehobot.com">info@corporacionrehobot.com</a></li>
+                        <li><a href="tel:+51989011132">(51) 989 011 132</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-inferior">
+                <div class="copyright">© 2025 Rehobot. Todos los derechos reservados.</div>
+                <div class="empresa-info">Corporación Rehobot Contratistas Generales. S.A.C - RUC 20538056988</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

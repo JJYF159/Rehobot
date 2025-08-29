@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaja con nosotros - REHOBOT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/trabaja-con-nosotros.css" as="style">
+    <link rel="stylesheet" href="css/trabaja-con-nosotros.css">
+    <link rel="preload" href="css/index.css" as="style">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="barra-navegacion">
+            <!-- Botón hamburguesa para móviles -->
+            <button class="menu-hamburguesa" id="menuHamburguesa">
+                <span class="linea"></span>
+                <span class="linea"></span>
+                <span class="linea"></span>
+            </button>
+            
+            <ul class="enlaces-principales enlaces-izquierda">
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li class="desplegable">
+                    <a href="servicios.html" class="enlace-desplegable">Servicios <span class="flecha"><img src="svg/weui_arrow-filled.svg" alt="flecha"></span></a>
+                </li>
+            </ul>
+            <div class="logotipo">
+                <a href="index.html">
+                    <img src="svg/Logo - Rehobot completo.svg" alt="REHOBOT Logo" width="120" height="40">
+                </a>
+            </div>
+            <ul class="enlaces-principales enlaces-derecha">
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="Portafolio.html">Portafolio</a></li>
+            </ul>
+            <div class="boton-contacto" id="btnContacto">
+            <a href="contacto.html">
+                <button>Contacto</button>
+            </a>
+            </div>
+        </nav>
+        
+        <!-- Menú lateral para móviles -->
+        <div class="menu-lateral" id="menuLateral">
+            <div class="contenido-menu">
+                <ul class="enlaces-menu">
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li class="desplegable-movil">
+                        <a href="servicios.html" class="enlace-servicios-movil">Servicios <span class="flecha-movil">▼</span></a>
+                        <ul class="submenu-servicios">
+                            <li><a href="servicios.html">Diseño y Perforación de Pozos Subterráneos</a></li>
+                            <li><a href="servicios.html">Instalaciones Electromecánicas Automatizadas</a></li>
+                            <li><a href="servicios.html">Instalaciones Eléctricas y Sistemas de Control</a></li>
+                            <li><a href="servicios.html">Fabricación, Instalación y Mantenimiento de Tableros Eléctricos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="Portafolio.html">Portafolio</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Overlay -->
+        <div class="overlay-menu" id="overlayMenu"></div>
+    </header>
+    
+    <div class="contenido-desplegable">
+        <a href="servicios.html" class="elemento-desplegable">
+            <div class="icono">
+                <img src="svg/diseno-perforacion-pozos.svg" alt="Diseño y Perforación de Pozos">
+            </div>
+            <div class="contenido">
+                <h4>Diseño y Perforación de Pozos Subterráneos</h4>
+            </div>
+        </a>
+        <div class="separador"></div>
+        <a href="servicios.html" class="elemento-desplegable">
+            <div class="icono">
+                <img src="svg/instalaciones-electromecanicas.svg" alt="Instalaciones Electromecánicas">
+            </div>
+            <div class="contenido">
+                <h4>Instalaciones Electromecánicas Automatizadas</h4>
+            </div>
+        </a>
+        <div class="separador"></div>
+        <a href="servicios.html" class="elemento-desplegable">
+            <div class="icono">
+                <img src="svg/instalaciones-electricas.svg" alt="Instalaciones Eléctricas">
+            </div>
+            <div class="contenido">
+                <h4>Instalaciones Eléctricas y Sistemas de Control</h4>
+            </div>
+        </a>
+        <div class="separador"></div>
+        <a href="servicios.html" class="elemento-desplegable">
+            <div class="icono">
+                <img src="svg/tableros-electricos.svg" alt="Tableros Eléctricos">
+            </div>
+            <div class="contenido">
+                <h4>Fabricación, Instalación y Mantenimiento de Tableros Eléctricos</h4>
+            </div>
+        </a>
+    </div>
+
+
+    <!-- Hero Trabaja con nosotros -->
+    <section class="hero-trabaja">
+        <div class="contenedor">
+            <div class="imagen-hero-trabaja"></div>
+            <div class="texto-hero-trabaja contenedor-blanco">
+                <div class="circulo-azul-hero circulo-azul-decorativo"></div>
+                <h1 class="titulo-principal">Trabaja con nosotros</h1>
+                <p class="parrafo-contenido">En Corporación Rehobot reconocemos que nuestro mayor recurso es el <strong>humano</strong>. Por ello, buscamos personas <strong>comprometidas, capacitadas y con vocación de trabajo en equipo</strong>, que deseen aportar a proyectos que mejoren el acceso al agua y fortalezcan la infraestructura hidráulica del país.</p>
+            </div>    
+        </div>
+    </section>
+
+    <!-- Sección especialidades -->
+    <section class="seccion-especialidades">
+        <div class="contenedor">
+            <h2>Actualmente buscamos personal especializado en:</h2>
+            <div class="contenido-especialidades">
+                <div class="lista-especialidades">
+                    <div class="especialidad">
+                        <div class="icono-check"></div>
+                        <span>Geología</span>
+                    </div>
+                    <div class="especialidad">
+                        <div class="icono-check"></div>
+                        <span>Hidrología</span>
+                    </div>
+                    <div class="especialidad">
+                        <div class="icono-check"></div>
+                        <span>Mecánica de fluidos</span>
+                    </div>
+                    <div class="especialidad">
+                        <div class="icono-check"></div>
+                        <span>Ingeniería Hidráulica</span>
+                    </div>
+                    <div class="especialidad">
+                        <div class="icono-check"></div>
+                        <span>Electricidad Industrial y Automatización</span>
+                    </div>
+                    <div class="especialidad">
+                        <div class="icono-check"></div>
+                        <span>Mecánica de mantenimiento y soldadura en sistema de fluidos</span>
+                    </div>
+                    <div class="especialidad">
+                        <div class="icono-check"></div>
+                        <span>Perforación de pozos tubulares</span>
+                    </div>
+                </div>
+                <div class="imagen-especialidades">
+                    <!-- Imagen placeholder gris -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección formulario -->
+    <section class="seccion-formulario">
+        <div class="contenedor">
+            <div class="circulo-azul-formulario"></div>
+            
+            <div class="formulario-contenedor">
+                <h2>Queremos conocerte</h2>
+                
+                <form class="formulario-trabajo" id="formularioTrabajo" method="POST" action="php/procesar_trabajo.php" enctype="multipart/form-data">
+                    <input type="hidden" name="csrf_token" id="csrf_token">
+                    
+                    <div class="campo-formulario">
+                        <label for="nombre">Nombre completo*</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre aquí" required maxlength="255">
+                    </div>
+                    
+                    <div class="campos-linea">
+                        <div class="campo-formulario">
+                            <label for="email">Correo electrónico*</label>
+                            <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required maxlength="255">
+                        </div>
+                        <div class="campo-formulario">
+                            <label for="telefono">Teléfono*</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="+51 999 999 999" required maxlength="20">
+                        </div>
+                    </div>
+                    
+                    <div class="campo-formulario">
+                        <label for="carrera">Carrera o especialidad*</label>
+                        <input type="text" id="carrera" name="carrera" placeholder="Nombre de tu carrera o especialidad" required maxlength="255">
+                    </div>
+                    
+                    <div class="campos-linea">
+                        <div class="campo-formulario">
+                            <label for="puesto">Puesto al que postulas*</label>
+                            <select id="puesto" name="puesto" required>
+                                <option value="">Seleccionar</option>
+                                <option value="geologia">Geología</option>
+                                <option value="hidrologia">Hidrología</option>
+                                <option value="mecanica-fluidos">Mecánica de fluidos</option>
+                                <option value="ingenieria-hidraulica">Ingeniería Hidráulica</option>
+                                <option value="electricidad-industrial">Electricidad Industrial y Automatización</option>
+                                <option value="mecanica-mantenimiento">Mecánica de mantenimiento y soldadura</option>
+                                <option value="perforacion-pozos">Perforación de pozos tubulares</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="campo-formulario">
+                            <label for="cv">CV*</label>
+                            <div class="archivo-input">
+                                <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+                                <label for="cv" class="archivo-label">
+                                    <img class="archivo-icono" src="svg/clip.svg"></img>
+                                    <span class="archivo-texto">Adjuntar archivo*</span>
+                                    <span class="archivo-formatos">Tamaño máximo 5MB (.PDF, .DOC)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn-enviar">
+                        <span class="btn-texto">Enviar solicitud</span>
+                        <span class="btn-loading" style="display: none;">Enviando...</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="pie-pagina">
+        <div class="contenedor">
+            <div class="contenido-footer">
+                <div class="columna-footer">
+                    <div class="logo-footer">
+                        <img src="svg/Logo-footer.svg" alt="">
+                    </div>
+                    <div class="siguenos-texto">Síguenos:</div>
+                    <div class="redes-sociales">
+                        <a href="#" class="red-social facebook">
+                            <img src="svg/facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="#" class="red-social instagram">
+                            <img src="svg/instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#" class="red-social tiktok">
+                            <img src="svg/tiktok.svg" alt="TikTok">
+                        </a>
+                        <a href="#" class="red-social linkedin">
+                            <img src="svg/linkedin.svg" alt="LinkedIn">
+                        </a>
+                        <a href="#" class="red-social youtube">
+                            <img src="svg/youtube.svg" alt="YouTube">
+                        </a>
+                    </div>
+                </div>
+                <div class="columna-footer">
+                    <h4>Corporación Rehobot</h4>
+                    <ul>
+                        <li><a href="nosotros.html">Sobre nosotros</a></li>
+                        <li><a href="productos.html">Nuestros productos</a></li>
+                        <li><a href="servicios.html">Nuestros Servicios</a></li>
+                    </ul>
+                </div>
+                <div class="columna-footer">
+                    <h4>Otros Enlaces</h4>
+                    <ul>
+                        <li><a href="trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
+                        <li><a href="politica-privacidad.html">Política de privacidad y uso<br>de datos personales</a></li>
+                        <li><a href="politica-calidad.html">Política de calidad</a></li>
+                    </ul>
+                </div>
+                <div class="columna-footer">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="mailto:info@corporacionrehobot.com">info@corporacionrehobot.com</a></li>
+                        <li><a href="tel:+51989011132">(51) 989 011 132</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-inferior">
+                <div class="copyright">© 2025 Rehobot. Todos los derechos reservados.</div>
+                <div class="empresa-info">Corporación Rehobot Contratistas Generales. S.A.C - RUC 20538056988</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/formularios.js"></script>
+</body>
+</html>
