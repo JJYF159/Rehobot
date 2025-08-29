@@ -1,4 +1,3 @@
-
 // Variables globales
 let csrfToken = '';
 
@@ -17,6 +16,68 @@ document.addEventListener('DOMContentLoaded', function() {
     const jobForm = document.getElementById('formularioTrabajo');
     if (jobForm) {
         setupJobForm(jobForm);
+    }
+    
+    // Configurar select personalizado para ciudad
+    const selectCiudad = document.getElementById('ciudad');
+    const customSelectCiudad = document.getElementById('customSelectCiudad');
+    if (customSelectCiudad) {
+        const selectedCiudad = customSelectCiudad.querySelector('.custom-select-selected');
+        const optionsCiudad = customSelectCiudad.querySelector('.custom-select-options');
+        const optionDivsCiudad = optionsCiudad.querySelectorAll('div');
+
+        selectedCiudad.addEventListener('click', function() {
+            optionsCiudad.style.display = optionsCiudad.style.display === 'none' ? 'block' : 'none';
+            selectedCiudad.classList.toggle('active');
+        });
+
+        optionDivsCiudad.forEach(function(optionDiv) {
+            optionDiv.addEventListener('click', function() {
+                selectedCiudad.textContent = optionDiv.textContent;
+                optionsCiudad.style.display = 'none';
+                optionDivsCiudad.forEach(div => div.classList.remove('selected'));
+                optionDiv.classList.add('selected');
+                selectCiudad.value = optionDiv.getAttribute('data-value');
+            });
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!customSelectCiudad.contains(e.target)) {
+                optionsCiudad.style.display = 'none';
+                selectedCiudad.classList.remove('active');
+            }
+        });
+    }
+
+    // Configurar select personalizado para puesto (trabaja-con-nosotros)
+    const selectPuesto = document.getElementById('puesto');
+    const customSelectPuesto = document.getElementById('customSelectPuesto');
+    if (customSelectPuesto) {
+        const selectedPuesto = customSelectPuesto.querySelector('.custom-select-selected');
+        const optionsPuesto = customSelectPuesto.querySelector('.custom-select-options');
+        const optionDivsPuesto = optionsPuesto.querySelectorAll('div');
+
+        selectedPuesto.addEventListener('click', function() {
+            optionsPuesto.style.display = optionsPuesto.style.display === 'none' ? 'block' : 'none';
+            selectedPuesto.classList.toggle('active');
+        });
+
+        optionDivsPuesto.forEach(function(optionDiv) {
+            optionDiv.addEventListener('click', function() {
+                selectedPuesto.textContent = optionDiv.textContent;
+                optionsPuesto.style.display = 'none';
+                optionDivsPuesto.forEach(div => div.classList.remove('selected'));
+                optionDiv.classList.add('selected');
+                selectPuesto.value = optionDiv.getAttribute('data-value');
+            });
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!customSelectPuesto.contains(e.target)) {
+                optionsPuesto.style.display = 'none';
+                selectedPuesto.classList.remove('active');
+            }
+        });
     }
 });
 
