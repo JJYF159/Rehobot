@@ -13,6 +13,7 @@
     --blanco-opaco: #D9D9D9;
     --color-footer: #5074C5;
     --sombra: rgba(0, 0, 0, 0.1);
+    --color-fondo: #c4c4c4;
 }
 
 /*FUENTES*/
@@ -282,11 +283,12 @@ body {
     margin: 0 auto;
 }
 
-.imagen-participacion img {
+.imagen-participacion {
     width: 66.75rem;
     height: 38.5rem;
     object-fit: cover;
     display: block;
+    background-color: var(--color-fondo);
 }
 
 /* Sección de actividades */
@@ -326,7 +328,7 @@ body {
     border-radius: 1rem;
     width: 43.875rem;
     height: 43.5rem;
-    background-image: url('../img/Firewall.jpg');
+    background-color: var(--color-fondo);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

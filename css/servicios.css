@@ -12,6 +12,7 @@
     --azul-texto: #0C2A6C;
     --blanco-opaco: #D9D9D9;
     --color-footer: #5074C5;
+    --color-fondo: #c4c4c4;
 }
 /*FUENTES*/
 @font-face {
@@ -58,7 +59,7 @@ body {
 }
 
 .imagen-hero-servicios {
-    background-image: url(../img/seccionHero.jpg);
+    background-color: var(--color-fondo);
     width: 49.375rem;
     height: 19.375rem;
     background-size: cover;
@@ -72,7 +73,7 @@ body {
 }
 
 .imagen-hero-servicios_inferior {
-    background-image: url(../img/seccionHero.jpg);
+    background-color: var(--color-fondo);
     width: 49.375rem;
     height: 19.375rem;
     background-size: cover;
@@ -457,33 +458,46 @@ body {
     }
     
     .hero-servicios {
-        height: 50rem;
-        margin-top: 6rem;
+        height: auto;
+        min-height: 60vh;
+        margin-top: 2rem;
         margin-bottom: 3rem;
-        margin-left: -3rem;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .imagen-hero-servicios {
-        width: 40rem;
+        width: 80%;
+        max-width: 40rem;
         height: 16rem;
-        left: 50rem;
+        left: 50%;
         top: 2rem;
+        transform: translateX(-50%);
+        position: absolute;
         z-index: 1;
     }
     
     .imagen-hero-servicios_inferior {
-        width: 40rem;
+        width: 80%;
+        max-width: 40rem;
         height: 16rem;
-        left: 50rem;
-        top: 32rem;
+        left: 50%;
+        top: 30rem;
+        transform: translateX(-50%);
+        position: absolute;
         z-index: 1;
     }
     
     .texto-hero-servicios {
-        width: 40rem;
-        height: 26rem;
+        width: 90%;
+        max-width: 40rem;
+        height: auto;
         padding: 2.5rem;
         top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     
     .texto-hero-servicios h1 {
@@ -492,56 +506,45 @@ body {
     
     .texto-hero-servicios p {
         font-size: 1rem;
-        width: 35rem;
+        width: 100%;
     }
     
     .circulo-azul-hero-servicios {
-        right: 35rem;
+        right: 10%;
         width: 8.5rem;
         height: 8.5rem;
     }
     
     .seccion-servicios-principales h2 {
         font-size: 2.4rem;
-        margin-bottom: 5rem;
     }
     
     .contenido-servicios-interactivo {
+        margin-left: 0;
         gap: 4rem;
-        margin-left: -6rem;
+        max-width: 100%;
     }
     
     .servicio-item {
-        width: 35rem;
-        height: 5.5rem;
-        padding: 1.8rem;
-    }
-    
-    .servicio-item h3 {
-        font-size: 1.3rem;
+        width: 100%;
+        max-width: 35rem;
     }
     
     .informacion-servicio {
-        width: 40rem;
-        padding: 1.8rem;
-    }
-    
-    .lista-detalles li {
-        font-size: 1.1rem;
-    }
-    
-    .tablero-header h4,
-    .tablero-header {
-        font-size: 1.3rem;
+        width: 100%;
+        max-width: 40rem;
+        margin-left: 0;
     }
 }
 
 @media (max-width: 992px) {
     .hero-servicios {
-        height: 40rem;
-        margin-top: 5rem;
+        height: auto;
+        min-height: 50vh;
+        margin-top: 2rem;
         margin-bottom: 2rem;
-        margin-left: -2rem;
+        margin-left: 0;
+    }
     }
     
     .imagen-hero-servicios {
@@ -618,7 +621,31 @@ body {
     .tablero-header {
         font-size: 1.2rem;
     }
-}
+    
+    .seccion-servicios-principales h2 {
+        font-size: 2.2rem;
+        margin-bottom: 4rem;
+    }
+    
+    .contenido-servicios-interactivo {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-left: 0;
+    }
+    
+    .lista-servicios {
+        order: 2;
+    }
+    
+    .informacion-servicio {
+        order: 1;
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+    
+    .servicio-item {
+        margin-bottom: 1rem;
+    }
 
 @media (max-width: 768px) {
     .contenedor {

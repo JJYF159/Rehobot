@@ -13,6 +13,7 @@
     --blanco-opaco: #D9D9D9;
     --color-footer: #5074C5;
     --sombra: rgba(0, 0, 0, 0.1);
+    --color-fondo: #c4c4c4;
 }
 
 /*FUENTES*/
@@ -60,7 +61,7 @@ body {
 }
 
 .imagen-hero-portafolio{
-    background-image: url(../img/seccionHero.jpg);
+    background-color: var(--color-fondo);
     width: 61.4375rem;
     height: 50.375rem;
     background-size: cover;
@@ -238,25 +239,35 @@ body {
     }
     
     .hero-portafolio {
-        height: 60rem;
-        margin-top: 6rem;
+        height: auto;
+        min-height: 70vh;
+        margin-top: 2rem;
         margin-bottom: 3rem;
+        overflow: hidden;
     }
     
     .imagen-hero-portafolio {
-        width: 50rem;
-        height: 25rem;
-        left: 45rem;
+        width: 90%;
+        max-width: 50rem;
+        height: 30rem;
+        left: 50%;
         top: 2rem;
+        transform: translateX(-50%);
         position: absolute;
         z-index: 1;
     }
     
     .texto-hero-portafolio {
-        width: 50rem;
-        height: 25rem;
+        width: 90%;
+        max-width: 50rem;
+        height: auto;
         padding: 2.5rem;
-        top: 75%;
+        top: auto;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: relative;
+        margin-top: 35rem;
     }
     
     .texto-hero-portafolio h1 {
@@ -268,7 +279,7 @@ body {
     }
     
     .circulo-azul-hero-portafolio {
-        right: 45rem;
+        right: 10%;
         top: -3rem;
     }
     
@@ -280,6 +291,7 @@ body {
     .grid-obras {
         grid-template-columns: 1fr;
         gap: 2.5rem;
+        justify-items: center;
     }
     
     .tarjeta-obra {
@@ -290,8 +302,7 @@ body {
     
     .imagen-obra {
         width: 100%;
-        max-width: 40rem;
-        height: 28rem;
+        height: 100%;
     }
     
     .contenido-obra {
@@ -321,26 +332,34 @@ body {
 
 @media (max-width: 992px) {
     .hero-portafolio {
-        height: 50rem;
-        margin-top: 5rem;
+        height: auto;
+        min-height: 60vh;
+        margin-top: 2rem;
         margin-bottom: 2rem;
     }
     
     .imagen-hero-portafolio {
-        width: 40rem;
-        height: 20rem;
-        left: 30rem;
+        width: 90%;
+        max-width: 40rem;
+        height: 25rem;
+        left: 50%;
         top: 2rem;
+        transform: translateX(-50%);
         position: absolute;
         z-index: 1;
     }
     
     .texto-hero-portafolio {
-        width: 45rem;
-        height: 22rem;
+        width: 90%;
+        max-width: 45rem;
+        height: auto;
         padding: 2rem;
-        top: 70%;
-        left: 35%;
+        top: auto;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: relative;
+        margin-top: 30rem;
     }
     
     .texto-hero-portafolio h1 {
@@ -354,7 +373,7 @@ body {
     }
     
     .circulo-azul-hero-portafolio {
-        right: 35rem;
+        right: 10%;
         width: 8rem;
         height: 8rem;
     }
@@ -368,6 +387,10 @@ body {
         margin-bottom: 3rem;
     }
     
+    .grid-obras {
+        justify-items: center;
+    }
+    
     .tarjeta-obra {
         width: 100%;
         max-width: 35rem;
@@ -376,8 +399,7 @@ body {
     
     .imagen-obra {
         width: 100%;
-        max-width: 35rem;
-        height: 25rem;
+        height: 100%;
     }
     
     .contenido-obra {
@@ -411,40 +433,44 @@ body {
     }
     
     .hero-portafolio {
-        height: 45rem;
-        margin-top: 6rem;
+        height: auto;
+        min-height: 50rem;
+        margin-top: 2rem;
         margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
     }
     
     .imagen-hero-portafolio {
-        width: 100%;
-        max-width: 30rem;
-        height: 15rem;
-        left: 50%;
-        top: 2rem;
-        transform: translateX(-50%);
+        width: 90%;
         border-radius: 1rem;
-        position: absolute;
         z-index: 1;
+        margin-bottom: 2rem;
     }
     
     .texto-hero-portafolio {
-        width: 90%;
-        height: auto;
-        padding: 1.5rem;
-        top: 75%;
+        width: 100%;
+        padding: 2rem 1.5rem;
+        position: relative;
+        top: 0;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translateX(-50%);
+        background-color: var(--blanco);
+        border-radius: 1rem;
+        z-index: 2;
     }
     
     .texto-hero-portafolio h1 {
         font-size: 1.8rem;
         line-height: 1.3;
-        margin-bottom: 1.2rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
     }
     
     .texto-hero-portafolio p {
-        font-size: 0.9rem;
+        font-size: 0.95rem;
         line-height: 1.5;
         text-align: justify;
         margin-bottom: 1rem;
@@ -515,39 +541,53 @@ body {
     }
     
     .hero-portafolio {
-        height: 40rem;
-        margin-top: 5rem;
+        height: auto;
+        min-height: 45rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
     }
     
     .imagen-hero-portafolio {
-        width: 100%;
-        max-width: 25rem;
-        height: 12rem;
-        top: 2rem;
+        width: 95%;
+        max-width: 30rem;
+        height: 18rem;
+        top: 0;
         left: 50%;
         transform: translateX(-50%);
-        position: absolute;
+        position: relative;
         z-index: 1;
+        margin-bottom: 1.5rem;
     }
     
     .texto-hero-portafolio {
         width: 95%;
-        padding: 1.2rem;
-        top: 75%;
+        max-width: 30rem;
+        padding: 1.5rem 1.2rem;
+        position: relative;
+        top: 0;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translateX(-50%);
+        background-color: var(--blanco);
+        border-radius: 1rem;
+        z-index: 2;
     }
     
     .texto-hero-portafolio h1 {
         font-size: 1.5rem;
         line-height: 1.2;
-        margin-bottom: 1rem;
+        margin-bottom: 1.2rem;
+        text-align: center;
     }
     
     .texto-hero-portafolio p {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
         line-height: 1.4;
-        margin-bottom: 0.8rem;
+        margin-bottom: 1rem;
+        text-align: justify;
     }
     
     .seccion-listado-obras {
