@@ -52,10 +52,10 @@ body {
 .titulo-principal {
     color: var(--color-primario);
     font-family: 'Lexend', Arial, sans-serif;
-    font-size: 2.8125rem;
+    font-size: clamp(2rem, 4.5vw, 2.8125rem);
     font-style: normal;
     font-weight: 600;
-    line-height: 2.8125rem;
+    line-height: clamp(2rem, 4.5vw, 2.8125rem);
     text-align: center;
 }
 
@@ -64,10 +64,10 @@ body {
     color: var(--color-primario);
     text-align: justify;
     font-family: 'Lexend', Arial, sans-serif;
-    font-size: 1.125rem;
+    font-size: clamp(1rem, 1.8vw, 1.125rem);
     font-style: normal;
     font-weight: 300;
-    margin-bottom: 1.5rem;
+    margin-bottom: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 .parrafo-contenido strong {
@@ -76,8 +76,8 @@ body {
 
 /* Círculos decorativos azules */
 .circulo-azul-decorativo {
-    width: 9.88rem;
-    height: 9.88rem;
+    width: clamp(8rem, 12vw, 9.88rem);
+    height: clamp(8rem, 12vw, 9.88rem);
     background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
     border-radius: 50%;
     position: absolute;
@@ -85,17 +85,10 @@ body {
 
 .contenedor-blanco {
     background-color: var(--blanco);
-    border-radius: 1rem;
+    border-radius: clamp(0.5rem, 1.5vw, 1rem);
     position: relative;
     z-index: 2;
 }
-
-.contenedor {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-}
-
 /* Hero Productos */
 .hero-productos {
     position: relative;
@@ -105,15 +98,14 @@ body {
 
 .imagen-hero-productos {
     background-color: var(--color-fondo);
-    width: 120rem;
-    height: 35.5rem;
+    width: clamp(80rem, 120vw, 119rem);
+    height: clamp(25rem, 35vw, 35.5rem);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 0 0 2rem 2rem;
+    border-radius: 0 0 clamp(1rem, 3vw, 2rem) clamp(1rem, 3vw, 2rem);
     position: relative;
-    top: -13rem;
-    left: -24.5rem;
+    top: clamp(-10rem, -15vw, -13rem);
 }
 
 .texto-hero-productos {
@@ -121,15 +113,15 @@ body {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 2rem;
-    width: 46.375rem;
-    height: 26.25rem;
+    padding: clamp(1.5rem, 3vw, 2rem);
+    width: clamp(35rem, 50vw, 46.375rem);
+    height: clamp(20rem, 28vw, 26.25rem);
     z-index: 2;
 }
 
 .texto-hero-productos h1 {
-    margin-bottom: 3rem;
-    margin-top: 2rem;
+    margin-bottom: clamp(2rem, 4vw, 3rem);
+    margin-top: clamp(1.5rem, 3vw, 2rem);
 }
 
 .texto-hero-productos p {
@@ -139,80 +131,79 @@ body {
 }
 
 .circulo-azul-hero {
-    top: -5rem;
-    right: -5rem;
+    top: clamp(-4rem, -6vw, -5rem);
+    right: clamp(-4rem, -6vw, -5rem);
     z-index: 1;
 }
 
 /* Sección de productos catálogo */
 .seccion-productos-catalogo {
-    padding: 4rem 0;
+    padding: clamp(3rem, 5vw, 4rem) 0;
     background-color: var(--gris-claro);
 }
 
 .seccion-productos-catalogo .contenedor {
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 2rem;
-    gap: 2rem;
+    padding: 0 clamp(1rem, 3vw, 2rem);
+    gap: clamp(1.5rem, 3vw, 2rem);
 }
 
 /* Contenedor blanco grande para todo el contenido */
 .contenedor-productos-completo {
     background-color: var(--blanco);
-    border-radius: 1rem;
-    padding: 3rem;
-    margin-top: 2rem;
-    width: 95.75rem;
-    height: 139.6875rem;
+    border-radius: clamp(0.5rem, 1.5vw, 1rem);
+    padding: clamp(2rem, 4vw, 3rem);
+    max-width: clamp(70rem, 95vw, 97rem);
+    height: auto;
+    min-height: clamp(100rem, 140vw, 139.6875rem);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     margin: 0 auto;
-    margin-top: 5rem;
 }
 
 /* Categorías como pestañas */
 .categorias-pestanas {
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
-    gap: 9rem;
+    margin-bottom: clamp(1.5rem, 3vw, 2rem);
+    gap: clamp(4rem, 8vw, 9rem);
     flex-wrap: wrap;
 }
 
 .pestana-categoria {
     background-color: transparent;
     border: none;
-    padding: 0.75rem 1.5rem;
+    padding: clamp(0.5rem, 1.2vw, 0.75rem) clamp(1rem, 2.2vw, 1.5rem);
     font-family: 'Lexend', Arial, sans-serif;
-    font-size: 1.5rem;
+    font-size: clamp(1.2rem, 2.2vw, 1.5rem);
     font-weight: 400;
-    line-height: 2.1875rem;
+    line-height: clamp(1.8rem, 3.2vw, 2.1875rem);
     color: var(--azul-desactivado);
     cursor: pointer;
-    min-height: 3rem;
+    min-height: clamp(2.5rem, 4vw, 3rem);
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    max-width: 24rem;
+    max-width: clamp(18rem, 30vw, 24rem);
 }
 
 .pestana-categoria.activa {
     background-color: var(--color-primario);
     color: var(--blanco);
     font-weight: 600;
-    width: 27.625rem;
-    height: 5.75rem;
+    width: clamp(20rem, 35vw, 27.625rem);
+    height: clamp(4.5rem, 7vw, 5.75rem);
     text-align: center;
     font-family: 'Lexend', Arial, sans-serif;
-    font-size: 1.5rem;
+    font-size: clamp(1.2rem, 2.2vw, 1.5rem);
     font-style: normal;
     font-weight: 600;
-    line-height: 2.1875rem;
-    border-radius: 0.75rem;
+    line-height: clamp(1.8rem, 3.2vw, 2.1875rem);
+    border-radius: clamp(0.5rem, 1vw, 0.75rem);
     box-shadow: 0 4px 8px rgba(12, 42, 108, 0.2);
 }
 
@@ -223,8 +214,8 @@ body {
 /* Descripción de categoría */
 .descripcion-categoria {
     text-align: center;
-    margin-bottom: 3rem;
-    max-width: 60rem;
+    margin-bottom: clamp(2rem, 4vw, 3rem);
+    max-width: clamp(50rem, 75vw, 60rem);
     margin-left: auto;
     margin-right: auto;
 }
@@ -233,12 +224,12 @@ body {
     color: var(--color-primario);
     text-align: center;
     font-family: 'Lexend', Arial, sans-serif;
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 1.8vw, 1.25rem);
     font-style: normal;
     font-weight: 400;
-    line-height: 2.5rem;
-    width: 85.25rem;
-    margin-left: -12.5rem;
+    line-height: clamp(2rem, 3.5vw, 2.5rem);
+    width: clamp(70rem, 85vw, 85.25rem);
+    margin-left: clamp(-10rem, -12vw, -12.5rem);
 }
 
 .descripcion-categoria .descripcion-activa {
@@ -256,16 +247,16 @@ body {
 
 /* Grid de productos */
 .contenido-productos-catalogo {
-    margin-top: 3rem;
+    margin-top: clamp(2rem, 4vw, 3rem);
 }
 
 .productos-grid {
     display: none;
     grid-template-columns: repeat(3, 1fr);
-    gap: 4rem;
-    max-width: 75rem;
+    gap: clamp(3rem, 5vw, 4rem);
+    max-width: clamp(60rem, 90vw, 75rem);
     margin: 0 auto;
-    min-height: 400px;
+    min-height: clamp(300px, 50vw, 400px);
     justify-content: center;
     align-content: center;
 }
@@ -277,12 +268,12 @@ body {
 /* Tarjetas de producto */
 .producto-card {
     background-color: var(--blanco);
-    border-radius: 1rem;
+    border-radius: clamp(0.5rem, 1.5vw, 1rem);
     overflow: hidden;
     box-shadow: 0 5px 15px var(--sombra);
     transition: all 0.3s ease;
-    width: 27.125rem;
-    height: 17rem;
+    width: clamp(20rem, 35vw, 27.125rem);
+    height: clamp(14rem, 20vw, 17rem);
     display: flex;
     flex-direction: row;
     align-items: stretch;
@@ -294,8 +285,8 @@ body {
 }
 
 .producto-imagen {
-    width: 11.25rem;
-    height: 17rem;
+    width: clamp(9rem, 15vw, 11.25rem);
+    height: clamp(14rem, 20vw, 17rem);
     background-color: var(--blanco-opaco);
     background-size: cover;
     background-position: center;
@@ -303,9 +294,8 @@ body {
     flex-shrink: 0;
 }
 
-
 .producto-info {
-    padding: 1.5rem;
+    padding: clamp(1rem, 2vw, 1.5rem);
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -315,11 +305,11 @@ body {
 
 .producto-info h3 {
     color: var(--color-primario);
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 1.8vw, 1.25rem);
     font-weight: 400;
-    margin-bottom: 1.5rem;
-    line-height: 1.875rem; 
-    width: 13.75rem;
+    margin-bottom: clamp(1rem, 2vw, 1.5rem);
+    line-height: clamp(1.5rem, 2.5vw, 1.875rem);
+    width: clamp(10rem, 18vw, 13.75rem);
     line-height: 1.3;
     flex-grow: 1;
     display: flex;
@@ -330,11 +320,11 @@ body {
     background-color: var(--color-primario);
     color: var(--blanco);
     border: none;
-    padding: 0.75rem 1.5rem;
-    border-radius: 0.5rem;
+    padding: clamp(0.6rem, 1.2vw, 0.75rem) clamp(1rem, 2vw, 1.5rem);
+    border-radius: clamp(0.4rem, 0.8vw, 0.5rem);
     font-family: 'Lexend', Arial, sans-serif;
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: clamp(0.8rem, 1.2vw, 0.9rem);
     cursor: pointer;
     transition: all 0.3s ease;
     align-self: flex-start;
@@ -350,347 +340,349 @@ body {
     transform: translateY(-2px);
 }
 
+/* Dropdown para móvil - oculto por defecto */
+.dropdown-categorias {
+    display: none;
+    position: relative;
+    width: 100%;
+    max-width: clamp(25rem, 90%, 35rem);
+    margin: 0 auto clamp(2rem, 4vw, 3rem) auto;
+}
+
+.dropdown-trigger {
+    width: 100%;
+    background-color: var(--color-primario);
+    color: var(--blanco);
+    border: none;
+    padding: clamp(1rem, 3vw, 1.5rem);
+    border-radius: clamp(0.5rem, 1vw, 0.75rem);
+    font-family: 'Lexend', Arial, sans-serif;
+    font-size: clamp(1.1rem, 2vw, 1.3rem);
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.dropdown-trigger:hover {
+    background-color: var(--color-secundario);
+}
+
+.dropdown-trigger::after {
+    content: '▼';
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+    transition: transform 0.3s ease;
+}
+
+.dropdown-trigger.activo::after {
+    transform: rotate(180deg);
+}
+
+.dropdown-opciones {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--blanco);
+    border-radius: clamp(0.5rem, 1vw, 0.75rem);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+
+.dropdown-opciones.activo {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.opcion-categoria {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: clamp(1rem, 2.5vw, 1.2rem);
+    font-family: 'Lexend', Arial, sans-serif;
+    font-size: clamp(1rem, 1.8vw, 1.1rem);
+    font-weight: 400;
+    color: var(--color-primario);
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid var(--gris-claro);
+}
+
+.opcion-categoria:last-child {
+    border-bottom: none;
+}
+
+.opcion-categoria:hover {
+    background-color: var(--azul-claro);
+    color: var(--color-primario);
+}
+
 /* Responsive Design */
-@media (max-width: 1200px) {
-    .contenedor {
-        padding: 0 1.5rem;
-    }
-    
-    .hero-productos {
-        margin-bottom: 3rem;
-    }
-    
-    .imagen-hero-productos {
-        width: 100%;
-        height: 30rem;
-        left: 0;
-        top: -10rem;
-        border-radius: 0 0 2rem 2rem;
-    }
-    
-    .texto-hero-productos {
-        width: 90%;
-        max-width: 40rem;
-        height: auto;
-        padding: 1.8rem;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    .titulo-principal {
-        font-size: 2.4rem;
-        line-height: 2.6rem;
-    }
-    
-    .parrafo-contenido {
-        font-size: 1.05rem;
-        width: 100%;
-    }
-    
+
+/* Media query para pantallas grandes intermedias - 3 columnas más grandes */
+@media (max-width: 1470px) {
     .contenedor-productos-completo {
-        width: 95%;
-        max-width: 80rem;
-        height: auto;
-        padding: 2.5rem;
-        margin: 0 auto;
-    }
-    
-    .categorias-pestanas {
-        gap: 4rem;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    .pestana-categoria.activa {
-        width: 90%;
-        max-width: 24rem;
-        height: 5rem;
-        font-size: 1.3rem;
-    }
-    
-    .descripcion-categoria p {
-        width: 100%;
-        margin-left: 0;
-        font-size: 1.1rem;
+        max-width: clamp(75rem, 98vw, 85rem);
+        padding: clamp(2.5rem, 4vw, 3rem);
     }
     
     .productos-grid {
         max-width: 100%;
-        gap: 3rem;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: clamp(3.5rem, 5.5vw, 4.5rem);
+        grid-template-columns: repeat(3, 1fr);
     }
     
     .producto-card {
         width: 100%;
-        max-width: 400px;
-        height: 15rem;
+        max-width: clamp(350px, 45vw, 420px);
+        height: clamp(16rem, 22vw, 18rem);
         margin: 0 auto;
     }
     
     .producto-imagen {
-        width: 35%;
-        min-width: 140px;
-        height: 15rem;
+        width: clamp(35%, 40vw, 40%);
+        min-width: clamp(140px, 22vw, 170px);
+        height: clamp(16rem, 22vw, 18rem);
+    }
+    
+    .producto-info {
+        padding: clamp(1.2rem, 2.2vw, 1.6rem);
+    }
+    
+    .producto-info h3 {
+        font-size: clamp(1rem, 0.9vw, 1.3rem);
+        margin-bottom: clamp(1.2rem, 2.2vw, 1.6rem);
     }
 }
 
-@media (max-width: 1024px) {
-    .imagen-hero-productos {
-        width: 80rem;
-        height: 25rem;
-        left: -15rem;
-        top: -8rem;
-    }
-    
-    .texto-hero-productos {
-        width: 35rem;
-        height: 20rem;
-        padding: 1.5rem;
-    }
-    
-    .titulo-principal {
-        font-size: 2.2rem;
-        line-height: 2.4rem;
-    }
-    
-    .contenedor-productos-completo {
-        width: 70rem;
-        padding: 2rem;
-    }
-    
-    .categorias-pestanas {
-        gap: 4rem;
-        flex-wrap: wrap;
-    }
-    
-    .pestana-categoria.activa {
-        width: 22rem;
-        height: 4.5rem;
-        font-size: 1.2rem;
-    }
-    
-    .descripcion-categoria p {
-        width: 60rem;
-        margin-left: -5rem;
-        font-size: 1rem;
-    }
-    
-    .productos-grid {
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 55rem;
-        gap: 2.5rem;
-    }
-    
-    .producto-card {
-        width: 100%;
-        max-width: 26rem;
-        height: 16rem;
-    }
-    
-    .producto-imagen {
-        width: 10.5rem;
-        height: 16rem;
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1470px) {
     .contenedor {
-        padding: 0 1rem;
+        padding: 0 clamp(1rem, 2.5vw, 1.5rem);
     }
     
     .hero-productos {
-        margin-bottom: 2rem;
-        height: 40rem;
+        margin-bottom: clamp(2.5rem, 4vw, 3rem);
+    }
+    
+    .hero-productos .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: clamp(2rem, 4vw, 3rem);
     }
     
     .imagen-hero-productos {
-        width: 60rem;
-        height: 20rem;
-        left: -10rem;
-        top: -6rem;
+        width: clamp(90%, 100vw, 100%);
+        height: clamp(20rem, 28vw, 25rem);
+        position: static;
+        top: 0;
+        border-radius: clamp(1rem, 3vw, 2rem);
+        margin: 0 auto;
     }
     
     .texto-hero-productos {
-        width: 90%;
+        position: static;
+        transform: none;
+        width: clamp(85%, 90vw, 90%);
+        max-width: clamp(30rem, 50vw, 40rem);
         height: auto;
-        padding: 1.25rem;
-        margin-top: 4rem;
-
-    }
-    
-    .titulo-principal {
-        font-size: 1.8rem;
-        line-height: 2rem;
-        margin-bottom: 1.5rem;
-    }
-    
-    .parrafo-contenido {
-        font-size: 0.9rem;
-        line-height: 1.4;
-        margin-bottom: 1rem;
+        padding: clamp(1.5rem, 2.5vw, 1.8rem);
+        margin: 0 auto;
+        transform: translateY(87px);
     }
     
     .circulo-azul-hero {
-        display: none;
+        top: -4%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: clamp(5rem, 10vw, 8rem);
+        height: clamp(5rem, 10vw, 8rem);
+        z-index: 1;
+    }
+    
+    .titulo-principal {
+        font-size: clamp(2rem, 3.5vw, 2.4rem);
+        line-height: clamp(2.2rem, 3.8vw, 2.6rem);
+    }
+    
+    .parrafo-contenido {
+        font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+        width: 100%;
     }
     
     .contenedor-productos-completo {
-        width: 95%;
-        max-width: 50rem;
+        width: clamp(90%, 95vw, 95%);
+        max-width: clamp(75rem, 98vw, 85rem);
         height: auto;
-        padding: 1.5rem;
-        margin-top: 3rem;
+        padding: clamp(2.5rem, 4vw, 3rem);
+        margin: 0 auto;
     }
     
+    /* Ocultar pestañas en móvil */
     .categorias-pestanas {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.8rem;
-        margin-bottom: 2rem;
+        display: none;
     }
     
-    .pestana-categoria {
-        width: 100%;
-        max-width: 20rem;
-        height: auto;
-        padding: 0.8rem 1.2rem;
-        font-size: 1rem;
-        text-align: center;
-    }
-    
-    .pestana-categoria.activa {
-        width: 100%;
-        max-width: 22rem;
-        height: 3.5rem;
-        font-size: 1.1rem;
-        line-height: 1.4;
-    }
-    
-    .descripcion-categoria {
-        margin-bottom: 2rem;
+    /* Mostrar dropdown en móvil */
+    .dropdown-categorias {
+        display: block;
     }
     
     .descripcion-categoria p {
         width: 100%;
         margin-left: 0;
-        font-size: 0.95rem;
-        line-height: 1.6;
-        text-align: justify;
+        font-size: clamp(1rem, 1.5vw, 1.1rem);
+    }
+    
+    .productos-grid {
+        max-width: 100%;
+        gap: clamp(3rem, 5vw, 4rem);
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .producto-card {
+        width: 100%;
+        max-width: clamp(450px, 65vw, 500px);
+        height: clamp(18rem, 24vw, 20rem);
+        margin: 0 auto;
+    }
+    
+    .producto-imagen {
+        width: clamp(35%, 40vw, 40%);
+        min-width: clamp(150px, 25vw, 180px);
+        height: clamp(18rem, 24vw, 20rem);
+    }
+}
+
+/* Media query para pantallas medianas - 2 columnas */
+@media (max-width: 960px) {
+    .productos-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: clamp(2.5rem, 4vw, 3rem);
+    }
+    
+    .producto-card {
+        width: 100%;
+        max-width: clamp(350px, 55vw, 400px);
+        height: clamp(16rem, 22vw, 18rem);
+    }
+    
+    .producto-imagen {
+        width: clamp(40%, 45vw, 45%);
+        min-width: clamp(130px, 22vw, 150px);
+        height: clamp(16rem, 22vw, 18rem);
+    }
+    
+    .producto-info {
+        padding: clamp(1.2rem, 2.2vw, 1.6rem);
+    }
+    
+    .producto-info h3 {
+        font-size: clamp(1.1rem, 2vw, 1.3rem);
+        margin-bottom: clamp(1.2rem, 2.2vw, 1.6rem);
+    }
+}
+
+/* Media query para pantallas pequeñas - 1 columna */
+@media (max-width: 960px) {
+    .contenedor-productos-completo {
+        padding: clamp(1.5rem, 3vw, 2rem);
     }
     
     .productos-grid {
         grid-template-columns: 1fr;
-        max-width: 100%;
-        gap: 1.5rem;
+        gap: clamp(2rem, 4vw, 3rem);
     }
     
     .producto-card {
         width: 100%;
-        max-width: 100%;
-        height: auto;
-        min-height: 18rem;
-        flex-direction: column;
+        max-width: clamp(450px, 95vw, 550px);
+        height: clamp(18rem, 24vw, 22rem);
+        margin: 0 auto;
     }
     
     .producto-imagen {
-        width: 100%;
-        height: 10rem;
+        width: clamp(35%, 40vw, 40%);
+        min-width: clamp(150px, 25vw, 180px);
+        height: clamp(18rem, 24vw, 22rem);
     }
     
     .producto-info {
-        width: 100%;
-        padding: 1.5rem;
-        height: auto;
+        padding: clamp(1.5rem, 2.5vw, 2rem);
     }
     
     .producto-info h3 {
-        width: 100%;
-        font-size: 1.1rem;
-        margin-bottom: 1.2rem;
-        line-height: 1.4;
-        text-align: center;
+        font-size: clamp(1.3rem, 2.2vw, 1.6rem);
+        margin-bottom: clamp(1.5rem, 2.5vw, 2rem);
     }
     
     .btn-cotizar {
-        width: 100%;
-        padding: 0.8rem 1.5rem;
-        font-size: 0.95rem;
+        padding: clamp(0.8rem, 1.5vw, 1rem) clamp(1.5rem, 2.5vw, 2rem);
+        font-size: clamp(1rem, 1.6vw, 1.2rem);
+    }
+    
+    .dropdown-trigger {
+        padding: clamp(1rem, 2.8vw, 1.3rem);
+        font-size: clamp(1.1rem, 1.9vw, 1.25rem);
+    }
+    
+    .opcion-categoria {
+        padding: clamp(1rem, 2.2vw, 1.1rem);
+        font-size: clamp(0.95rem, 1.7vw, 1.05rem);
     }
 }
 
+/* Media query para móviles muy pequeños - 1 columna compacta */
 @media (max-width: 480px) {
-    .contenedor {
-        padding: 0 0.8rem;
-    }
-    
-    .imagen-hero-produtos {
-        width: 40rem;
-        height: 15rem;
-        left: -5rem;
-        top: -4rem;
-    }
-    
-    .texto-hero-produtos {
-        width: 95%;
-        padding: 1rem;
-        top: 45%;
-    }
-    
-    .titulo-principal {
-        font-size: 1.5rem;
-        line-height: 1.7rem;
-        margin-bottom: 1rem;
-    }
-    
-    .parrafo-contenido {
-        font-size: 0.85rem;
-        line-height: 1.3;
-    }
-    
     .contenedor-productos-completo {
-        width: 98%;
-        padding: 1rem;
-        margin-top: 2rem;
+        padding: clamp(1.2rem, 2.5vw, 1.5rem);
     }
     
-    .pestana-categoria {
-        max-width: 18rem;
-        padding: 0.7rem 1rem;
-        font-size: 0.9rem;
-    }
-    
-    .pestana-categoria.activa {
-        max-width: 20rem;
-        height: 3rem;
-        font-size: 1rem;
-        line-height: 1.3;
-    }
-    
-    .descripcion-categoria p {
-        font-size: 0.85rem;
-        line-height: 1.5;
+    .productos-grid {
+        gap: clamp(1.2rem, 2.5vw, 1.5rem);
     }
     
     .producto-card {
-        min-height: 16rem;
+        max-width: clamp(280px, 85vw, 320px);
+        height: clamp(11rem, 15vw, 13rem);
     }
     
     .producto-imagen {
-        height: 8rem;
+        min-width: clamp(90px, 15vw, 110px);
+        height: clamp(11rem, 15vw, 13rem);
     }
     
     .producto-info {
-        padding: 1.2rem;
+        padding: clamp(0.8rem, 1.5vw, 1rem);
     }
     
     .producto-info h3 {
-        font-size: 1rem;
-        margin-bottom: 1rem;
-        line-height: 1.3;
+        font-size: clamp(0.9rem, 1.5vw, 1rem);
+        margin-bottom: clamp(0.8rem, 1.5vw, 1rem);
     }
     
     .btn-cotizar {
-        padding: 0.7rem 1.2rem;
-        font-size: 0.85rem;
+        padding: clamp(0.5rem, 1vw, 0.6rem) clamp(0.8rem, 1.5vw, 1rem);
+        font-size: clamp(0.75rem, 1.1vw, 0.85rem);
+    }
+    
+    .dropdown-trigger {
+        padding: clamp(0.8rem, 2.2vw, 1rem);
+        font-size: clamp(1rem, 1.7vw, 1.1rem);
+    }
+    
+    .opcion-categoria {
+        padding: clamp(0.8rem, 1.8vw, 0.9rem);
+        font-size: clamp(0.9rem, 1.5vw, 0.95rem);
     }
 }

@@ -5,15 +5,18 @@
 
 require_once 'config.php';
 require_once 'auth.php';
+require_once 'cookie_auth.php';
 
 header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 
-// Verificar autenticación
+// Verificar autenticación (acepta sesión PHP o cookie)
 $auth = new AuthManager();
 $sesion = $auth->verificarSesion();
+$cookieAuth = new CookieAuthManager();
+$cookieUser = $cookieAuth->verificarAuth();
 
-if (!$sesion) {
+if (!$sesion && !$cookieUser) {
     http_response_code(401);
     echo json_encode(['error' => 'No autorizado']);
     exit;

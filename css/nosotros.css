@@ -55,10 +55,10 @@ body {
 .titulo-principal {
     color: var(--color-primario);
     font-family: 'Lexend', Arial, sans-serif;
-    font-size: 2.8125rem;
+    font-size: clamp(1.8rem, 2.8125vw, 2.8125rem);
     font-style: normal;
     font-weight: 600;
-    line-height: 2.8125rem;
+    line-height: clamp(1.8rem, 2.8125vw, 2.8125rem);
     text-align: center;
 }
 
@@ -68,25 +68,26 @@ body {
     color: var(--color-primario);
     font-style: normal;
     font-weight: 400;
-    font-size: 2.8125rem;
+    font-size: clamp(1.8rem, 2.8125vw, 2.8125rem);
 }
 
 .parrafo-contenido {
     color: var(--color-primario);
     text-align: justify;
     font-family: 'Lexend', Arial, sans-serif;
-    font-size: 1.25rem;
+    font-size: clamp(0.8rem, 1.25vw, 1.25rem);
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    margin-bottom: 1.5rem;
-    width: 63.6875rem;
+    margin-bottom: clamp(1rem, 1.5vw, 1.5rem);
+    max-width: clamp(50rem, 63.6875vw, 63.6875rem);
+    width: 100%;
 }
 
 /* Círculos decorativos azules */
 .circulo-azul-decorativo {
-    width: 9.88rem;
-    height: 9.88rem;
+    width: clamp(7rem, 9.88vw, 9.88rem);
+    height: clamp(7rem, 9.88vw, 9.88rem);
     background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
     border-radius: 50%;
     position: absolute;
@@ -95,15 +96,14 @@ body {
 /* Contenedores con fondo blanco */
 .contenedor-blanco {
     background-color: var(--blanco);
-    border-radius: 1rem;
+    border-radius: clamp(0.5rem, 1vw, 1rem);
     position: relative;
     z-index: 2;
 }
 
 .contenedor {
-    max-width: 1200px;
+    max-width: clamp(100rem, 150vw, 150rem);
     margin: 0 auto;
-    padding: 0 2rem;
 }
 
 /* Hero Nosotros */
@@ -112,7 +112,7 @@ body {
     width: 100%;
     overflow: hidden;
     height: auto;
-    min-height: 40rem;
+    min-height: clamp(30rem, 40vw, 40rem);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,37 +120,38 @@ body {
 
 .imagen-hero-nosotros {
     background-color: var(--color-fondo);
-    width: 116.8rem;
-    height: 23.5rem;
-    margin-left: -23rem;
+    width: 100%;
+    max-width: clamp(100rem, 150vw, 150rem);
+    margin: 0 auto;
+    height: clamp(18rem, 23.5vw, 23.5rem);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 0 0 2rem 2rem;
+    border-radius: 0 0 clamp(1rem, 2vw, 2rem) clamp(1rem, 2vw, 2rem);
     position: relative;
-    top: -7rem;
-    margin-bottom: -8rem;
+    top: clamp(-5rem, -7vw, -7rem);
+    margin-bottom: clamp(-6rem, -8vw, -8rem);
 }
 
 .texto-hero-nosotros {
     position: relative;
     width: 100%;
-    max-width: 69.375rem;
+    max-width: clamp(55rem, 69.375vw, 69.375rem);
     height: auto;
-    padding: 2rem;
-    border-radius: 1rem;
+    padding: clamp(1.5rem, 2vw, 2rem);
+    border-radius: clamp(0.5rem, 1vw, 1rem);
     z-index: 2;
     margin: 0 auto;
 }
 
 .texto-hero-nosotros h1 {
-    margin-bottom: 3rem;
-    margin-top: 2rem;
+    margin-bottom: clamp(2rem, 3vw, 3rem);
+    margin-top: clamp(1.5rem, 2vw, 2rem);
     color: var(--color-primario);
 }
 
 .texto-hero-nosotros p {
-    line-height: 1.54rem;
+    line-height: clamp(1.3rem, 1.54vw, 1.54rem);
     color: var(--color-primario);
 }
 
@@ -160,49 +161,51 @@ body {
 }
 
 .circulo-azul-hero {
-    top: -5rem;
-    right: -5rem;
+    top: clamp(-3rem, -5vw, -5rem);
+    right: clamp(-3rem, -5vw, -5rem);
     z-index: 1;
 }
 
 /* Visión y Misión */
 .seccion-vision-mision {
-    padding: 6rem 0;
+    padding: clamp(4rem, 6vw, 6rem) 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .contenedor-vision-mision {
-    width: 92.0625rem;
+    max-width: clamp(70rem, 92.0625vw, 92.0625rem);
     height: auto;
     display: flex;
     justify-content: center;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .vision .parrafo-contenido,
 .mision .parrafo-contenido {
-    width: 36.4375rem;
+    width: clamp(28rem, 36.4375vw, 36.4375rem);
 }
 
 .contenido-vision-mision {
     background-color: var(--blanco);
-    border-radius: 1rem;
-    padding: 4rem;
+    border-radius: clamp(0.5rem, 1vw, 1rem);
+    padding: clamp(2rem, 4vw, 4rem);
     position: relative;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
-    gap: 4rem;
+    gap: clamp(2rem, 4vw, 4rem);
     align-items: center;
 }
 
 .contenido-vision-mision::before {
     content: '';
     position: absolute;
-    top: -5rem;
-    right: -4rem;
-    width: 9.88rem;
-    height: 9.88rem;
+    top: clamp(-3rem, -5vw, -5rem);
+    right: clamp(-2rem, -4vw, -4rem);
+    width: clamp(7rem, 9.88vw, 9.88rem);
+    height: clamp(7rem, 9.88vw, 9.88rem);
     background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
     border-radius: 50%;
     z-index: 3;
@@ -210,129 +213,173 @@ body {
 
 .vision, .mision {
     text-align: center;
-    padding: 1rem 0;
+    padding: clamp(0.5rem, 1vw, 1rem) 0;
 }
 
 .vision {
-    margin-top: 0;
+    margin-top: 0rem;
 }
 
 .mision {
-    margin-top: 0;
+    margin-top: clamp(2rem, 3vw, 3rem);
 }
 
 .vision h2, .mision h2 {
-    margin-bottom: 1.5rem;
+    margin-bottom: clamp(1rem, 1.5vw, 1.5rem);
 }
 
 .vision p, .mision p {
     color: var(--color-primario);
     text-align: justify;
     font-family: 'Lexend', Arial, sans-serif;
-    font-size: 1.125rem;
+    font-size: clamp(1rem, 1.125vw, 1.125rem);
     font-style: normal;
     font-weight: 300;
     line-height: 139%;
     width: 100%;
 }
 
-.separador-vision-mision img{
+.separador-vision-mision {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: rotate(180deg);
-    margin-top: -20px;
 }
+
+.separador-vision-mision img{
+    display: block;
+    margin: 0 auto;
+    transform: rotate(180deg);
+    margin-top: clamp(-15px, -2vw, -20px);
+}
+
 /* Historia */
 .seccion-historia {
-    padding: 6rem 0;
+    width: 100%;
+    padding: clamp(4rem, 6vw, 6rem) 0;
     position: relative;
-    height: 52rem;
+    margin: 0 auto;
+    overflow: visible;
+    min-height: clamp(45rem, 60vw, 60rem);
 }
-.texto-historia {
-    width: 39.3125rem;
-    height: 36.0625rem;
-    padding: 2rem 4rem;
-    left: -15rem;
-    bottom: 50rem;
+
+.contenido-historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 150rem;
+    margin: 0 auto;
     position: relative;
+    height: clamp(35rem, 46vw, 46rem);
+    min-width: 100rem;
+}
+
+.texto-historia {
+    width: clamp(25rem, 48.4375vw, 48.4375rem);
+    height: auto;
+    padding: clamp(2rem, 4vw, 4rem);
+    border-radius: 1rem;
+    position: absolute;
+    left: clamp(3rem, 3vw, 18rem);
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    max-width: 100%;
 }
 
 .texto-historia h2 {
-    margin-bottom: 3rem;
-}
-.texto-historia p {
-    width: 39.3125rem;
-    text-align: right;
+    margin: 0 auto;
+    font-size: clamp(1.5rem, 2.8125vw, 2.8125rem);
+    color: var(--color-primario);
     font-family: 'Lexend', Arial, sans-serif;
-    font-size: 1.25rem;
-    font-style: normal;
+    font-weight: 600;
+    line-height: clamp(1.5rem, 2.8125vw, 2.8125rem);
+    text-align: right;
+    width: 100%;
+}
+
+.texto-historia p {
+    width: 100%;
+    text-align: justify;
+    font-family: 'Lexend', Arial, sans-serif;
     font-weight: 300;
     line-height: 150%;
+    color: var(--color-primario);
+    text-align: right;
+    margin-top: 35px;
 }
-.titulohistoria{
-    width: 24.125rem;
-    margin-left: 15rem;
+
+.titulohistoria {
+    width: 100%;
+    margin: 0;
 }
+
 .texto-historia h2 span {
     font-family: 'Pink Sunset', Arial, sans-serif;
     font-weight: 300;
-    font-size: 2.8125rem;
+    font-size: clamp(1.5rem, 2.8125vw, 2.8125rem);
 }
 
 .imagen-historia {
-    width: 66.75rem;
-    height: 46.0625rem;
+    width: clamp(12rem, 67.5vw, 67.5rem);
+    height: clamp(18rem, 46vw, 46rem);
     border-radius: 1rem;
     background-color: var(--color-fondo);
     background-size: cover;
     background-position: center;
-    z-index: 1;
-    top: -5rem;
-    left: 33rem;
-    position: relative;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: clamp(3rem, -15vw, -15rem);
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 45%;
+    margin: 0 auto;
 }
 
 /* Valores Corporativos */
 .seccion-valores {
-    padding: 6rem 0;
+    padding: clamp(4rem, 6vw, 6rem) 0;
 }
 .seccion-valores .contenedor {
     max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 clamp(1rem, 2vw, 2rem);
 }
 
 .seccion-valores h2 {
-    margin-bottom: 7rem;
+    margin-bottom: clamp(4rem, 7vw, 7rem);
+    font-size: clamp(1.5rem, 2.8125vw, 2.8125rem);
 }
 
 .seccion-valores h2 span {
     font-family: 'Pink Sunset', Arial, sans-serif;
     font-weight: 400;
-    font-size: 2.8125rem;
+    font-size: clamp(1.5rem, 2.8125vw, 2.8125rem);
 }
 
 .grid-valores {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 2rem;
-    width: 95.75rem;
-    height: 49.5625rem;
+    gap: clamp(1.5rem, 2vw, 2rem);
+    width: clamp(60rem, 95.75vw, 95.75rem);
+    height: auto;
+    min-height: clamp(35rem, 49.5625vw, 49.5625rem);
     background-color: var(--color-primario);
-    padding: 3rem;
-    border-radius: 0.9375rem;
+    padding: clamp(2rem, 3vw, 3rem);
+    border-radius: clamp(0.7rem, 0.9375vw, 0.9375rem);
     position: relative;
-    left: -1rem;
+    left: 0;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
 }
 
 .valor {
-    padding: 2rem;
-    text-align: left;
-    position: relative;
+    padding: clamp(1rem, 2vw, 2rem);
     text-align: center;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -341,63 +388,67 @@ body {
 
 .valor h3 {
     color: var(--blanco);
-    margin-bottom: 4rem;
+    margin-bottom: clamp(2rem, 4vw, 4rem);
+    font-size: clamp(1.3rem, 1.8vw, 1.8rem);
 }
+
 .ExcelenciaTecP{
-    margin-bottom: 1.5rem;
+    margin-bottom: clamp(1rem, 1.5vw, 1.5rem);
 }
 
 .valor p {
     color: var(--blanco);
     text-align: justify;
     font-family: 'Lexend', Arial, sans-serif;
-    font-size: 1.125rem;
+    font-size: clamp(0.9rem, 1.125vw, 1.125rem);
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     margin-bottom: 0;
 }
+
 .ExcelenciaTec {
-    width: 25.5625rem;
-    margin-right: -1.5rem;
+    width: 100%;
+    max-width: clamp(20rem, 25.5625vw, 25.5625rem);
+    margin-right: 0;
 }
 
 .linea-vertical {
     position: absolute;
-    top: 3rem;
-    bottom: 3rem;
+    top: clamp(2rem, 3vw, 3rem);
+    bottom: clamp(2rem, 3vw, 3rem);
     left: 33.33%;
-    width: 4px;
+    width: clamp(2px, 0.5vw, 4px);
     background-color: var(--blanco);
     transform: translateX(-50%);
-    border-radius: 2rem;
+    border-radius: clamp(1rem, 2vw, 2rem);
 }
 
 .linea-horizontal {
     position: absolute;
-    left: 3rem;
-    right: 3rem;
+    left: clamp(2rem, 3vw, 3rem);
+    right: clamp(2rem, 3vw, 3rem);
     top: 50%;
-    height: 4px;
+    height: clamp(2px, 0.5vw, 4px);
     background-color: var(--blanco);
     transform: translateY(-50%);
-    border-radius: 2rem;
+    border-radius: clamp(1rem, 2vw, 2rem);
 }
 
 .linea-horizontal_inferior {
     position: absolute;
-    top: 3rem;
-    bottom: 3rem;
+    top: clamp(2rem, 3vw, 3rem);
+    bottom: clamp(2rem, 3vw, 3rem);
     left: 66.66%;
-    width: 4px;
+    width: clamp(2px, 0.5vw, 4px);
     background-color: var(--blanco);
     transform: translateX(-50%);
-    border-radius: 2rem;
+    border-radius: clamp(1rem, 2vw, 2rem);
 }
 
 /* Ventajas Competitivas */
 .seccion-ventajas {
-    padding: 6rem 0;
+    padding: clamp(4rem, 6vw, 6rem) 0;
     background-color: var(--gris-claro);
 }
 .seccion-ventajas .contenedor {
@@ -410,14 +461,14 @@ body {
 .contenido-ventajas {
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: clamp(3rem, 5vw, 5rem);
 }
 .imagen-ventajas{
     background-color: var(--color-fondo);
-    width: 43.875rem;
-    height: 43.5rem;
+    width: clamp(18rem, 92.875vw, 52.875rem)!important;
+    height: clamp(30rem, 43.5vw, 43.5rem)!important;
     object-fit: cover;
-    border-radius: 1rem;
+    border-radius: clamp(0.5rem, 1vw, 1rem)!important  ;
 }
 .texto-ventajas {
     position: relative;
@@ -427,27 +478,27 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 47.875rem;
-    height: 38.5625rem;
-    padding: 2rem;
+    width: clamp(35rem, 47.875vw, 47.875rem);
+    height: clamp(37rem, 38.5625vw, 38.5625rem);
+    padding: clamp(1rem, 2vw, 2rem);
     position: relative;
     z-index: 1;
-    margin-top: 5rem;
+    margin-top: clamp(3rem, 5vw, 5rem);
 }
 
 .circulo-azul-ventajas {
-    right: -5rem;
+    right: clamp(-3rem, -5vw, -5rem);
     z-index: 2;
 }
 
 .texto-ventajas h2 {
-    margin-bottom: 4rem;
+    margin-bottom: clamp(2rem, 4vw, 4rem)!important;
 }
 
 .texto-ventajas h2 span {
     font-family: 'Pink Sunset', Arial, sans-serif;
     font-weight: 400;
-    font-size: 2.8125rem;
+    font-size: clamp(1.8rem, 2.8125vw, 2.8125rem);
 }
 
 .lista-ventajas {
@@ -456,8 +507,8 @@ body {
     margin: 0;
 }
 .check {
-    width: 3.25rem;
-    height: 3.25rem;
+    width: clamp(2.5rem, 3.25vw, 3.25rem);
+    height: clamp(2.5rem, 3.25vw, 3.25rem);
     flex-shrink: 0;
     aspect-ratio: 1/1;
 }
@@ -465,17 +516,18 @@ body {
 .lista-ventajas li {
     display: flex;
     align-items: center;
-    line-height: 2.8125rem;
-    gap: 1rem;
-    margin-bottom: 2rem;
+    line-height: clamp(2rem, 2.8125vw, 2.8125rem);
+    gap: clamp(0.5rem, 1vw, 1rem);
+    margin-bottom: clamp(1.5rem, 2vw, 2rem);
     font-family: 'Lexend', Arial, sans-serif;
-    font-size: 1.5rem;
+    font-size: clamp(1.2rem, 1.5vw, 1.5rem);
     color: var(--color-primario);
-    margin-left: 5.5rem;
+    margin-left: clamp(4rem, 5.5vw, 5.5rem);
 }
+
 /* Sección Final */
 .seccion-final-nosotros {
-    padding: 4rem 0;
+    padding: clamp(2rem, 4vw, 4rem) 0;
     background-color: var(--gris-claro);
 }
 .seccion-final-nosotros .contenedor {
@@ -486,546 +538,476 @@ body {
 }
 .imagen-final{
     background-color: var(--color-fondo);
-    width: 95.75rem;
-    height: 41.5625rem;
+    width: clamp(17rem, 89.75vw, 95.75rem);
+    height: clamp(30rem, 41.5625vw, 41.5625rem);
     object-fit: cover;
-    border-radius: 1rem;
+    border-radius: clamp(0.5rem, 1vw, 1rem);
 }
 
-/* Responsive para página Nosotros */
-@media (max-width: 1200px) {
-    .contenedor {
-        padding: 0 1.5rem;
-    }
-    
-    .hero-nosotros {
-        min-height: 50rem;
-        margin-bottom: 3rem;
-    }
-    
-    .imagen-hero-nosotros {
-        width: 100%;
-        height: 30rem;
-        top: -10rem;
-        margin-bottom: -5rem;
-    }
-    
-    .texto-hero-nosotros {
-        width: 90%;
-        max-width: 55rem;
-        padding: 2rem;
-    }
-    
-    .texto-hero-nosotros h1 {
-        font-size: 2.3rem;
-        text-align: center;
-    }
-    
-    .texto-hero-nosotros p {
-        font-size: 1.1rem;
-    }
-    
-    .parrafo-contenido {
-        width: 100%;
-        max-width: 50rem;
-        font-size: 1.1rem;
-    }
-    
-    .contenido-vision-mision {
-        gap: 3rem;
-        padding: 3rem;
-        max-width: 70rem;
-        margin: 0 auto;
-    }
-    
-    .contenido-vision-mision::before {
-        top: -1.5rem;
-        right: -1.5rem;
-        width: 8rem;
-        height: 8rem;
-    }
-    
-    .vision, .mision {
-        width: 100%;
-        max-width: 25rem;
-    }
-    
-    .vision p, .mision p {
-        width: 100%;
-        font-size: 1rem;
-    }
-    
-    .separador-vision-mision {
-        height: 18rem;
-    }
-    
+/*===========================================================================*/
+/*========================= MEDIA QUERIES 820px ===========================*/
+/*===========================================================================*/
+@media (max-width: 820px) {
+    /* Valores Corporativos - Una sola columna */
     .grid-valores {
-        width: 90%;
-        max-width: 80rem;
-        height: auto;
-        padding: 2rem;
-    }
-    
-    .imagen-ventajas {
-        width: 90%;
-        max-width: 35rem;
-        height: 35rem;
-    }
-    
-    .imagen-final {
-        width: 90%;
-        max-width: 80rem;
-        height: 35rem;
-    }
-}
-
-@media (max-width: 992px) {
-    .hero-nosotros {
-        margin-bottom: 2rem;
-    }
-    
-    .imagen-hero-nosotros {
-        height: 25rem;
-        top: -8rem;
-        margin-bottom: -4rem;
-    }
-    
-    .texto-hero-nosotros {
-        width: 95%;
-        max-width: 45rem;
-        padding: 1.5rem;
-    }
-    
-    .texto-hero-nosotros h1 {
-        font-size: 2.2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-    }
-    
-    .parrafo-contenido {
-        width: 100%;
-        max-width: 40rem;
-        font-size: 1rem;
-    }
-    
-    .contenido-vision-mision {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-        padding: 2.5rem;
-        max-width: 90%;
-        margin: 0 auto;
-    }
-    
-    .separador-vision-mision {
-        display: none;
-    }
-    
-    .vision, .mision {
-        width: 100%;
-        max-width: 35rem;
-        margin: 0 auto;
-        text-align: center;
-    }
-    
-    .vision h2, .mision h2 {
-        text-align: center;
-    }
-    
-    .vision p, .mision p {
-        width: 100%;
-        text-align: justify;
-    }
-    
-    .seccion-historia {
-        height: auto;
-        padding: 4rem 0;
-    }
-    .texto-historia {
-        width: 100%;
-        max-width: 35rem;
-        left: 0;
-        bottom: 0;
-        position: static;
-        padding: 2rem;
-        margin: 0 auto 3rem auto;
-    }
-    
-    .texto-historia p {
-        width: 100%;
-        text-align: justify;
-        font-size: 1rem;
-    }
-    
-    .titulohistoria {
-        width: 100%;
-        margin-left: 0;
-        text-align: center;
-    }
-    
-    .imagen-historia {
-        width: 100%;
-        max-width: 50rem;
-        height: 30rem;
-        left: 0;
-        top: 0;
-        position: static;
-        margin: 0 auto;
-    }
-    
-    .grid-valores {
-        width: 100%;
-        max-width: 50rem;
-        height: auto;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        left: 0;
-        padding: 2rem;
-        margin: 0 auto;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(6, auto) !important;
+        width: clamp(18rem, 90vw, 32rem) !important;
+        min-height: auto !important;
+        gap: clamp(2rem, 4vw, 3rem) !important;
+        padding: clamp(2rem, 4vw, 3rem) !important;
+        justify-items: center !important;
+        align-items: center !important;
+        margin: 0 auto !important;
     }
     
     .valor {
-        padding: 1.5rem;
+        padding: clamp(1.5rem, 3vw, 2rem) !important;
+        width: 100% !important;
+        max-width: 28rem !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
     }
     
     .valor h3 {
-        font-size: 1.3rem;
-        margin-bottom: 1.5rem;
-    }
-    
-    .linea-vertical {
-        left: 50%;
-    }
-    
-    .linea-horizontal_inferior {
-        display: none;
-    }
-    
-    .contenido-ventajas {
-        flex-direction: column;
-        gap: 3rem;
-        align-items: center;
-    }
-    
-    .imagen-ventajas {
-        width: 100%;
-        max-width: 40rem;
-        height: 25rem;
-    }
-    
-    .Contenedor-ventajas {
-        width: 100%;
-        max-width: 40rem;
-        height: auto;
-        margin-top: 0;
-    }
-    
-    .lista-ventajas li {
-        margin-left: 0;
-        font-size: 1.3rem;
-    }
-    
-    .imagen-final {
-        width: 100%;
-        max-width: 50rem;
-        height: 25rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .contenedor {
-        padding: 0 1rem;
-    }
-    
-    .hero-nosotros {
-        margin-bottom: 2rem;
-    }
-    
-    .imagen-hero-nosotros {
-        margin-bottom: -10rem;
-        margin-left: 0rem;
-        top: -5rem;
-    }
-    
-    .texto-hero-nosotros {
-        width: 95%;
-        padding: 2rem 1rem;
-    }
-    
-    .texto-hero-nosotros h1 {
-        font-size: 2rem;
-        margin-bottom: 1.5rem;
-        text-align: center;
-    }
-    
-    .texto-hero-nosotros p {
-        font-size: 1rem;
-        text-align: justify;
-        line-height: 1.4;
-    }
-    
-    .parrafo-contenido {
-        width: 100%;
-        max-width: 500px;
-        font-size: 1rem;
-    }
-    
-    .circulo-azul-hero {
-        top: -2rem;
-        right: -4rem;
-        width: 6rem;
-        height: 6rem;
-        border-radius: 50%;
-        z-index: 1;
-    }
-    
-    .seccion-vision-mision {
-        padding: 3rem 0;
-    }
-    
-    .contenido-vision-mision {
-        padding: 2rem;
-        max-width: 95%;
-    }
-    
-    .contenido-vision-mision::before {
-        display: none;
-    }
-    
-    .vision, .mision {
-        width: 100%;
-        margin-top: 0;
-    }
-    
-    .vision h2, .mision h2 {
-        font-size: 1.8rem;
-        margin-bottom: 1rem;
-        text-align: center;
-    }
-    
-    .vision p, .mision p {
-        font-size: 0.9rem;
-        line-height: 1.5;
-    }
-    
-    .seccion-historia {
-        padding: 3rem 0;
-    }
-    
-    .texto-historia {
-        padding: 1.5rem;
-        margin-bottom: 2rem;
-    }
-    
-    .texto-historia h2 {
-        font-size: 1.8rem;
-        text-align: center;
-        margin-bottom: 1.5rem;
-    }
-    
-    .titulohistoria {
-        width: 100%;
-        margin-left: 0;
-    }
-    
-    .imagen-historia {
-        width: 100%;
-        height: 20rem;
-    }
-    
-    .seccion-valores {
-        padding: 3rem 0;
-    }
-    
-    .seccion-valores h2 {
-        font-size: 1.8rem;
-        margin-bottom: 3rem;
-    }
-    
-    .grid-valores {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, auto);
-        gap: 1.5rem;
-        padding: 1.5rem;
-    }
-    
-    .valor {
-        padding: 1.5rem;
-        text-align: center;
-    }
-    
-    .valor h3 {
-        font-size: 1.2rem;
-        margin-bottom: 1rem;
+        margin-bottom: clamp(1rem, 2vw, 2rem) !important;
+        font-size: clamp(1.3rem, 3vw, 1.6rem) !important;
     }
     
     .valor p {
-        font-size: 0.9rem;
-        line-height: 1.4;
-        text-align: justify;
+        font-size: clamp(0.8rem, 2.5vw, 1.1rem) !important;
+        text-align: center !important;
+        line-height: 1.4 !important;
     }
     
-    .ExcelenciaTec {
-        width: 100%;
-        margin-right: 0;
-    }
-    
+    /* Ocultar líneas separadoras en móvil */
     .linea-vertical,
     .linea-horizontal,
     .linea-horizontal_inferior {
-        display: none;
+        display: none !important;
+    }
+
+    /* Visión y Misión - Layout vertical */
+    .contenido-vision-mision {
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+        gap: clamp(1rem, 2vw, 1.5rem) !important;
+        align-items: center !important;
+        padding: clamp(2rem, 4vw, 3rem) !important;
+        max-width: clamp(13rem, 82vw, 35rem) !important;
+        margin: 0 auto !important;
     }
     
-    .seccion-ventajas {
-        padding: 3rem 0;
+    .contenido-vision-mision::before {
+        top: clamp(-2rem, -3vw, -2.5rem) !important;
+        right: 50% !important;
+        transform: translateX(50%) !important;
+        width: clamp(5rem, 8vw, 7rem) !important;
+        height: clamp(5rem, 8vw, 7rem) !important;
     }
     
-    .contenido-ventajas {
-        gap: 2rem;
+    .vision {
+        order: 1 !important;
+        width: 100% !important;
+        margin-top: clamp(1rem, 2vw, 1.5rem) !important;
     }
     
-    .texto-ventajas h2 {
-        font-size: 1.8rem;
-        margin-bottom: 2rem;
+    .separador-vision-mision {
+        order: 2 !important;
+        width: 100% !important;
+        margin: clamp(1rem, 2vw, 1.5rem) 0 !important;
+        top: -10rem;
+        position: relative;
     }
     
-    .Contenedor-ventajas {
-        padding: 1.5rem;
+    .separador-vision-mision img {
+        transform: rotate(90deg) !important;
+        height: clamp(8rem, 15vw, 12rem) !important;
+        margin: 0 auto !important;
     }
     
-    .lista-ventajas li {
-        font-size: 1.1rem;
-        line-height: 2rem;
-        margin-bottom: 1.5rem;
+    .mision {
+        order: 3 !important;
+        width: 100% !important;
+        margin-top: clamp(-19rem, -2vw, -18.5rem) !important;
     }
     
-    .check {
-        width: 2.5rem;
-        height: 2.5rem;
+    .vision .parrafo-contenido,
+    .mision .parrafo-contenido {
+        width: 100% !important;
+        max-width: none !important;
+        font-size: clamp(0.9rem, 1.1vw, 1rem) !important;
+        text-align: center !important;
     }
     
-    .circulo-azul-ventajas {
-        display: none;
-    }
-    
-    .imagen-ventajas img {
-        width: 100%;
-        max-width: 40rem;
-        height: 25rem;
-    }
-    
-    .Contenedor-ventajas {
-        width: 100%;
-        max-width: 40rem;
-        height: auto;
-        margin-top: 0;
-    }
-    
-    .lista-ventajas li {
-        margin-left: 0;
-        font-size: 1.3rem;
-    }
-    
-    .imagen-final img {
-        width: 100%;
-        max-width: 50rem;
-        height: 25rem;
+    .vision h2,
+    .mision h2 {
+        text-align: center !important;
+        font-size: clamp(1.3rem, 2.5vw, 1.8rem) !important;
     }
 }
 
-@media (max-width: 480px) {
-    .contenedor {
-        padding: 0 0.8rem;
-    }
-    
-    .imagen-hero-nosotros {
-        height: 18rem;
-        top: -5rem;
-        margin-bottom: -2.5rem;
-    }
-    
-    .texto-hero-nosotros {
-        padding: 1rem;
-        width: 95%;
-        margin: 1rem auto;
-    }
-    
-    .texto-hero-nosotros h1 {
-        font-size: 1.6rem;
-        line-height: 1.3;
-        margin-bottom: 1rem;
-        text-align: center;
-    }
-    
-    .texto-hero-nosotros p {
-        font-size: 0.9rem;
-        line-height: 1.3;
-        margin-bottom: 1rem;
-        max-width: 100%;
-    }
-    
-    .parrafo-contenido {
-        text-align: justify;
-        font-size: 0.9rem;
-        max-width: 100%;
-    }
-    
-    .titulo-principal {
-        font-size: 1.6rem;
-        line-height: 1.3;
-    }
-    
-    .titulo-pink-sunset {
-        font-size: 1.6rem;
-    }
-    
-    .vision h2, .mision h2 {
-        font-size: 1.5rem;
-    }
-    
-    .vision p, .mision p {
-        font-size: 0.85rem;
-    }
-    
-    .texto-historia h2 {
-        font-size: 1.5rem;
-    }
-    
-    .texto-historia p {
-        font-size: 0.85rem;
-    }
-    
-    .seccion-valores h2 {
-        font-size: 1.5rem;
-        margin-bottom: 2rem;
-    }
-    
-    .valor h3 {
-        font-size: 1.1rem;
-    }
-    
-    .valor p {
-        font-size: 0.8rem;
-    }
-    
-    .texto-ventajas h2 {
-        font-size: 1.5rem;
-    }
-    
-    .lista-ventajas li {
-        font-size: 1rem;
-        line-height: 1.5;
-    }
-    
-    .check {
-        width: 2rem;
-        height: 2rem;
+/*===========================================================================*/
+/*========================= MEDIA QUERIES 1000px ==========================*/
+/*===========================================================================*/
+@media (max-width: 1000px) {
+    /* Ventajas Competitivas - Cambio a layout vertical */
+    .contenido-ventajas {
+        flex-direction: column;
+        gap: clamp(1.5rem, 3vw, 2.5rem);
+        align-items: center;
+        padding: 0 1rem;
     }
     
     .imagen-ventajas {
-        height: 15rem;
+        width: clamp(20rem, 70vw, 30rem);
+        height: clamp(18rem, 45vw, 25rem);
+        order: 1; /* Imagen arriba */
     }
     
-    .imagen-final {
-        height: 12rem;
+    .texto-ventajas {
+        order: 2; /* Texto abajo */
+        width: 100%;
+        max-width: 45rem;
+        text-align: center;
+    }
+    
+    .Contenedor-ventajas {
+        width: 100%;
+        max-width: 45rem;
+        margin-top: 72px;
+        padding: clamp(1.5rem, 2.5vw, 2rem);
+    }
+    
+    .texto-ventajas h2 {
+        text-align: center;
+        margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+        font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+    }
+    
+    .texto-ventajas h2 span {
+        font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+    }
+    .circulo-azul-ventajas {
+        margin: 0 auto;
+        left: -1rem;
+        top: -1rem;
+    }
+}
+
+/*===========================================================================*/
+/*========================= MEDIA QUERIES 1001px - 1570px =================*/
+/*===========================================================================*/
+@media (min-width: 1001px) and (max-width: 1570px) {
+    /* Ventajas Competitivas - Layout horizontal responsivo */
+    .contenido-ventajas {
+        flex-direction: row;
+        gap: clamp(2rem, 4vw, 4rem);
+        align-items: center;
+        padding: 0 1rem;
+        max-width: clamp(70rem, 95vw, 95rem);
+        margin: 0 auto;
+    }
+    
+    .imagen-ventajas {
+        width: clamp(25rem, 40vw, 40rem) !important;
+        height: clamp(22rem, 35vw, 35rem) !important;
+        order: 1; /* Imagen izquierda */
+        flex-shrink: 0;
+    }
+    
+    .texto-ventajas {
+        order: 2; /* Texto derecha */
+        width: auto;
+        max-width: clamp(30rem, 50vw, 45rem);
+        text-align: left;
+        flex: 1;
+    }
+    
+    .Contenedor-ventajas {
+        width: 100%;
+        max-width: none;
+        margin-top: clamp(2rem, 4vw, 4rem);
+        padding: clamp(1.5rem, 2.5vw, 2.5rem);
+        height: auto;
+    }
+    
+    .texto-ventajas h2 {
+        text-align: center;
+        margin-bottom: clamp(1.5rem, 3vw, 2.5rem);
+        font-size: clamp(1.6rem, 2.2vw, 2.2rem);
+    }
+    
+    .texto-ventajas h2 span {
+        font-size: clamp(1.6rem, 2.2vw, 2.2rem);
+    }
+    
+    .lista-ventajas li {
+        margin-left: clamp(1rem, 2vw, 2rem);
+        font-size: clamp(1.1rem, 1.3vw, 1.3rem);
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+    
+    .circulo-azul-ventajas {
+        right: clamp(-2rem, -4vw, -4rem);
+        z-index: 2;
+    }
+}
+
+/*===========================================================================*/
+/*========================= MEDIA QUERIES 838px ===========================*/
+/*===========================================================================*/
+@media (max-width: 1190px) {
+    /* Historia - Cambio a layout vertical */
+    .seccion-historia {
+        padding: clamp(3rem, 5vw, 5rem) 0 !important;
+        min-height: auto !important;
+    }
+    
+    .contenido-historia {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        max-width: clamp(45rem, 90vw, 60rem) !important;
+        min-width: auto !important;
+        height: auto !important;
+        gap: clamp(2rem, 4vw, 3rem) !important;
+        padding: 0 1rem !important;
+    }
+    
+    .imagen-historia {
+        position: static !important;
+        width: clamp(20rem, 70vw, 50rem) !important;
+        height: clamp(18rem, 40vw, 25rem) !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        transform: none !important;
+    }
+    
+    .texto-historia {
+        position: static !important;
+        width: 100% !important;
+        max-width: clamp(40rem, 74vw, 65rem) !important;
+        padding: clamp(1.5rem, 3vw, 2.5rem) !important;
+        margin: 0 auto !important;
+        transform: none !important;
+        text-align: center !important;
+    }
+    
+    .texto-historia h2 {
+        text-align: center !important;
+        margin-bottom: clamp(1.5rem, 3vw, 2rem) !important;
+    }
+    
+    .texto-historia p {
+        text-align: justify !important;
+        font-size: clamp(0.8rem, 1.2vw, 1.1rem) !important;
+    }
+}
+
+/*===========================================================================*/
+/*========================= MEDIA QUERIES 1200px ==========================*/
+/*===========================================================================*/
+@media (max-width: 1200px) {
+    .vision, .mision {
+        width: 100% !important;
+    }
+    
+    .vision .parrafo-contenido,
+    .mision .parrafo-contenido {
+        width: 100% !important;
+        max-width: none !important;
+        font-size: clamp(0.8rem, 1.1vw, 1.1rem) !important;
+    }
+    
+    .separador-vision-mision {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+    }
+    
+    .separador-vision-mision img {
+        margin: clamp(0rem, -12vw, -12rem) auto clamp(-1rem, -12vw, -12rem) auto !important;
+        position: static !important;
+        height: clamp(17rem, 30vw, 30rem) !important;
+        display: block !important;
+    }
+    
+    .contenedor-vision-mision {
+        width: 100% !important;
+        max-width: clamp(45rem, 90vw, 60rem) !important;
+    }
+
+    /* Ventajas Competitivas - Ajustes adicionales para tablet */
+    .imagen-ventajas {
+        width: clamp(22rem, 60vw, 32rem);
+        height: clamp(18rem, 35vw, 25rem);
+    }
+    
+    .lista-ventajas li {
+        margin-left: clamp(1rem, 2vw, 2rem);
+        font-size: clamp(0.8rem, 1.3vw, 1.3rem);
+    }
+    /* Valores Corporativos - Layout 2x3 (vertical) */
+    .grid-valores {
+        width: clamp(17rem, 85vw, 70rem) !important;
+        min-height: clamp(50rem, 65vw, 65rem) !important;
+        gap: clamp(2rem, 3vw, 3rem) !important;
+        justify-items: center !important;
+        align-items: center !important;
+        margin: 0 auto !important;
+    }
+    
+    .valor {
+        width: 100% !important;
+        max-width: 25rem !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+    
+    .linea-vertical {
+        left: 66% !important;
+        top: clamp(2rem, 3vw, 3rem) !important;
+        bottom: clamp(2rem, 3vw, 3rem) !important;
+    }
+    
+    .linea-horizontal {
+        top: 48.33% !important;
+        left: clamp(2rem, 3vw, 3rem) !important;
+        right: clamp(2rem, 3vw, 3rem) !important;
+    }
+    
+    .linea-horizontal_inferior {
+        top: clamp(2rem, 3vw, 3rem) !important;
+        bottom: clamp(2rem, 3vw, 3rem) !important;
+        left: 33.66% !important;
+        width: clamp(2px, 0.5vw, 4px) !important;
+        height: auto !important;
+        transform: translateX(-50%);
+        position: absolute;
+    }
+}
+
+/*===========================================================================*/
+/*========================= MEDIA QUERIES 1570px ==========================*/
+/*===========================================================================*/
+@media (min-width: 1571px) {
+    /* Ventajas Competitivas - Layout horizontal para pantallas grandes */
+    .imagen-ventajas {
+        width: clamp(23rem, 45vw, 35rem);
+        height: clamp(20rem, 35vw, 28rem);
+        order: 1; /* Imagen izquierda */
+        flex-shrink: 0;
+    }
+    
+    .texto-ventajas {
+        order: 2; /* Texto derecha */
+        width: auto;
+        max-width: clamp(35rem, 45vw, 45rem);
+        text-align: left;
+        flex: 1;
+    }
+    
+    .Contenedor-ventajas {
+        width: 100%;
+        max-width: none;
+        margin-top: 81px;
+        padding: clamp(1.5rem, 2vw, 2rem);
+    }
+    
+    .circulo-azul-ventajas {
+        right: clamp(-3rem, -5vw, -5rem);
+        z-index: 2;
+    }
+    
+    .texto-ventajas h2 {
+        text-align: center;
+        margin-bottom: clamp(1.5rem, 2.5vw, 2rem);
+        font-size: clamp(1.8rem, 2.5vw, 2.5rem);
+    }
+    
+    .texto-ventajas h2 span {
+        font-size: clamp(1.8rem, 2.5vw, 2.5rem);
+    }
+    
+    .lista-ventajas li {
+        margin-left: clamp(1rem, 1.5vw, 1.5rem);
+        font-size: clamp(1.1rem, 1.3vw, 1.3rem);
+        justify-content: flex-start;
+    }
+
+    /* Historia - Layout horizontal para pantallas grandes */
+    .seccion-historia {
+        padding: clamp(3rem, 5vw, 5rem) 0;
+        min-height: clamp(35rem, 50vw, 50rem);
+    }
+    
+    .contenido-historia {
+        max-width: clamp(100rem, 130vw, 130rem);
+        min-width: clamp(80rem, 110vw, 110rem);
+        height: clamp(30rem, 40vw, 40rem);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .texto-historia {
+        width: clamp(20rem, 40vw, 40rem);
+        padding: clamp(1.5rem, 3vw, 3rem);
+        position: absolute;
+        left: clamp(2rem, 15vw, 15rem);
+        top: 50%;
+        transform: translateY(-50%);
+        max-width: 42%;
+        z-index: 2;
+    }
+    
+    .texto-historia h2 {
+        font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+        margin-bottom: clamp(1.5rem, 2.5vw, 2.5rem);
+        line-height: clamp(1.5rem, 2.5vw, 2.5rem);
+    }
+    
+    .texto-historia h2 span {
+        font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+    }
+    
+    .texto-historia p {
+        font-size: clamp(0.9rem, 1.1vw, 1.1rem);
+        margin: 0 auto;
+    }
+    
+    .imagen-historia {
+        width: clamp(20rem, 55vw, 55rem);
+        height: clamp(18rem, 38vw, 38rem);
+        position: absolute;
+        right: clamp(2rem, 10vw, 10rem);
+        top: 50%;
+        transform: translateY(-50%);
+        max-width: 48%;
+    }
+
+    /* Visión y Misión - Solo reducir tamaños, mantener layout horizontal */
+    .separador-vision-mision {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .separador-vision-mision img {
+        height: clamp(20rem, 28vw, 28rem);
+        transform: rotate(180deg);
+        margin-top: clamp(-15px, -1.5vw, -15px);
     }
 }

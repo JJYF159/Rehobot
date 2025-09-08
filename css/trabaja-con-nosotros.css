@@ -68,12 +68,6 @@ body {
     z-index: 2;
 }
 
-.contenedor {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-}
-
 /* Hero Trabaja con nosotros */
 .hero-trabaja{
     position: relative;
@@ -82,15 +76,17 @@ body {
 }
 .imagen-hero-trabaja {
     background-color: var(--color-fondo);
-    width: 120rem;
-    height: 35.5rem;
+    max-width: clamp(4rem, 100vw, 120rem);
+    width: 100%;
+    min-height: clamp(20rem, 100vw, 35.5rem);
+    height: clamp(20rem, 100vw, 35.5rem);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 0 0 2rem 2rem;
     position: relative;
     top: -13rem;
-    left: -24.5rem;
+    margin: 0 auto;
 }
 .texto-hero-trabaja {
     position: absolute;
@@ -98,12 +94,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 2rem;
-    width: 57.5625rem;
+    width: 100%;
+    max-width: clamp(19rem, 83.96875vw, 57.5625rem);
     height: 18rem;
     z-index: 2;
 }
 .texto-hero-trabaja .parrafo-contenido {
-    width: 51.1875rem;
+    width: 53.1875rem;
 }
 
 .texto-hero-trabaja h1 {
@@ -121,53 +118,48 @@ body {
 }
 
 .circulo-azul-hero {
-    top: -5rem;
+    top: -4rem;
     right: -5rem;
     z-index: 1;
 }
 
-/* Sección Especialidades */
-.seccion-especialidades {
-    padding: 4rem 0;
-}
-
 .seccion-especialidades .contenedor {
-    max-width: 1200px;
+    max-width: clamp(20rem, 90vw, 75rem);
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 clamp(1rem, 3vw, 2rem);
 }
 
 .seccion-especialidades h2 {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
     font-weight: 600;
     color: var(--color-primario);
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: clamp(2rem, 4vw, 3rem);
 }
 
 .contenido-especialidades {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5rem;
+    gap: clamp(2rem, 6vw, 5rem);
     align-items: center;
 }
 
 .lista-especialidades {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: clamp(2rem, 2vw, 1.5rem);
 }
 
 .especialidad {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    width: 29.9375rem;
+    gap: clamp(0.5rem, 2.5vw, 1rem);
+    width: clamp(18rem, 70vw, 29.9375rem);
 }
 
 .icono-check {
-    width: 2rem;
-    height: 2rem;
+    width: clamp(1.5rem, 3vw, 2rem);
+    height: clamp(1.5rem, 3vw, 2rem);
     background-image: url('../svg/check.svg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -178,15 +170,15 @@ body {
 .especialidad span {
     color: #0C2A6C;
     font-family: Lexend;
-    font-size: 1.5rem;
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
     font-style: normal;
     font-weight: 400;
-    line-height: 2.8125rem; /* 187.5% */
+    line-height: clamp(1.8rem, 4vw, 2.8125rem);
 }
 
 .imagen-especialidades {
-    width: 42rem;
-    height: 35.8125rem;
+    width: clamp(20rem, 60vw, 42rem);
+    height: clamp(18rem, 50vw, 35.8125rem);
     background-color: #C4C4C4;
     border-radius: 1rem;
 }
@@ -210,29 +202,29 @@ body {
 /* Contenedor del formulario con fondo */
 .formulario-contenedor {
     background: var(--blanco);
-    padding: 5rem;
-    border-radius: 2rem;
+    padding: clamp(2rem, 5vw, 5rem);
+    border-radius: clamp(1rem, 2vw, 2rem);
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-    margin: 2rem 0 4rem 0;
-    width: 80.8125rem;
-    height: 57.4375rem;
+    margin: clamp(1rem, 3vw, 2rem) 0 clamp(2rem, 5vw, 4rem) 0;
+    width: clamp(20rem, 90vw, 80.8125rem);
+    height: clamp(40rem, 70vh, 57.4375rem);
     position: relative;
 }
 
 /* Círculo azul decorativo formulario */
 .circulo-azul-formulario {
     position: absolute;
-    top: -2rem;
-    left: 14rem;
-    width: 9.875rem;
-    height: 9.875rem;
+    top: clamp(-1rem, -2vw, -2rem);
+    left: clamp(2rem, 20vw, 14rem);
+    width: clamp(6rem, 12vw, 9.875rem);
+    height: clamp(6rem, 12vw, 9.875rem);
     background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
     border-radius: 50%;
     z-index: 1;
 }
 
 .seccion-formulario h2 {
-    font-size: 2.5rem;
+    font-size: clamp(1.4rem, 2vw, 2.5rem);
     font-weight: 700;
     color: var(--color-primario);
     text-align: center;
@@ -258,7 +250,7 @@ body {
 .campo-formulario label {
     color: var(--color-primario);
     font-weight: 600;
-    font-size: 1rem;
+    font-size: clamp(0.8rem, 1vw, 1rem);
     line-height: 1.4;
     margin: 0;
 }
@@ -267,10 +259,10 @@ body {
 .campo-formulario select,
 .campo-formulario textarea {
     width: 100%;
-    padding: 1.25rem 1.5rem;
+    padding: clamp(1rem, 1.5vw, 1.25rem) clamp(1rem, 2vw, 1.5rem);
     border: 2px solid var(--color-primario);
-    border-radius: 2rem;
-    font-size: 1rem;
+    border-radius: clamp(1rem, 2.5vw, 2rem);
+    font-size: clamp(0.9rem, 1.2vw, 1rem);
     transition: all 0.3s ease;
     box-sizing: border-box;
     font-family: inherit;
@@ -333,7 +325,7 @@ body {
 .campos-linea {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: clamp(1rem, 2.5vw, 2rem);
     width: 100%;
 }
 
@@ -353,9 +345,9 @@ body {
 .archivo-label {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
-    padding: 1.25rem 1.5rem;
-    border-radius: 2rem;
+    gap: clamp(0.5rem, 1vw, 0.75rem);
+    padding: clamp(1rem, 1.5vw, 1.25rem) clamp(1rem, 2vw, 1.5rem);
+    border-radius: clamp(1rem, 2.5vw, 2rem);
     cursor: pointer;
     width: 100%;
 }
@@ -381,7 +373,7 @@ body {
     text-decoration-thickness: 8.5%;
     text-underline-offset: 25%; 
     text-underline-position: from-font;
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
     font-style: normal;
     font-weight: 400;
     
@@ -390,7 +382,7 @@ body {
 .archivo-formatos {
     color: var(--gris-oscuro);
     font-family: 'Lexend', Arial, Helvetica, sans-serif;
-    font-size: 0.9375rem;
+    font-size: clamp(0.8rem, 1.1vw, 0.9375rem);
     font-style: normal;
     font-weight: 400;
 }
@@ -399,15 +391,15 @@ body {
 .btn-enviar {
     background-color: var(--color-primario);
     color: var(--blanco);
-    padding: 1.25rem 2rem;
+    padding: clamp(1rem, 1.5vw, 1.25rem) clamp(1.5rem, 2.5vw, 2rem);
     border: none;
-    border-radius: 2rem;
-    font-size: 1rem;
+    border-radius: clamp(1rem, 2.5vw, 2rem);
+    font-size: clamp(0.9rem, 1.2vw, 1rem);
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-top: clamp(2rem, 4vw, 3rem);
+    margin-bottom: clamp(1rem, 2.5vw, 2rem);
     width: 100%;
     box-sizing: border-box;
     font-family: inherit;
@@ -421,416 +413,6 @@ body {
 
 .btn-enviar:active {
     transform: translateY(0);
-}
-
-/* Responsive Design */
-@media (max-width: 1200px) {
-    .contenedor {
-        padding: 0 1.5rem;
-    }
-    
-    .hero-trabaja {
-        margin-bottom: 3rem;
-    }
-    
-    .imagen-hero-trabaja {
-        width: 100rem;
-        height: 30rem;
-        left: -20rem;
-        top: -10rem;
-    }
-    
-    .texto-hero-trabaja {
-        width: 50rem;
-        height: 16rem;
-        padding: 1.8rem;
-    }
-    
-    .texto-hero-trabaja .parrafo-contenido {
-        width: 45rem;
-        font-size: 1.1rem;
-    }
-    
-    .titulo-principal {
-        font-size: 2.4rem;
-        line-height: 2.6rem;
-    }
-    
-    .circulo-azul-hero {
-        width: 8.5rem;
-        height: 8.5rem;
-    }
-    
-    .seccion-especialidades h2 {
-        font-size: 2.2rem;
-    }
-    
-    .contenido-especialidades {
-        gap: 4rem;
-    }
-    
-    .especialidad {
-        width: 26rem;
-    }
-    
-    .especialidad span {
-        font-size: 1.3rem;
-    }
-    
-    .imagen-especialidades {
-        width: 36rem;
-        height: 30rem;
-    }
-    
-    .formulario-contenedor {
-        width: 70rem;
-        height: auto;
-        padding: 4rem;
-    }
-    
-    .circulo-azul-formulario {
-        left: 18rem;
-    }
-}
-
-@media (max-width: 1024px) {
-    .imagen-hero-trabaja {
-        width: 80rem;
-        height: 25rem;
-        left: -15rem;
-        top: -8rem;
-    }
-    
-    .texto-hero-trabaja {
-        width: 45rem;
-        height: 15rem;
-        padding: 1.5rem;
-    }
-    
-    .texto-hero-trabaja .parrafo-contenido {
-        width: 40rem;
-        font-size: 1rem;
-    }
-    
-    .titulo-principal {
-        font-size: 2.2rem;
-        line-height: 2.4rem;
-    }
-    
-    .seccion-especialidades h2,
-    .seccion-formulario h2 {
-        font-size: 2rem;
-    }
-    
-    .contenido-especialidades {
-        gap: 3rem;
-    }
-    
-    .especialidad {
-        width: 24rem;
-    }
-    
-    .especialidade span {
-        font-size: 1.2rem;
-    }
-    
-    .imagen-especialidades {
-        width: 32rem;
-        height: 26rem;
-    }
-    
-    .formulario-contenedor {
-        width: 60rem;
-        padding: 3.5rem;
-    }
-    
-    .circulo-azul-formulario {
-        left: 15rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .contenedor {
-        padding: 0 1rem;
-    }
-    
-    .hero-trabaja {
-        margin-bottom: 2rem;
-    }
-    
-    .imagen-hero-trabaja {
-        width: 60rem;
-        height: 20rem;
-        left: -10rem;
-        top: -6rem;
-    }
-    
-    .texto-hero-trabaja {
-        width: 90%;
-        height: auto;
-        padding: 1.5rem;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    .texto-hero-trabaja h1 {
-        font-size: 1.8rem;
-        margin-bottom: 1.5rem;
-        line-height: 1.3;
-    }
-    
-    .texto-hero-trabaja p {
-        font-size: 0.9rem;
-        text-align: justify;
-        line-height: 1.4;
-    }
-    
-    .texto-hero-trabaja .parrafo-contenido {
-        width: 100%;
-        font-size: 0.9rem;
-        margin-bottom: 1rem;
-    }
-    
-    .titulo-principal {
-        font-size: 1.8rem;
-        line-height: 2rem;
-    }
-    
-    .circulo-azul-hero {
-        display: none;
-    }
-    
-    .seccion-especialidades {
-        padding: 3rem 0;
-    }
-    
-    .seccion-especialidades h2 {
-        font-size: 1.8rem;
-        margin-bottom: 2.5rem;
-    }
-    
-    .contenido-especialidades {
-        grid-template-columns: 1fr;
-        gap: 2.5rem;
-    }
-    
-    .lista-especialidades {
-        order: 2;
-        gap: 1.2rem;
-    }
-    
-    .especialidad {
-        width: 100%;
-        max-width: 26rem;
-        margin: 0 auto;
-    }
-    
-    .especialidade span {
-        font-size: 1.1rem;
-        line-height: 2.2rem;
-    }
-    
-    .imagen-especialidades {
-        order: 1;
-        width: 100%;
-        max-width: 30rem;
-        height: 20rem;
-        margin: 0 auto;
-    }
-    
-    .seccion-formulario {
-        padding: 3rem 0 4rem 0;
-    }
-    
-    .formulario-contenedor {
-        width: 95%;
-        max-width: 50rem;
-        height: auto;
-        padding: 3rem 2rem 4rem 2rem;
-        margin: 1.5rem auto 3rem auto;
-    }
-    
-    .circulo-azul-formulario {
-        top: -1.5rem;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 6rem;
-        height: 6rem;
-    }
-    
-    .seccion-formulario h2 {
-        font-size: 1.8rem;
-        margin-bottom: 2.5rem;
-        margin-top: 1rem;
-    }
-    
-    .formulario-trabalho {
-        gap: 1.8rem;
-    }
-    
-    .campos-linea {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
-    
-    .campo-formulario input,
-    .campo-formulario select,
-    .campo-formulario textarea {
-        padding: 1rem 1.25rem;
-        font-size: 0.95rem;
-    }
-    
-    .arquivo-label {
-        padding: 1rem 1.25rem;
-        font-size: 0.95rem;
-    }
-    
-    .btn-enviar {
-        padding: 1rem 2rem;
-        font-size: 1rem;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .contenedor {
-        padding: 0 0.8rem;
-    }
-    
-    .imagen-hero-trabaja {
-        width: 40rem;
-        height: 15rem;
-        left: -5rem;
-        top: -4rem;
-    }
-    
-    .texto-hero-trabaja {
-        width: 95%;
-        padding: 1.2rem;
-        top: 45%;
-    }
-    
-    .texto-hero-trabaja h1 {
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
-        line-height: 1.2;
-    }
-    
-    .texto-hero-trabaja p {
-        font-size: 0.85rem;
-        line-height: 1.3;
-    }
-    
-    .titulo-principal {
-        font-size: 1.5rem;
-        line-height: 1.7rem;
-    }
-    
-    .parrafo-contenido {
-        font-size: 0.85rem;
-        line-height: 1.3;
-    }
-    
-    .seccion-especialidades {
-        padding: 2.5rem 0;
-    }
-    
-    .seccion-especialidades h2 {
-        font-size: 1.5rem;
-        margin-bottom: 2rem;
-    }
-    
-    .contenido-especialidades {
-        gap: 2rem;
-    }
-    
-    .lista-especialidades {
-        gap: 1rem;
-    }
-    
-    .especialidad {
-        max-width: 100%;
-    }
-    
-    .especialidad span {
-        font-size: 1rem;
-        line-height: 2rem;
-    }
-    
-    .icono-check {
-        width: 1.8rem;
-        height: 1.8rem;
-    }
-    
-    .imagen-especialidades {
-        width: 100%;
-        height: 15rem;
-    }
-    
-    .seccion-formulario {
-        padding: 2.5rem 0 3rem 0;
-    }
-    
-    .formulario-contenedor {
-        width: 98%;
-        padding: 2rem 1.2rem 3rem 1.2rem;
-        margin: 1rem auto 2rem auto;
-    }
-    
-    .circulo-azul-formulario {
-        width: 5rem;
-        height: 5rem;
-        top: -1rem;
-    }
-    
-    .seccion-formulario h2 {
-        font-size: 1.5rem;
-        margin-bottom: 2rem;
-        margin-top: 0.5rem;
-        line-height: 1.3;
-    }
-    
-    .formulario-trabalho {
-        gap: 1.5rem;
-    }
-    
-    .campo-formulario input,
-    .campo-formulario select,
-    .campo-formulario textarea {
-        padding: 0.9rem 1.1rem;
-        font-size: 0.9rem;
-        border-radius: 1.5rem;
-    }
-    
-    .campo-formulario label {
-        font-size: 0.9rem;
-    }
-    
-    .campo-formulario textarea {
-        border-radius: 1.5rem;
-        min-height: 8rem;
-    }
-    
-    .arquivo-label {
-        padding: 0.9rem 1.1rem;
-        font-size: 0.9rem;
-        border-radius: 1.5rem;
-    }
-    
-    .arquivo-formatos {
-        font-size: 0.8rem;
-        margin-top: 0.5rem;
-    }
-    
-    .btn-enviar {
-        padding: 0.9rem 1.8rem;
-        font-size: 0.9rem;
-        margin-top: 1.8rem;
-        margin-bottom: 0.5rem;
-        border-radius: 1.5rem;
-    }
 }
 
 /* Animaciones */
@@ -957,4 +539,257 @@ body {
 .custom-select-options div:hover,
 .custom-select-options div.selected {
     background: var(--gris-claro);
+}
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .contenedor{
+        height: 61rem;
+    }
+    .imagen-hero-trabaja {
+        top: 1rem;
+        max-width: clamp(4rem, 90vw, 120rem);
+        border-radius: 2rem;
+    }
+    .hero-trabaja {
+        height: clamp(70rem, 100vw, 75rem);
+    }
+    .texto-hero-trabaja {
+        top: 6rem;
+        position: relative;
+        transform: translateX(-50%);
+        height: clamp(20rem, 25vw, 28rem);
+    }
+    
+    .texto-hero-trabaja .parrafo-contenido {
+        width: clamp(15rem, 76vw, 55rem);
+        font-size: clamp(1.25rem, 2vw, 1.25rem);
+    }
+    
+    .titulo-principal {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+    }
+    
+    .circulo-azul-hero {
+        width: clamp(5rem, 10vw, 8rem);
+        height: clamp(5rem, 10vw, 8rem);
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .seccion-especialidades h2 {
+        font-size: clamp(1.5rem, 2.93vw, 2.2rem);
+    }
+    .contenido-especialidades {
+        display: flex;
+        flex-direction: column;
+        gap: clamp(2rem, 3vw, 3rem);
+        align-items: flex-start;
+        width: 100%;
+        text-align: left;
+        gap: 4rem;
+    }
+
+    .especialidad {
+        width: clamp(20rem, 43rem, 60rem);
+    }
+    
+    .especialidad span {
+        font-size: clamp(1rem, 1.73vw, 1.3rem);
+        width: clamp(20rem, 33vw, 40rem);
+    }
+    .seccion-especialidades .contenedor {
+        height: 80rem;
+    }
+    .imagen-especialidades {
+        width: clamp(16rem, 80vw, 60rem);
+        height: 30rem;
+        order: 2;
+        margin: 0 auto;
+    }
+    .seccion-especialidades h2 {
+        order: 1;
+        margin-bottom: clamp(2rem, 3vw, 3rem);
+    }
+    .seccion-especialidades {
+        margin-top: -7rem;
+    }
+    .lista-especialidades {
+        order: 3;
+        left: 6rem;
+        position: relative;
+    }
+    
+    .formulario-contenedor {
+        width: clamp(18rem, 85vw, 70rem);
+        height: auto;
+        padding: clamp(2rem, 4vw, 4rem);
+    }
+    
+    .circulo-azul-formulario {
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: clamp(5rem, 10vw, 8rem);
+        height: clamp(5rem, 10vw, 8rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .formulario-contenedor {
+        width: clamp(18rem, 95vw, 35rem);
+        padding: clamp(1.5rem, 4vw, 2.5rem);
+        margin: clamp(1rem, 2vw, 1.5rem) 0;
+    }
+    
+    .seccion-formulario h2 {
+        font-size: clamp(1.8rem, 5vw, 2.2rem);
+        margin-bottom: clamp(1.5rem, 3vw, 2rem);
+    }
+    
+    .campo-formulario {
+        gap: clamp(0.5rem, 1vw, 0.75rem);
+    }
+    
+    .campo-formulario input,
+    .campo-formulario select,
+    .campo-formulario textarea {
+        padding: clamp(0.8rem, 2vw, 1rem) clamp(1rem, 2.5vw, 1.2rem);
+        font-size: clamp(0.85rem, 2vw, 0.95rem);
+    }
+    
+    .campos-linea {
+        grid-template-columns: 1fr;
+        gap: clamp(1rem, 2vw, 1.5rem);
+    }
+    
+    .btn-enviar {
+        padding: clamp(1rem, 2.5vw, 1.2rem);
+        font-size: clamp(0.9rem, 2vw, 1rem);
+        margin-top: clamp(1.5rem, 3vw, 2rem);
+    }
+    
+    .circulo-azul-formulario {
+        width: clamp(4rem, 8vw, 6rem);
+        height: clamp(4rem, 8vw, 6rem);
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 480px) {
+    .formulario-contenedor {
+        width: clamp(16rem, 98vw, 20rem);
+        padding: clamp(1rem, 3vw, 1.5rem);
+        border-radius: clamp(0.8rem, 2vw, 1.2rem);
+    }
+    
+    .seccion-formulario h2 {
+        font-size: clamp(1.5rem, 4vw, 1.8rem);
+        margin-bottom: clamp(1rem, 2vw, 1.5rem);
+    }
+    
+    .campo-formulario input,
+    .campo-formulario select,
+    .campo-formulario textarea {
+        padding: clamp(0.7rem, 1.5vw, 0.9rem) clamp(0.8rem, 2vw, 1rem);
+        font-size: clamp(0.8rem, 1.8vw, 0.9rem);
+        border-radius: clamp(0.8rem, 2vw, 1.2rem);
+    }
+    
+    .btn-enviar {
+        padding: clamp(0.8rem, 2vw, 1rem);
+        font-size: clamp(0.85rem, 1.8vw, 0.95rem);
+        border-radius: clamp(0.8rem, 2vw, 1.2rem);
+    }
+    
+    .archivo-texto {
+        font-size: clamp(0.9rem, 1.5vw, 1rem);
+    }
+    
+    .archivo-formatos {
+        font-size: clamp(0.75rem, 1.2vw, 0.85rem);
+    }
+    
+    .circulo-azul-formulario {
+        width: clamp(3rem, 6vw, 4rem);
+        height: clamp(3rem, 6vw, 4rem);
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 690px) and (min-width: 562px) {
+    .texto-hero-trabaja .parrafo-contenido {
+        width: clamp(15rem, 76vw, 55rem);
+        font-size: clamp(1rem, 2vw, 1.25rem);
+    }
+    .texto-hero-trabaja {
+        top: 6rem;
+        position: relative;
+        transform: translateX(-50%);
+        height: clamp(20rem, 0.2vw, 18rem);
+    }
+    
+
+}
+@media (max-width: 561px) and (min-width: 481px) {
+    .texto-hero-trabaja .parrafo-contenido {
+        width: clamp(15rem, 72vw, 55rem);
+        font-size: clamp(1rem, 2vw, 1.25rem);
+    }
+    .texto-hero-trabaja {
+        top: 6rem;
+        position: relative;
+        transform: translateX(-50%);
+        height: clamp(20rem, 0.2vw, 18rem);
+    }
+    .titulo-principal {
+        font-size: clamp(2rem, 1vw, 2.4rem);
+        line-height: clamp(2.6rem, 1vw, 2.6rem);
+    }
+    /*================= ESPECIALIDADES ================*/
+    .lista-especialidades {
+        order: 3;
+        left: 1rem;
+        position: relative;
+    }
+    .especialidad span {
+        font-size: clamp(1rem, 1.73vw, 1.3rem);
+        width: clamp(15rem, 33vw, 40rem);
+    }
+}
+@media (max-width: 480px) and (min-width: 300px) {
+    .texto-hero-trabaja .parrafo-contenido {
+        width: clamp(15rem, 72vw, 55rem);
+        font-size: clamp(0.9rem, 2vw, 1.25rem);
+    }
+    .texto-hero-trabaja {
+        top: 6rem;
+        position: relative;
+        transform: translateX(-50%);
+        height: clamp(24rem, 0.2vw, 18rem);
+    }
+    .titulo-principal {
+        font-size: clamp(1.2rem, 1vw, 2.4rem);
+        line-height: clamp(2.6rem, 1vw, 2.6rem);
+    }
+    .hero-trabaja {
+        height: 66rem;
+    }
+    /*================= ESPECIALIDADES ================*/
+    .lista-especialidades {
+        order: 3;
+        left: 1rem;
+        position: relative;
+    }
+    .especialidad span {
+        font-size: clamp(0.8rem, 1.73vw, 1.3rem);
+        width: clamp(15rem, 33vw, 40rem);
+    }
 }

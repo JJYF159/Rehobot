@@ -50,10 +50,28 @@
                     <li class="desplegable-movil">
                         <a href="servicios.html" class="enlace-servicios-movil">Servicios <span class="flecha-movil">▼</span></a>
                         <ul class="submenu-servicios">
-                            <li><a href="servicios.html">Diseño y Perforación de Pozos Subterráneos</a></li>
-                            <li><a href="servicios.html">Instalaciones Electromecánicas Automatizadas</a></li>
-                            <li><a href="servicios.html">Instalaciones Eléctricas y Sistemas de Control</a></li>
-                            <li><a href="servicios.html">Fabricación, Instalación y Mantenimiento de Tableros Eléctricos</a></li>
+                            <li class="submenu-header">
+                                <a href="#" class="btn-regresar">
+                                    <span class="flecha-regresar">◀</span>
+                                    <span>Servicios</span>
+                                </a>
+                            </li>
+                            <li><a href="servicios.html">
+                                <img src="svg/diseno-perforacion-pozos.svg" alt="Diseño y Perforación" class="icono-servicio-mini">
+                                Diseño y Perforación de Pozos Subterráneos
+                            </a></li>
+                            <li><a href="servicios.html">
+                                <img src="svg/instalaciones-electromecanicas.svg" alt="Instalaciones Electromecánicas" class="icono-servicio-mini">
+                                Instalaciones Electromecánicas Automatizadas
+                            </a></li>
+                            <li><a href="servicios.html">
+                                <img src="svg/instalaciones-electricas.svg" alt="Instalaciones Eléctricas" class="icono-servicio-mini">
+                                Instalaciones Eléctricas y Sistemas de Control
+                            </a></li>
+                            <li><a href="servicios.html">
+                                <img src="svg/fabricacion-instalacion-mantenimiento-tableros.svg" alt="Fabricación de Tableros" class="icono-servicio-mini">
+                                Fabricación, Instalación y Mantenimiento de Tableros Eléctricos
+                            </a></li>
                         </ul>
                     </li>
                     <li><a href="productos.html">Productos</a></li>

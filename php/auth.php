@@ -180,20 +180,25 @@ class AuthManager {
     public function logout() {
         // Iniciar sesión usando configuración unificada
         iniciar_sesion_segura();
-        
-        // Si hay base de datos, registrar logout
+
+        // Cierre global: desactiva todas las sesiones del usuario en la base de datos
         if ($this->db && isset($_SESSION['admin_user_id'])) {
             try {
-                $this->registrarLog($_SESSION['admin_user_id'], 'logout', 'Logout exitoso');
-                $this->security->logSecurityEvent('logout_success', 'User logged out');
+                // Cierra todas las sesiones del usuario
+                $query = "UPDATE admin_sesiones SET activa = 0 WHERE usuario_id = ?";
+                $stmt = $this->db->prepare($query);
+                $stmt->execute([$_SESSION['admin_user_id']]);
+
+                $this->registrarLog($_SESSION['admin_user_id'], 'logout_global', 'Logout global exitoso');
+                $this->security->logSecurityEvent('logout_success', 'User logged out globally');
             } catch (Exception $e) {
-                error_log("Error registrando logout: " . $e->getMessage());
+                error_log("Error registrando logout global: " . $e->getMessage());
             }
         }
-        
+
         // Limpiar todas las variables de sesión
         $_SESSION = array();
-        
+
         // Destruir la cookie de sesión
         if (ini_get("session.use_cookies")) {
             $params = session_get_cookie_params();
@@ -202,13 +207,13 @@ class AuthManager {
                 $params["secure"], $params["httponly"]
             );
         }
-        
+
         // Destruir la sesión
         session_destroy();
-        
+
         // Limpiar token CSRF
         $this->security->clearCSRFToken();
-        
+
         return true;
     }
     
