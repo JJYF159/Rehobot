@@ -242,12 +242,14 @@ function initializeHamburgerMenu() {
     const body = document.body;
     const desplegableMovil = document.querySelector('.desplegable-movil');
     const enlaceServiciosMovil = document.querySelector('.enlace-servicios-movil');
+    const btnRegresar = document.querySelector('.btn-regresar');
+    const submenuServicios = document.querySelector('.submenu-servicios');
     
     if (!menuHamburguesa || !menuLateral || !overlayMenu) {
         return;
     }
     
-    // Función para abrir el menú
+    // Función para abrir el menú principal
     function abrirMenu() {
         menuLateral.classList.add('activo');
         overlayMenu.classList.add('activo');
@@ -255,15 +257,40 @@ function initializeHamburgerMenu() {
         body.style.overflow = 'hidden';
     }
     
-    // Función para cerrar el menú
+    // Función para cerrar el menú principal
     function cerrarMenu() {
         menuLateral.classList.remove('activo');
+        menuLateral.classList.remove('deslizar-izquierda');
         overlayMenu.classList.remove('activo');
         menuHamburguesa.classList.remove('activo');
         body.style.overflow = 'auto';
         // Cerrar también el submenú de servicios
         if (desplegableMovil) {
             desplegableMovil.classList.remove('activo');
+        }
+    }
+    
+    // Función para abrir el submenú de servicios
+    function abrirSubmenuServicios() {
+        if (desplegableMovil && menuLateral) {
+            // Deslizar el menú principal hacia la izquierda
+            menuLateral.classList.add('deslizar-izquierda');
+            // Después de la animación, mostrar el submenú
+            setTimeout(() => {
+                desplegableMovil.classList.add('activo');
+            }, 150);
+        }
+    }
+    
+    // Función para cerrar el submenú de servicios
+    function cerrarSubmenuServicios() {
+        if (desplegableMovil && menuLateral) {
+            // Ocultar el submenú
+            desplegableMovil.classList.remove('activo');
+            // Después de la animación, volver a mostrar el menú principal
+            setTimeout(() => {
+                menuLateral.classList.remove('deslizar-izquierda');
+            }, 150);
         }
     }
     
@@ -277,16 +304,27 @@ function initializeHamburgerMenu() {
         }
     });
     
-    // Toggle del submenú de servicios
+    // Abrir submenú de servicios
     if (enlaceServiciosMovil && desplegableMovil) {
         enlaceServiciosMovil.addEventListener('click', (e) => {
             e.preventDefault();
-            desplegableMovil.classList.toggle('activo');
+            abrirSubmenuServicios();
+        });
+    }
+    
+    // Regresar del submenú de servicios
+    if (btnRegresar) {
+        btnRegresar.addEventListener('click', (e) => {
+            e.preventDefault();
+            cerrarSubmenuServicios();
         });
     }
     
     // Cerrar menú al hacer clic en el overlay
-    overlayMenu.addEventListener('click', cerrarMenu);
+    overlayMenu.addEventListener('click', () => {
+        cerrarMenu();
+        cerrarSubmenuServicios();
+    });
     
     // Cerrar menú al hacer clic en un enlace (excepto servicios)
     const enlacesMenu = menuLateral.querySelectorAll('.enlaces-menu > li > a:not(.enlace-servicios-movil)');
@@ -294,10 +332,13 @@ function initializeHamburgerMenu() {
         enlace.addEventListener('click', cerrarMenu);
     });
     
-    // Cerrar menú al hacer clic en un enlace de submenú
-    const enlacesSubmenu = menuLateral.querySelectorAll('.submenu-servicios a');
+    // Cerrar menú al hacer clic en un enlace de submenú (excepto el botón regresar)
+    const enlacesSubmenu = menuLateral.querySelectorAll('.submenu-servicios li:not(.submenu-header) a');
     enlacesSubmenu.forEach(enlace => {
-        enlace.addEventListener('click', cerrarMenu);
+        enlace.addEventListener('click', () => {
+            cerrarMenu();
+            cerrarSubmenuServicios();
+        });
     });
     
     // Cerrar menú con la tecla Escape
@@ -319,55 +360,108 @@ function initializeHamburgerMenu() {
 function initializeServiciosInteractivos() {
     const servicioItems = document.querySelectorAll('.servicio-item');
     const detalleServicios = document.querySelectorAll('.detalle-servicio');
+    const informacionServicios = document.querySelectorAll('.informacion-servicio');
     
     if (servicioItems.length === 0 || detalleServicios.length === 0) {
         return; // No estamos en la página de servicios
     }
     
-    // Inicializar estado por defecto: primer servicio activo, otros desactivados
-    servicioItems.forEach((item, index) => {
-        if (index === 0) {
-            // El primer servicio debe estar activo
-            item.classList.add('activo');
-            // Mostrar su detalle correspondiente
-            const servicioId = item.getAttribute('data-servicio');
-            const detalleCorrespondiente = document.getElementById(`detalle-${servicioId}`);
-            if (detalleCorrespondiente) {
-                detalleCorrespondiente.classList.add('activo');
+    // Función para verificar si estamos en modo móvil (≤1200px)
+    function isMobile() {
+        return window.innerWidth <= 1200;
+    }
+    
+    // Inicializar estado por defecto
+    function initializeDefaultState() {
+        if (isMobile()) {
+            // En móvil: todos los acordeones cerrados
+            servicioItems.forEach(item => {
+                item.classList.remove('activo', 'desactivado');
+            });
+            informacionServicios.forEach(info => {
+                info.classList.remove('activo');
+            });
+            detalleServicios.forEach(d => d.classList.remove('activo'));
+        } else {
+            // En escritorio: primer servicio activo, otros desactivados
+            servicioItems.forEach((item, index) => {
+                if (index === 0) {
+                    item.classList.add('activo');
+                    item.classList.remove('desactivado');
+                    const servicioId = item.getAttribute('data-servicio');
+                    const detalleCorrespondiente = document.getElementById(`detalle-${servicioId}`);
+                    if (detalleCorrespondiente) {
+                        detalleCorrespondiente.classList.add('activo');
+                    }
+                } else {
+                    item.classList.add('desactivado');
+                    item.classList.remove('activo');
+                }
+            });
+        }
+    }
+    
+    // Función para manejar clicks en servicios
+    function handleServiceClick(clickedItem) {
+        const servicioId = clickedItem.getAttribute('data-servicio');
+        
+        if (isMobile()) {
+            // Verificar si ESTE elemento ya está activo ANTES de cerrar todos
+            const yaEstabaActivo = clickedItem.classList.contains('activo');
+            
+            // Cerrar todos primero
+            document.querySelectorAll('.servicio-item').forEach(item => {
+                item.classList.remove('activo');
+            });
+            document.querySelectorAll('.informacion-servicio').forEach(info => {
+                info.classList.remove('activo');
+            });
+            
+            // Si NO estaba activo, activarlo
+            if (!yaEstabaActivo) {
+                clickedItem.classList.add('activo');
+                const targetInfo = document.getElementById(`info-${servicioId}`);
+                
+                if (targetInfo) {
+                    targetInfo.classList.add('activo');
+                }
             }
         } else {
-            // Los demás servicios están desactivados
-            item.classList.add('desactivado');
-        }
-    });
-    
-    servicioItems.forEach(item => {
-        item.addEventListener('click', () => {
-            // Remover clase activo y desactivado de todos los items
+            // Comportamiento de escritorio
+            const detalleCorrespondiente = document.getElementById(`detalle-${servicioId}`);
+            
             servicioItems.forEach(i => {
-                i.classList.remove('activo');
-                i.classList.remove('desactivado');
+                i.classList.remove('activo', 'desactivado');
             });
             detalleServicios.forEach(d => d.classList.remove('activo'));
             
-            // Agregar clase activo al item clickeado
-            item.classList.add('activo');
-            
-            // Agregar clase desactivado a todos los otros items
+            clickedItem.classList.add('activo');
             servicioItems.forEach(i => {
-                if (i !== item) {
+                if (i !== clickedItem) {
                     i.classList.add('desactivado');
                 }
             });
             
-            // Mostrar el detalle correspondiente
-            const servicioId = item.getAttribute('data-servicio');
-            const detalleCorrespondiente = document.getElementById(`detalle-${servicioId}`);
-            
             if (detalleCorrespondiente) {
                 detalleCorrespondiente.classList.add('activo');
             }
+        }
+    }
+    
+    // Agregar event listeners
+    servicioItems.forEach((item, index) => {
+        item.addEventListener('click', (e) => {
+            e.preventDefault();
+            handleServiceClick(item);
         });
+    });
+    
+    // Inicializar estado por defecto
+    initializeDefaultState();
+    
+    // Reinicializar cuando cambie el tamaño de la ventana
+    window.addEventListener('resize', () => {
+        initializeDefaultState();
     });
     
     // Inicializar acordeones de tableros

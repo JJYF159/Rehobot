@@ -52,10 +52,28 @@
                     <li class="desplegable-movil">
                         <a href="servicios.html" class="enlace-servicios-movil">Servicios <span class="flecha-movil">▼</span></a>
                         <ul class="submenu-servicios">
-                            <li><a href="servicios.html">Diseño y Perforación de Pozos Subterráneos</a></li>
-                            <li><a href="servicios.html">Instalaciones Electromecánicas Automatizadas</a></li>
-                            <li><a href="servicios.html">Instalaciones Eléctricas y Sistemas de Control</a></li>
-                            <li><a href="servicios.html">Fabricación, Instalación y Mantenimiento de Tableros Eléctricos</a></li>
+                            <li class="submenu-header">
+                                <a href="#" class="btn-regresar">
+                                    <span class="flecha-regresar">◀</span>
+                                    <span>Servicios</span>
+                                </a>
+                            </li>
+                            <li><a href="servicios.html">
+                                <img src="svg/diseno-perforacion-pozos.svg" alt="Diseño y Perforación" class="icono-servicio-mini">
+                                Diseño y Perforación de Pozos Subterráneos
+                            </a></li>
+                            <li><a href="servicios.html">
+                                <img src="svg/instalaciones-electromecanicas.svg" alt="Instalaciones Electromecánicas" class="icono-servicio-mini">
+                                Instalaciones Electromecánicas Automatizadas
+                            </a></li>
+                            <li><a href="servicios.html">
+                                <img src="svg/instalaciones-electricas.svg" alt="Instalaciones Eléctricas" class="icono-servicio-mini">
+                                Instalaciones Eléctricas y Sistemas de Control
+                            </a></li>
+                            <li><a href="servicios.html">
+                                <img src="svg/fabricacion-instalacion-mantenimiento-tableros.svg" alt="Fabricación de Tableros" class="icono-servicio-mini">
+                                Fabricación, Instalación y Mantenimiento de Tableros Eléctricos
+                            </a></li>
                         </ul>
                     </li>
                     <li><a href="productos.html">Productos</a></li>
@@ -131,19 +149,168 @@
                         <div class="servicio-item" data-servicio="pozos">
                             <h3>Diseño y Perforación de Pozos para Abastecimiento del Recurso Hídrico Subterráneo</h3>
                         </div>
+                        <!-- Información detallada para Pozos (solo visible en móvil) -->
+                        <div class="informacion-servicio" id="info-pozos">
+                            <div class="detalle-servicio">
+                                <ul class="lista-detalles">
+                                    <li>Estudios hidrogeológicos</li>
+                                    <li>Trámites de licencias</li>
+                                    <li>Perforación de pozos tubulares profundos.</li>
+                                    <li>Mantenimiento integral de pozos tubulares profundos</li>
+                                    <li>Rehabilitación de pozos tubulares profundos.</li>
+                                    <li>Inspección del estado estructural del pozo con cámara de video 4K</li>
+                                    <li>Equipamiento del sistema de bombeo de pozos tubulares profundos.</li>
+                                    <li>Diseño, instalación y mantenimiento de árbol hidráulico del sistema de bombeo de pozo</li>
+                                    <li>Fabricación en torno de roscas para tuberías de pozos</li>
+                                    <li>Fabricación de tuberías bridadas para pozos.</li>
+                                    <li>Diseño, instalación de red de conducción desde el pozo hasta tanque reservorio</li>
+                                    <li>Mantenimiento de equipos de bombeo</li>
+                                    <li>Rebobinado de motores sumergibles para pozo</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
                         <div class="servicio-item" data-servicio="electromecanicas">
                             <h3>Instalaciones Electromecánicas Automatizadas</h3>
                         </div>
+                        <!-- Información detallada para Electromecánicas (solo visible en móvil) -->
+                        <div class="informacion-servicio" id="info-electromecanicas">
+                            <div class="detalle-servicio">
+                                <ul class="lista-detalles">
+                                    <li>Sistema de abastecimiento de agua por bombeo a tanques reservorios.</li>
+                                    <li>Sistema de presión constante</li>
+                                    <li>Sistema contra incendio</li>
+                                    <li>Sistema de bombeo solar</li>
+                                    <li>Sistema de drenaje</li>
+                                    <li>Sistema de tratamiento de agua</li>
+                                    <li>Sistema de riego</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
                         <div class="servicio-item" data-servicio="electricas">
                             <h3>Instalaciones Eléctricas y Sistemas de Control</h3>
                         </div>
+                        <!-- Información detallada para Eléctricas (solo visible en móvil) -->
+                        <div class="informacion-servicio" id="info-electricas">
+                            <div class="detalle-servicio">
+                                <ul class="lista-detalles">
+                                    <li>Diseño y ejecución de obras eléctricas, Sistemas de utilización, subsistema de distribución.</li>
+                                    <li>Montaje y mantenimiento de Subestaciones del tipo aéreas, biposte y/o monoposte, convencionales, casetas, modulares tipo bloque y compactas.</li>
+                                    <li>Tendido de Red aérea y subterránea, MT y BT.</li>
+                                    <li>Diseño, Instalación y mantenimiento de Sistemas de Pozo Puestas a Tierra (vertical, horizontal y de malla).</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
                         <div class="servicio-item" data-servicio="tableros">
                             <h3>Fabricación, Instalación y Mantenimiento de Tableros Eléctricos</h3>
                         </div>
+                        <!-- Información detallada para Tableros (solo visible en móvil) -->
+                        <div class="informacion-servicio" id="info-tableros">
+                            <div class="detalle-servicio tableros-electricos">
+                                <div class="tableros-principales">
+                                    <div class="tablero-item desplegable-tablero">
+                                        <div class="tablero-header">
+                                            <span class="icono-triangulo">▶</span> Tableros principales
+                                        </div>
+                                        <div class="tablero-contenido activo">
+                                            <p>Reciben la alimentación principal y la distribuyen a los circuitos secundarios.</p>
+                                            <ol class="lista-numerada">
+                                                <li>Tableros principales para uso residencial</li>
+                                                <li>Tableros principales para uso comercial</li>
+                                                <li>Tableros principales para uso Industrial de los diferentes sectores de explotación y producción.</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="otros-tableros">
+                                        <div class="tablero-item desplegable-tablero">
+                                            <div class="tablero-header">
+                                                <span class="icono-triangulo">▶</span> Tableros de distribución
+                                            </div>
+                                            <div class="tablero-contenido">
+                                                <p>Distribuyen la energía eléctrica desde el tablero principal hacia diferentes circuitos secundarios en una instalación.</p>
+                                                <ul>
+                                                    <li>Tableros de distribución residencial</li>
+                                                    <li>Tableros de distribución comercial</li>
+                                                    <li>Tableros de distribución industrial</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tablero-item desplegable-tablero">
+                                            <div class="tablero-header">
+                                                <span class="icono-triangulo">▶</span> Tableros de fuerza
+                                            </div>
+                                            <div class="tablero-contenido">
+                                                <p>Diseñados específicamente para alimentar equipos de alta potencia y motores industriales.</p>
+                                                <ul>
+                                                    <li>Tableros para motores trifásicos</li>
+                                                    <li>Tableros para equipos de soldadura</li>
+                                                    <li>Tableros para maquinaria pesada</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tablero-item desplegable-tablero">
+                                            <div class="tablero-header">
+                                                <span class="icono-triangulo">▶</span> Tableros de arranque de motor
+                                            </div>
+                                            <div class="tablero-contenido">
+                                                <p>Controlan el arranque, parada y protección de motores eléctricos de diferentes potencias.</p>
+                                                <ul>
+                                                    <li>Arranque directo (DOL)</li>
+                                                    <li>Arranque estrella-triángulo</li>
+                                                    <li>Arranque suave con variadores de frecuencia</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tablero-item desplegable-tablero">
+                                            <div class="tablero-header">
+                                                <span class="icono-triangulo">▶</span> Tableros de control
+                                            </div>
+                                            <div class="tablero-contenido">
+                                                <p>Sistemas de control automatizado para procesos industriales y monitoreo de equipos.</p>
+                                                <ul>
+                                                    <li>Control de procesos automatizados</li>
+                                                    <li>Sistemas de monitoreo remoto</li>
+                                                    <li>Control de iluminación inteligente</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tablero-item desplegable-tablero">
+                                            <div class="tablero-header">
+                                                <span class="icono-triangulo">▶</span> Tableros para bancos de condensadores
+                                            </div>
+                                            <div class="tablero-contenido">
+                                                <p>Mejoran el factor de potencia y reducen el consumo de energía reactiva en instalaciones industriales.</p>
+                                                <ul>
+                                                    <li>Compensación automática de reactivos</li>
+                                                    <li>Control inteligente de condensadores</li>
+                                                    <li>Monitoreo de factor de potencia</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tablero-item desplegable-tablero">
+                                            <div class="tablero-header">
+                                                <span class="icono-triangulo">▶</span> Tableros de transferencia automática
+                                            </div>
+                                            <div class="tablero-contenido">
+                                                <p>Garantizan la continuidad del suministro eléctrico mediante el cambio automático entre fuentes de energía.</p>
+                                                <ul>
+                                                    <li>Transferencia red-grupo electrógeno</li>
+                                                    <li>Transferencia entre dos redes eléctricas</li>
+                                                    <li>Sistemas UPS integrados</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     
-                    <!-- Información detallada a la derecha -->
-                    <div class="informacion-servicio">
+                    <!-- Información detallada a la derecha (solo visible en escritorio) -->
+                    <div class="informacion-servicio informacion-escritorio">
                         <!-- Información para Pozos -->
                         <div class="detalle-servicio" id="detalle-pozos">
                             <ul class="lista-detalles">
